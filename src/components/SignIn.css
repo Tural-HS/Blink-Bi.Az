@@ -1,0 +1,26 @@
+/* SignIn.css */
+
+/* Add the pulse animation to the button */
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Add custom color to the button and use !important */
+  .btn-login {
+    background-color: #5551ef !important; /* Change this color to your desired color */
+    color: #fff;
+  }
+  
+  /* Apply the pulse animation when the button is disabled */
+  .btn-login:disabled {
+    animation: pulse 2s infinite;
+  }
+  

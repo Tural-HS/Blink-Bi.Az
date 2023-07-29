@@ -1,0 +1,1438 @@
+{
+    "hero1": {
+        "subtitle": "",
+        "title": "SMART SOLUTIONS FOR INTELLIGENT BUSINESSES",
+        "desc": "  Manage Human Resources in an Intelligent way",
+        "button": {
+            "btn_text": "Get it now",
+            "btn_url": "#"
+        },
+        "playButton": {
+            "btn_text": "Play Intro",
+            "btn_url": "https://www.youtube.com/watch?v=ni5hRK1ehzk"
+        },
+        "images": {
+            "Main_Img": {
+                "url": "images/media/bubble-gum-web-design.gif",
+                "alt": "Main"
+            },
+            "Setting_Img": {
+                "url": "images/media/setting.png",
+                "alt": "Setting"
+            },
+            "Sheild_Img": {
+                "url": "images/media/sheild.png",
+                "alt": "Sheild"
+            },
+            "Lock_Img": {
+                "url": "images/media/lock.png",
+                "alt": "Lock"
+            },
+            "Card_Img": {
+                "url": "images/media/card.png",
+                "alt": "Card"
+            },
+            "Box_Img": {
+                "url": "images/media/box.png",
+                "alt": "Box"
+            },
+            "Check_Img": {
+                "url": "images/media/check.png",
+                "alt": "Check"
+            },
+            "Setting2": {
+                "url": "images/media/setting2.png",
+                "alt": "Setting2"
+            },
+            "resImg": {
+                "url": "images/media/banner-img.png",
+                "alt": "Banner"
+            }
+        }
+    },
+    "hero2": {
+        "bannerShape": {
+            "url": "images/media/home2-banner-shape.png",
+            "alt": "Banner Pattern"
+        },
+        "subtitle": "VPN PROTECTION",
+        "title": "Your Life is Under Our Security",
+        "desc": "Strategies focused on increase ingenue private privacy and visibility of your business",
+        "button": {
+            "text": "Get it now",
+            "url": "#"
+        },
+        "img": {
+            "url": "images/media/banner-img2.png",
+            "alt": "Banner"
+        }
+    },
+    "hero3": {
+        "bannerShape": {
+            "url": "images/media/home3-banner-shape.png",
+            "alt": "Banner Pattern"
+        },
+        "subtitle": "VPN PROTECTION",
+        "title": "Your Safety Our First Priority",
+        "desc": "Strategies focused on increase ingenue private privacy and visibility of your business",
+        "btn": [
+            {
+                "text": "Get it now",
+                "url": "#"
+            },
+            {
+                "text": "Learn More",
+                "url": "#"
+            }
+        ],
+        "img": {
+            "url": "images/media/banner-img3.png",
+            "alt": "Banner"
+        }
+    },
+    "feature": {
+        "title": "How it Works",
+        "desc": "These speeds are excellent. It’s rare that a fast connection safety Internet leading speeds across its network.",
+        "items": [
+            {
+                "img": {
+                    "url": "images/icons/easy_download_icon.png",
+                    "alt": "Easy Download"
+                },
+                "title": "Easy Download",
+                "desc": "Srivate Internet the leading best create several security providing safety on the internet."
+            },
+            {
+                "img": {
+                    "url": "images/icons/instant_setup_icon.png",
+                    "alt": "Instant Setup Icon"
+                },
+                "title": "Instant Setup",
+                "desc": "Srivate Internet the leading best create several security providing safety on the internet."
+            },
+            {
+                "img": {
+                    "url": "images/icons/enjoy_wordwide_icon.png",
+                    "alt": "Enjoy WorldWide"
+                },
+                "title": "Enjoy Worldwide",
+                "desc": "Srivate Internet the leading best create several security providing safety on the internet."
+            }
+        ]
+    },
+    "solution": {
+        "bg_pattern": {
+            "url": "images/media/solution-bg.png",
+            "alt": "Solution Background Pattern"
+        },
+        "title": "Blink Business Intelligence is a dynamic company dedicated to providing intelligent solutions that enhance and streamline business processes. Our mission is to empower businesses with efficient tools that optimize their operations, enabling them to stay ahead in today's fast-paced and competitive market.",
+        "desc": "",
+        
+        "items": [
+            {
+                "img": {
+                    "url": "images/icons/editor.png",
+                    "alt": "Editor Icon"
+                },
+                "img2": {
+                    "url": "images/icons/editor2.png",
+                    "alt": "Editor Icon"
+                },
+                "title": "Our Journey:",
+                "desc": "Blink Business Intelligence was founded by a team of three individuals who shared a common vision. Two of our founders have a strong engineering background, while the third possesses invaluable sales expertise. With our combined skills and passion for innovation, we set out on a mission to revolutionize the way businesses handle their HR management processes.."
+            },
+            {
+                "img": {
+                    "url": "images/icons/eye.png",
+                    "alt": "Eye Icon"
+                },
+                "img2": {
+                    "url": "images/icons/eye2.png",
+                    "alt": "Eye Icon"
+                },
+                "title": "Our Talented Team:",
+                "desc": "Behind Blink Business Intelligence is a team of talented and driven individuals. Our engineers, all hailing from Azerbaijan, possess a deep understanding of cutting-edge technologies and are committed to developing innovative solutions that meet the unique needs of our clients. Together, we strive to exceed expectations and drive sustainable growth for businesses across industries."
+       
+            },
+            {
+                "img": {
+                    "url": "images/icons/eye.png",
+                    "alt": "Eye Icon"
+                },
+                "img2": {
+                    "url": "images/icons/eye2.png",
+                    "alt": "Eye Icon"
+                },
+                "title": "Advantages of Choosing Blink Business Intelligence:",
+                "desc": "When you partner with Blink Business Intelligence, you gain access to a range of benefits that set us apart from the competition:."
+       
+            }
+       
+        ],
+
+        "itemsLeft": [
+            {
+                "img": {
+                    "url": "images/icons/editor.png",
+                    "alt": "Editor Icon"
+                },
+                "img2": {
+                    "url": "images/icons/editor2.png",
+                    "alt": "Editor Icon"
+                },
+                "title": "Notable Achievements:",
+                "desc": "We are proud to have received official recognition from the government, earning the prestigious `Startup status`. This acknowledgment underscores our commitment to innovation and highlights the potential impact of our intelligent solutions on businesses."
+            },
+            {
+                "img": {
+                    "url": "images/icons/eye.png",
+                    "alt": "Eye Icon"
+                },
+                "img2": {
+                    "url": "images/icons/eye2.png",
+                    "alt": "Eye Icon"
+                },
+                "title": "Making a Difference:",
+                "desc": " Through our HR management product, we empower companies to manage their HR processes efficiently and intelligently. By automating time-consuming tasks and providing valuable insights, we help businesses unlock their full potential, enabling them to focus on strategic initiatives and drive growth.We welcome you to become part of our growing community of forward-thinking businesses. Discover the power of intelligent solutions and revolutionize your HR management processes with Blink Business Intelligence."
+       
+            },
+            {
+                "img": {
+                    "url": "images/icons/eye.png",
+                    "alt": "Eye Icon"
+                },
+                "img2": {
+                    "url": "images/icons/eye2.png",
+                    "alt": "Eye Icon"
+                },
+                "title": "Looking Ahead:",
+                "desc": "Our vision for the future is to expand our product offerings and forge strategic partnerships to address a wider range of business challenges. By continuously pushing boundaries and embracing innovation, we aim to be the go-to provider of intelligent solutions that transform businesses.Thank you for considering Blink Business Intelligence. We are excited to embark on this journey with you and support your business's success."
+       
+            }
+       
+        ],
+        "listItems": [
+      "Security, Speed, and Reliability: Our product prioritizes the security and privacy of your data, ensuring that it remains protected at all times. Coupled with high-speed performance and reliable infrastructure, our solution keeps your business running seamlessly.",
+      "Data Integrity: We understand the critical importance of maintaining data integrity. Our product ensures that data received and generated through our system retains its accuracy and consistency, giving you confidence in decision-making processes.",
+     "Compliance with Laws and Regulations: With ever-evolving legal requirements, ensuring compliance can be a daunting task. Our program is designed to facilitate business processes in full adherence to relevant laws and regulations, minimizing the risk of non-compliance.",
+     "Fast and Professional Support: We take pride in delivering exceptional customer support. Our dedicated team is readily available to address any queries or concerns promptly, ensuring a smooth user experience and minimal disruptions to your operations."
+        ],
+            
+
+        "images": {
+            "mainImg": {
+                "url": "images/media/s_main.png",
+                "alt": "Main"
+            },
+            "man": {
+                "url": "images/media/man.png",
+                "alt": "Man"
+            },
+            "woman": {
+                "url": "images/media/woman.png",
+                "alt": "Woman"
+            },
+            "fullImg": {
+                "url": "images/media/solution-img.png",
+                "alt": "Main"
+            }
+        } ,
+        "fullImg2": {
+            "url": "images/media/solution-img2.png",
+            "alt": "Main"
+        }
+    },
+    "service": {
+        "title": "Valueable Service",
+        "desc": "These speeds are excellent. It’s rare that a fast connection safety Internet leading speeds across its network.",
+        "items": [
+            {
+                "img": {
+                    "url": "images/icons/page-speed.png",
+                     "alt": "Service Icon"
+                },
+                "link":"/single-service",
+                "title": "Fast-Secure-Reliable",
+                "desc": "Security providing you safety on the internet trice worldwide access in 47+ countries.",
+                "button": {
+                    "url": "#",
+                    "text": "Learn More"
+                }
+            },
+            {
+                "img": {
+                    "url": "images/icons/statistics (1).png",
+                    "alt": "Service Icon"
+                },
+                "link":"/processes-coverage",
+                "title": "Coverage Of All Bussines Processes",
+                "desc": "Security providing you safety on the internet trice worldwide access in 47+ countries.",
+                "button": {
+                    "url": "#",
+                    "text": "Learn More"
+                }
+            },
+            {
+                "img": {
+                    "url": "images/icons/marketing.png",
+                    "alt": "Service Icon"
+                },
+                "link":"/clear-data",
+                "title": "Clear Data-Clear View",
+                "desc": "Security providing you safety on the internet trice worldwide access in 47+ countries.",
+                "button": {
+                    "url": "#",
+                    "text": "Learn More"
+
+                }
+            },
+            {
+                "img": {
+                    "url": "images/icons/customer-review.png",
+                    "alt": "Service Icon"
+                },
+                "link":"/all-in-one",
+                "title": "All in one platform",
+                "desc": "Security providing you safety on the internet trice worldwide access in 47+ countries.",
+                "button": {
+                    "url": "#",
+                    "text": "Learn More"
+                }
+            },
+            {
+                "img": {
+                    "url": "images/icons/blogging.png",
+                    "alt": "Service Icon"
+                },
+                "link":"/laws-regulations",
+                "title": "In compliance with the laws & regulations",
+                "desc": "Security providing you safety on the internet trice worldwide access in 47+ countries.",
+                "button": {
+                    "url": "#",
+                    "text": "Learn More"
+                }
+            },
+            {
+                "img": {
+                    "url": "images/icons/review.png",
+                    "alt": "Service Icon"
+                },
+                "link":"/support",
+                "title": "Fast and Professional support",
+                "desc": "Security providing you safety on the internet trice worldwide access in 47+ countries.",
+                "button": {
+                    "url": "#",
+                    "text": "Learn More"
+                }
+            }
+        ]
+    },
+    "price": {
+        "title": "Pricing Plan",
+        "desc": "These speeds are excellent. It’s rare that a fast connection safety Internet leading speeds across its network.",
+        "bg_pattern": {
+            "url": "images/media/price-bg.png",
+            "alt": "Price Background Pattern"
+        },
+        "items": [
+            {
+                "title": "Monthly",
+                "saving": "Save 42%",
+                "price": {
+                    "currency": "$",
+                    "value": "3.66",
+                    "duration": "/MO"
+                },
+                "feature_list": {
+                    "price": {
+                        "base_price": "$143.88",
+                        "sale_price": "$83.88"
+                    },
+                    "feature1": "build payment every years",
+                    "feature2": "24/7 active support"
+                },
+                "button": {
+                    "url": "#",
+                    "text": "get it now"
+                }
+            },
+            {
+                "ribbon": "Best Deal",
+                "title": "Yearly",
+                "saving": "Save 58%",
+                "price": {
+                    "currency": "$",
+                    "value": "4.66",
+                    "duration": "/MO"
+                },
+                "feature_list": {
+                    "price": {
+                        "base_price": "$220.88",
+                        "sale_price": "$143.88"
+                    },
+                    "feature1": "build payment every years",
+                    "feature2": "24/7 active support"
+                },
+                "button": {
+                    "url": "#",
+                    "text": "get it now"
+                }
+            },
+            {
+                "title": "Lifetime",
+                "saving": "Save 78%",
+                "price": {
+                    "currency": "$",
+                    "value": "6.66",
+                    "duration": "/MO"
+                },
+                "feature_list": {
+                    "price": {
+                        "base_price": "$560.69",
+                        "sale_price": "$333.88"
+                    },
+                    "feature1": "build payment every years",
+                    "feature2": "24/7 active support"
+                },
+                "button": {
+                    "url": "#",
+                    "text": "get it now"
+                }
+            }
+        ]
+    },
+    "team": {
+        "title": "Service Team",
+        "desc": "These speeds are excellent. It’s rare that a fast connection safety Internet leading speeds across its network.",
+        "items": [
+            {
+                "img": {
+                    "url": "images/media/team_img1.png",
+                    "alt": "Team"
+                },
+                "title": "Michael Niotakis",
+                "subtitle": "Servie Holder",
+                "btn_url": "#", 
+                "socials": {
+                    "dribble_url": "https://dribbble.com/",
+                    "twitter_url": "https://www.twitter.com",
+                    "linkedin_url": "https://www.linkedin.com"
+                }
+            },
+            {
+                "img": {
+                    "url": "images/media/team_img2.png",
+                    "alt": "Team"
+                },
+                "title": "Lisa O’Keeffe",
+                "subtitle": "App Designer",
+                "btn_url": "#", 
+                "socials": {
+                    "dribble_url": "https://dribbble.com/",
+                    "twitter_url": "https://www.twitter.com",
+                    "linkedin_url": "https://www.linkedin.com"
+                }
+            },
+            {
+                "img": {
+                    "url": "images/media/team_img3.png",
+                    "alt": "Team"
+                },
+                "title": "Michael Niotakis",
+                "subtitle": "UI/UX Designer",
+                "btn_url": "#", 
+                "socials": {
+                    "dribble_url": "https://dribbble.com/",
+                    "twitter_url": "https://www.twitter.com",
+                    "linkedin_url": "https://www.linkedin.com"
+                }
+            },
+            {
+                "img": {
+                    "url": "images/media/team_img2.png",
+                    "alt": "Team"
+                },
+                "title": "Michael Niotakis",
+                "subtitle": "UI/UX Designer",
+                "btn_url": "#", 
+                "socials": {
+                    "dribble_url": "https://dribbble.com/",
+                    "twitter_url": "https://www.twitter.com",
+                    "linkedin_url": "https://www.linkedin.com"
+                }
+            }
+        ]
+    },
+    "testimonial": {
+        "title": "Customer Feedback",
+        "desc": "These speeds are excellent. It’s rare that a fast connection safety Internet leading speeds across its network.",
+        "items": [
+            {
+                "img": {
+                    "url": "images/media/testimonial_1-2.png",
+                    "alt": "Testimonial"
+                },
+                "desc": "Program easy to use, I feel very safe, very affordable the I can watchs my favorites shows France its the America problem whatsoever to offer that others.",
+                "title": "Michael Niotakis",
+                "subtitle": "Co-Founder"
+            },
+            {
+                "img": {
+                    "url": "images/media/testimonial_2.png",
+                    "alt": "Testimonial"
+                },
+                "desc": "Program easy to use, I feel very safe, very affordable the I can watchs my favorites shows France its the America problem whatsoever to offer that others.",
+                "title": "Ben Horowitz",
+                "subtitle": "Project Manager"
+            },
+            {
+                "img": {
+                    "url": "images/media/testimonial_3.png",
+                    "alt": "Testimonial"
+                },
+                "desc": "Program easy to use, I feel very safe, very affordable the I can watchs my favorites shows France its the America problem whatsoever to offer that others.",
+                "title": "Harverd Tanor",
+                "subtitle": "Chief Officer"
+            }
+        ]
+    },
+    "blog": {
+        "title": "Latest News",
+        "desc": "These speeds are excellent. It’s rare that a fast connection safety Internet leading speeds across its network.",
+        "items": [
+            {
+                "img": {
+                    "url": "images/blog/blog_img.png",
+                    "alt": "Blog"
+                },
+                "blog_meta": {
+                    "date": "18 July",
+                    "url": "#"
+                },
+                "title": "One Security Solutions",
+                "desc": "She travelling acceptance men unpleasant her especially to",
+                "button": {
+                    "url": "#",
+                    "text": "read more"
+                }
+            },
+            {
+                "img": {
+                    "url": "images/blog/blog_img2.png",
+                    "alt": "Blog"
+                },
+                "blog_meta": {
+                    "date": "29 July",
+                    "url": "#"
+                },
+                "title": "Today Better Tomorrow",
+                "desc": "She travelling acceptance men unpleasant her especially to",
+                "button": {
+                    "url": "#",
+                    "text": "read more"
+                }
+            },
+            {
+                "img": {
+                    "url": "images/blog/blog_img3.png",
+                    "alt": "Blog"
+                },
+                "blog_meta": {
+                    "date": "27 July",
+                    "url": "#"
+                },
+                "title": "Professional Approach",
+                "desc": "She travelling acceptance men unpleasant her especially to",
+                "button": {
+                    "url": "#",
+                    "text": "read more"
+                }
+            },
+            {
+                "img": {
+                    "url": "images/blog/blog_img4.png",
+                    "alt": "Blog"
+                },
+                "blog_meta": {
+                    "date": "30 July",
+                    "url": "#"
+                },
+                "title": "Security Protecting",
+                "desc": "She travelling acceptance men unpleasant her especially to",
+                "button": {
+                    "url": "#",
+                    "text": "read more"
+                }
+            },
+            {
+                "img": {
+                    "url": "images/blog/blog_img5.png",
+                    "alt": "Blog"
+                },
+                "blog_meta": {
+                    "date": "19 July",
+                    "url": "#"
+                },
+                "title": "Professional Security",
+                "desc": "She travelling acceptance men unpleasant her especially to",
+                "button": {
+                    "url": "#",
+                    "text": "read more"
+                }
+            },
+            {
+                "img": {
+                    "url": "images/blog/blog_img6.png",
+                    "alt": "Blog"
+                },
+                "blog_meta": {
+                    "date": "28 July",
+                    "url": "#"
+                },
+                "title": "Available to Presence",
+                "desc": "She travelling acceptance men unpleasant her especially to",
+                "button": {
+                    "url": "#",
+                    "text": "read more"
+                }
+            }
+        ],
+        "newsletter": {
+            "title": "Get Newsletter",
+            "desc": "Yes, I would like receive Salesforce Weekly Brief as well marketings its thats the forefront of the industry unsubscribe any time.",
+            "placeholder": "Enter email address",
+            "btn": "SUBSCRIBE",
+            "action": "https://themelooks.us13.list-manage.com/subscribe/post?u=79f0b132ec25ee223bb41835f&id=f4e0e93d1d"
+        }
+    },
+    "footer": {
+        "widgetAddress": {
+            "title": "Address",
+            "mail": {
+                "text": "Your@gmail.com",
+                "link": "your@gmail.com"
+            },
+            "phone": {
+                "text": "(202) 255 5421",
+                "link": "2022555421"
+            },
+            "location": "27 Division St, New York, NY 1002 United States of America"
+        },
+        "widgetServices": {
+            "title": "Services",
+            "widgetLink": [
+                {
+                    "text": "Pricing",
+                    "link": "#"
+                },
+                {
+                    "text": "Vpn Protocol",
+                    "link": "#"
+                },
+                {
+                    "text": "VPN Servers",
+                    "link": "#"
+                },
+                {
+                    "text": "Reviews",
+                    "link": "#"
+                },
+                {
+                    "text": "Contact Us",
+                    "link": "#"
+                }
+            ]
+        },
+        "widgetSolutions": {
+            "title": "Solutions",
+            "widgetLink": [
+                {
+                    "text": "Stream Services",
+                    "link": "#"
+                },
+                {
+                    "text": "Stream Sports",
+                    "link": "#"
+                },
+                {
+                    "text": "Dvpn VPN",
+                    "link": "#"
+                },
+                {
+                    "text": "Fire Stick VPN",
+                    "link": "#"
+                },
+                {
+                    "text": "VPN For Teams",
+                    "link": "#"
+                }
+            ]
+        },
+        "widgetRecentPost": {
+            "title": "Recent Articles",
+            "widgetLink": [
+                {
+                    "date": {
+                        "text": "18 July 2020",
+                        "link": "#"
+                    },
+                    "title": {
+                        "text": "Hong Kong VPN searches Here’s what it means.",
+                        "link": "#"
+                    }
+                },
+                {
+                    "date": {
+                        "text": "18 July 2020",
+                        "link": "#"
+                    },
+                    "title": {
+                        "text": "Hong Kong VPN searches Here’s what it means.",
+                        "link": "#"
+                    }
+                }
+            ]
+        },
+        "socials": {
+            "facebook_url": "https://facebook.com/",
+            "twitter_url": "https://www.twitter.com",
+            "linkedin_url": "https://www.linkedin.com",
+            "instagram_url": "https://www.instagram.com"
+        },
+        "copyrightText": {
+            "firstText": "Copyright © 2021",
+            "lastText": "All Rights Reserved.",
+            "linkText": "Dvpn.",
+            "link": "https://themelooks.net/demo/dvpn/react/preview"
+        }
+    },
+    "offcanvas": {
+        "logo": {
+            "path": "images/sticky-logo.png",
+            "alt": "Offcanvas Logo"
+        },
+        "widgetAbout": {
+            "title": "About Us",
+            "desc": "It takes more than a private internet browser to go incognito. We’ll make your real IP address."
+        },
+        "widgetContact": {
+            "title": "Get In Touch",
+            "mail": {
+                "text": "Your@gmail.com",
+                "link": "your@gmail.com"
+            },
+            "phone": {
+                "text": "(202) 255 5421",
+                "link": "2022555421"
+            },
+            "location": "27 Division St, New York, NY 1002 United States of America"
+        },
+        "widgetIp": {
+            "title": "Your IP Address:",
+            "ip": [
+                "103.237.76.105",
+                "103.237.76.106"
+            ]
+        },
+        "widgetIsp": {
+            "title": "Your ISP:",
+            "isp":  "KS Network Limited"
+        },
+        "socials": {
+            "facebook_url": "https://facebook.com/",
+            "twitter_url": "https://www.twitter.com",
+            "linkedin_url": "https://www.linkedin.com",
+            "instagram_url": "https://www.instagram.com"
+        }
+    },
+    "companyLogo": [
+        {
+            "url": "images/media/logo1.png",
+            "alt": "Company Logo"
+        },
+        {
+            "url": "images/media/logo2.png",
+            "alt": "Company Logo"
+        },
+        {
+            "url": "images/media/logo3.png",
+            "alt": "Company Logo"
+        },
+        {
+            "url": "images/media/logo4.png",
+            "alt": "Company Logo"
+        },
+        {
+            "url": "images/media/logo5.png",
+            "alt": "Company Logo"
+        },
+        {
+            "url": "images/media/logo6.png",
+            "alt": "Company Logo"
+        },
+        {
+            "url": "images/media/logo3.png",
+            "alt": "Company Logo"
+        }
+    ],
+    "app": {
+        "img": {
+            "url": "images/media/app-img.png",
+            "alt": "App"
+        },
+        "title": "Built App That Everyone Love Get Your Application",
+        "desc": "These speeds are excellent. rare that a fast connection safety Internet leading speeds across network Private Internet leading create website the security providing safety.",
+        "btn": [
+            {
+                "url": "#",
+                "img": "images/media/google-play.png",
+                "alt": "Google Play"
+            },
+            {
+                "url": "#",
+                "img": "images/media/app-store.png",
+                "alt": "App Store"
+            }
+        ]
+    },
+    "servicePoint": {
+        "title": "Total 2k Server in 198 Counties.",
+        "desc": "These speed excellent. It’s a fast connection safety Internet leading speeds across its network.",
+        "country": [
+            "North America (201)",
+            "Europe (169)",
+            "Asia (151)",
+            "Africa (143)"
+        ],
+        "btn": {
+            "url": "#",
+            "text": "Pick your location"
+        },
+        "img": {
+            "url": "images/media/map_img.png",
+            "alt": "Map"
+        },
+        "points": [
+            {
+                "country": "USA",
+                "cities": "24 Cities"
+            },
+            {
+                "country": "England",
+                "cities": "41 Cities"
+            },
+            {
+                "country": "Russia",
+                "cities": "47 Cities"
+            },
+            {
+                "country": "Australia",
+                "cities": "39 Cities"
+            },
+            {
+                "country": "Norway",
+                "cities": "17 Cities"
+            },
+            {
+                "country": "Canada",
+                "cities": "51 Cities"
+            }
+        ]
+    },
+    "counter": [
+        {
+            "img": {
+                "url": "images/icons/counter-icon1.png",
+                "alt": "Support Team"
+            },
+            "countNumber": 1200,
+            "countText": "Support Team"
+        },
+        {
+            "img": {
+                "url": "images/icons/counter-icon2.png",
+                "alt": "Trusted Partner"
+            },
+            "countNumber": 1469,
+            "countText": "Trusted Partner"
+        },
+        {
+            "img": {
+                "url": "images/icons/counter-icon3.png",
+                "alt": "Client Satisfaction"
+            },
+            "countNumber": 3696,
+            "countText": "Client Satisfaction"
+        },
+        {
+            "img": {
+                "url": "images/icons/counter-icon4.png",
+                "alt": "App Download"
+            },
+            "countNumber": 6646,
+            "countText": "App Download"
+        }
+    ],
+    "comingSoon": {
+        "logo": {
+            "url": "images/coming-soon-logo.png",
+            "alt": "Coming Soon Logo"
+        },
+        "title": "We Are Coming Soon",
+        "desc": "Stories on medium pop up at least weekly inside our vpn update content suggestions.",
+        "form": {
+            "action": "#"
+        }
+    },
+    "fourZeroFour": {
+        "img": {
+            "url": "images/media/404_img.png",
+            "alt": "404 Image"
+        },
+        "title": "Ooops! That page can’t be found.",
+        "desc": "It looks like nothing was found at this location. Maybe try a search?",
+        "form": {
+            "action": "#"
+        }
+    },
+    "serviceDetails": {
+        "title": "Fast - Secure - Reliable",
+        "desc": "Short text about used technologies and diagram like in min.io (EE)",
+        "btn": {
+            "url": "#",
+            "text": "Get in now"
+        },
+        "howItWorks": {
+            "title": "How it Works",
+            "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best and why they should hire them for their security. Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+        },
+        "accordion": {
+            "one": {
+                "title": "Wait! What is VPN Service?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            },
+            "two": {
+                "title": "Why you need security service before start a new business?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            },
+            "three": {
+                "title": "How to be more benighted on business now-a-days?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            },
+            "four": {
+                "title": "Our business is protecting yours?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            }
+        },
+        "serviceList": {
+            "title": "Gigabit Service, Fastest Always",
+            "listItems": [
+                "The result of employees, over detailers and engineers",
+                "All coming together to solve problem before.",
+                "Teamwork it demonstrates both internally and externally",
+                "Outstanding in the creation of landmark buildings",
+                "The result of employees, over detailers and engineers"
+            ]
+        }
+    },
+
+
+    "processesDetails": {
+        "title": "Coverage Of All Bussines Processes",
+    "desc": " • Our product was created with donorship of a professional HR team that has been employed in governmental as well as private sectors. Blink-HR covers all business processes starting from recruitment to dismission.",
+        "btn": {
+            "url": "#",
+            "text": "Get in now"
+        },
+        "howItWorks": {
+            "title": "Business Processes:",
+            "desc": ""
+        },
+        "accordion": {
+            "one": {
+                "title": "Wait! What is VPN Service?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            },
+            "two": {
+                "title": "Why you need security service before start a new business?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            },
+            "three": {
+                "title": "How to be more benighted on business now-a-days?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            },
+            "four": {
+                "title": "Our business is protecting yours?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            }
+        },
+        "serviceList": {
+            "title": "Building Organizational Structure",
+          "listItems": [
+    "• Completely flexible",
+    "• No naming dependencies",
+    "• No solid structure dependencies"
+]
+
+        },
+        "serviceList2": {
+            "title": "Recruitment",
+            "listItems": [
+                "• Employee input to the system",
+                "• Creation and management of positions and staffs",
+                "• Potential employee lists (LinkedIn & Applicant's DB)",
+                "• Documents signing (application form & order)"
+            ]
+            
+
+        },
+        "serviceList3": {
+            "title": "Vocation Management",
+            "listItems": [
+                "• Vocation Application",
+                "• Step-by-Step Vocation Approval Matrix"
+            ]
+            
+            
+
+        },
+        "serviceList4": {
+            "title": "Business Trip Management",
+            "listItems": [
+                "• Business Trip fee calculation",
+                "• Business Trip inventory management"
+            ]
+            
+            
+            
+
+        },
+        "serviceList5": {
+            "title": "Salary Calculation",
+            "listItems": [
+                "• Social Statuses",
+                "• Vocations",
+                "• Business Trips",
+                "• Overtimes",
+                "• Staff tables",
+                "• Attendances"
+            ]
+
+        },
+        "serviceList6": {
+            "title": "KPI Management",
+            "listItems": [
+                "• KPI setting flow management",
+                "• Quarter, semi-annual, annual KPI evaluations",
+                "• KPI Databases"
+            ]
+            
+
+        },
+        "serviceList7": {
+            "title": "Document Management",
+            "listItems": [
+                "• Template creation and usage",
+                "• Application forms",
+                "• Orders",
+                "• Step-by-step document approval matrixes",
+                "• Internal Communications"
+            ]
+            
+            
+
+        },
+        "serviceList8": {
+            "title": "Internal Communications :",
+            "listItems": [
+                "• Business Calendar",
+                "• Task Management",
+                "• Internal Chat"
+            ]
+            
+            
+            
+
+        }
+    },
+
+    "clearDataDetails": {
+        "title": "Clear Data-Clear View",
+        "desc": "All data that is provided to and generated from Blink-HR is validated and filtrated. Integrity of data is an important aspect for any institution. So that, with clear data it would be very easy for institutions to use this data in Data Analysis projects. Blink-HR presents nice informative dashboards that are very user-friendly. But for further and more in-depth data analysis projects our product provides validated clear data. Data insertion in our product is mostly done through data-catalogue model (drop-down data insertion) ",
+        "btn": {
+            "url": "#",
+            "text": "Get in now"
+        },
+        "howItWorks": {
+            "title": "How it Works",
+            "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best and why they should hire them for their security. Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+        },
+        "accordion": {
+            "one": {
+                "title": "Wait! What is VPN Service?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            },
+            "two": {
+                "title": "Why you need security service before start a new business?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            },
+            "three": {
+                "title": "How to be more benighted on business now-a-days?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            },
+            "four": {
+                "title": "Our business is protecting yours?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            }
+        },
+        "serviceList": {
+            "title": "Gigabit Service, Fastest Always",
+            "listItems": [
+                "The result of employees, over detailers and engineers",
+                "All coming together to solve problem before.",
+                "Teamwork it demonstrates both internally and externally",
+                "Outstanding in the creation of landmark buildings",
+                "The result of employees, over detailers and engineers"
+            ]
+        }
+    },
+
+    "allInOneDetails": {
+        "title": "All in one platform",
+        "desc": "Blink-HR consists of 3 main platforms. Core HR, KPI, Recruitment. All these platforms are interconnected and can be monitored from single unified dashboards",
+        "btn": {
+            "url": "#",
+            "text": "Get in now"
+        },
+        "howItWorks": {
+            "title": "How it Works",
+            "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best and why they should hire them for their security. Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+        },
+        "accordion": {
+            "one": {
+                "title": "Wait! What is VPN Service?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            },
+            "two": {
+                "title": "Why you need security service before start a new business?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            },
+            "three": {
+                "title": "How to be more benighted on business now-a-days?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            },
+            "four": {
+                "title": "Our business is protecting yours?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            }
+        },
+        "serviceList": {
+            "title": "Gigabit Service, Fastest Always",
+            "listItems": [
+                "The result of employees, over detailers and engineers",
+                "All coming together to solve problem before.",
+                "Teamwork it demonstrates both internally and externally",
+                "Outstanding in the creation of landmark buildings",
+                "The result of employees, over detailers and engineers"
+            ]
+        }
+    },
+
+    "lawsDetails": {
+        "title": "In compliance with the laws&regulations",
+        "desc": "All business processes and calculations are designed to be proceed in compliance with Labour Code of the Ministry of Labour and Social Protection of Population and taxation laws of State Tax Service under the Ministry of the Economy. In case of updates to laws and regulations our team releases immediate software updates and announces about them through web-site and personal contact channels. ",
+        "btn": {
+            "url": "#",
+            "text": "Get in now"
+        },
+        "howItWorks": {
+            "title": "How it Works",
+            "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best and why they should hire them for their security. Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+        },
+        "accordion": {
+            "one": {
+                "title": "Wait! What is VPN Service?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            },
+            "two": {
+                "title": "Why you need security service before start a new business?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            },
+            "three": {
+                "title": "How to be more benighted on business now-a-days?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            },
+            "four": {
+                "title": "Our business is protecting yours?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            }
+        },
+        "serviceList": {
+            "title": "Gigabit Service, Fastest Always",
+            "listItems": [
+                "The result of employees, over detailers and engineers",
+                "All coming together to solve problem before.",
+                "Teamwork it demonstrates both internally and externally",
+                "Outstanding in the creation of landmark buildings",
+                "The result of employees, over detailers and engineers"
+            ]
+        }
+    },
+
+    "supportDetails": {
+        "title": "Fast and professional Support",
+        "desc": " Blink-BI support team continuously monitors application logs and resource utilization logs to help resolve possible difficulties before our customers face unwanted consequences. The team operates within the boundaries of strict SLAs. Opened tickets are responded in an operative manner in accordance with risks (impacts and frequency)",
+        "btn": {
+            "url": "#",
+            "text": "Get in now"
+        },
+        "howItWorks": {
+            "title": "How it Works",
+            "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best and why they should hire them for their security. Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+        },
+        "accordion": {
+            "one": {
+                "title": "Wait! What is VPN Service?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            },
+            "two": {
+                "title": "Why you need security service before start a new business?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            },
+            "three": {
+                "title": "How to be more benighted on business now-a-days?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            },
+            "four": {
+                "title": "Our business is protecting yours?",
+                "desc": "Security companies are working all around the world to protect homes, offices and other buildings. Many security companies are using slogans and taglines to distinguish themselves from their competitors and to tell the public why they are the best & why they should hire them for their security Thinking a slogan or tagline for a security company can be very hard. In this post, we have gathered"
+            }
+        },
+        "serviceList": {
+            "title": "Gigabit Service, Fastest Always",
+            "listItems": [
+                "The result of employees, over detailers and engineers",
+                "All coming together to solve problem before.",
+                "Teamwork it demonstrates both internally and externally",
+                "Outstanding in the creation of landmark buildings",
+                "The result of employees, over detailers and engineers"
+            ]
+        }
+    },
+
+
+
+
+    "sidebar": {
+        "widgetSearch": {
+            "action": "#",
+            "iconLink": "images/icons/search2.svg"
+        },
+        "widgetCategories": {
+            "title": "Categories",
+            "items": [
+                {
+                    "text": "Encrypted WIFI",
+                    "link": "#"
+                },
+                {
+                    "text": "Multiple VPN",
+                    "link": "#"
+                },
+                {
+                    "text": "P2P Support",
+                    "link": "#"
+                },
+                {
+                    "text": "Secure VPN Account",
+                    "link": "#"
+                },
+                {
+                    "text": "Unlimited Bandwidth",
+                    "link": "#"
+                }
+            ]
+        },
+        "widgetRecentPost": {
+            "title": "Recent Post",
+            "posts": [
+                {
+                    "date": {
+                        "text": "18 July 2020",
+                        "link": "#"
+                    },
+                    "title": {
+                        "text": "Professional Approach Security Protecting",
+                        "link": "#"
+                    }
+                },
+                {
+                    "date": {
+                        "text": "18 July 2020",
+                        "link": "#"
+                    },
+                    "title": {
+                        "text": "Professional Security Available to Presence",
+                        "link": "#"
+                    }
+                }
+            ]
+        },
+        "widgetTags": {
+            "title": "Popular Tags",
+            "tags": [
+                {
+                    "text": "Black",
+                    "link": "#"
+                },
+                {
+                    "text": "Browser",
+                    "link": "#"
+                },
+                {
+                    "text": "Clients",
+                    "link": "#"
+                },
+                {
+                    "text": "dvpn",
+                    "link": "#"
+                },
+                {
+                    "text": "Go vpn",
+                    "link": "#"
+                },
+                {
+                    "text": "Pro vpn",
+                    "link": "#"
+                },
+                {
+                    "text": "Hackers",
+                    "link": "#"
+                },
+                {
+                    "text": "Life",
+                    "link": "#"
+                },
+                {
+                    "text": "Govt",
+                    "link": "#"
+                },
+                {
+                    "text": "Happen",
+                    "link": "#"
+                },
+                {
+                    "text": "vpn",
+                    "link": "#"
+                }
+            ]
+        }
+    },
+    "blogDetails": {
+        "title": "Business strategy consulting imperdiet",
+        "img": {
+            "url": "images/blog/blog-details.png",
+            "alt": "Blog Details"
+        },
+        "postedOn": {
+            "text": "Posted On:",
+            "date": "August 26, 2018",
+            "link": "#"
+        },
+        "postedBy": {
+            "text": "Posted By:",
+            "name": "Puchka Bolle",
+            "link": "#"
+        },
+        "para1": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?",
+        "para2": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+        "blockquote": {
+            "desc": "“sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.”",
+            "cite": "Bykewala Emranx"
+        },
+        "socialShare": {
+            "text": "Share:",
+            "links": {
+                "facebook": "https://www.facebook.com/",
+                "twitter": "https://www.twitter.com/",
+                "instagram": "https://www.instagram.com/",
+                "pinterest": "https://www.pinterest.com/",
+                "stackoverflow": "https://www.stackoverflow.com/"
+            }
+        },
+        "tags": {
+            "title": "tags",
+            "tag": [
+                {
+                    "text": "Fashion",
+                    "link": "#"
+                },
+                {
+                    "text": "Beuty",
+                    "link": "#"
+                },
+                {
+                    "text": "Trend",
+                    "link": "#"
+                }
+            ]
+        },
+        "categories": {
+            "title": "Categories:",
+            "category": [
+                {
+                    "text": "Fashion",
+                    "link": "#"
+                },
+                {
+                    "text": "Beuty",
+                    "link": "#"
+                },
+                {
+                    "text": "Trend",
+                    "link": "#"
+                }
+            ]
+        },
+        "postAuthor": {
+            "title": "Walton De Singer",
+            "desc": "On the other hand, we denounce with righteous indignation and dislike men.",
+            "img": {
+                "url": "images/blog/post-author.png",
+                "alt": "Post Author"
+            },
+            "links": {
+                "facebook": "https://www.facebook.com/",
+                "twitter": "https://www.twitter.com/",
+                "instagram": "https://www.instagram.com/",
+                "pinterest": "https://www.pinterest.com/",
+                "whatsapp": "https://www.whatsapp.com/"
+            }
+        }
+    },
+    "contactInfo": {
+        "title": "Get Instact Query Drop us a Line",
+        "desc": "It is a long e stablished facts that reader will be distracted",
+        "phone": [
+            {
+                "text": "(202) 255 5421",
+                "link": "2022555421"
+            },
+            {
+                "text": "(202) 255 5421",
+                "link": "2022555421"
+            }
+        ],
+        "email": [
+            {
+                "text": "info.dvpn@dvpn.com",
+                "link": "info.dvpn@dvpn.com"
+            },
+            {
+                "text": "support@dvpn.com",
+                "link": "support@dvpn.com"
+            }
+        ],
+        "location": "27 Division St, New York, NY 1002 United States of America"
+    }
+}
