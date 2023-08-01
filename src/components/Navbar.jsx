@@ -20,6 +20,7 @@ import {
   FaLinkedinIn,
   FaInstagram,
 } from "react-icons/fa";
+import { withTranslation } from "react-i18next"; // Import the withTranslation HOC
 
 //import image
 import Flag1 from "../images/flag1.png";
@@ -74,13 +75,19 @@ class Navbar extends Component {
     color: "#5551EF",
   };
 
+  handleLanguageChange = (language) => {
+    const { t } = this.props;
+    const { i18n } = this.props; // Access i18n from props
+    i18n.changeLanguage(language);
+  };
+
   render() {
-    const { location } = this.props;
+    const { location, headerTop, t } = this.props; // Use t (translate) function from props
+
     const currentUrl = location.pathname;
 
     const isSignInPage = currentUrl === "/signIn";
 
-    let headerTop = this.props.headerTop;
     return (
       <header className={`header ${headerTop ? "" : "fixed-top"}`}>
         <div className={`header-top pb-2 pb-lg-0 ${headerTop ? "" : "d-none"}`}>
@@ -167,9 +174,7 @@ class Navbar extends Component {
                         <NavLink to="#">Home</NavLink>
                         <ul className="sub-menu">
                           <li>
-                            <NavLink exact to="/" activeStyle={this.style}>
-                              Home One
-                            </NavLink>
+                            <NavLink to="/">{t("navbar.home")}</NavLink>
                           </li>
                           <li>
                             <NavLink to="/home-v2" activeStyle={this.style}>
@@ -259,7 +264,7 @@ class Navbar extends Component {
                         {!isSignInPage && (
                           <NavLink
                             to="/signIn"
-                            className="btn btn-primary animated-sign-in-button"
+                            className="btn animated-sign-in-button"
                           >
                             Login
                           </NavLink>
@@ -293,10 +298,14 @@ class Navbar extends Component {
 
                       {/* Apply the "animated" class to the Dropdown.Menu component */}
                       <Dropdown.Menu className="animated">
-                        <Dropdown.Item href="#">
+                        <Dropdown.Item
+                          onClick={() => this.handleLanguageChange("en")}
+                        >
                           <img src={Flag1} alt="Flag" className="pulse" />
                         </Dropdown.Item>
-                        <Dropdown.Item href="#">
+                        <Dropdown.Item
+                          onClick={() => this.handleLanguageChange("tr")}
+                        >
                           <img src={Flag2} alt="Flag" className="pulse" />
                         </Dropdown.Item>
                         <Dropdown.Item href="#">
@@ -330,5 +339,4 @@ class Navbar extends Component {
     );
   }
 }
-
-export default withRouter(Navbar);
+export default withTranslation()(withRouter(Navbar));

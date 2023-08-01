@@ -379,19 +379,19 @@ body {
 .c1, a, .contact-info-list .single-contact .contact-icon, .contact-info-list .single-contact .contact-content a:hover, #countdown .single-countdown h2, .pagination li a,
 .pagination li span, .btn-link, .btn-link:hover, .widget.widget_recent_entries ul li .post-title a:hover, .widget.widget_tag_cloud .tagcloud a:hover, .widget.widget_categories ul li a:hover, .header-main ul.nav ul li a:hover, .header-main ul.nav ul li a.current-menu-children, .header-main ul li a:hover, .post-details .entry-tags ul li a:hover,
 .post-details .entry-categories ul li a:hover, .coming-soon-newsletter .btn-wrap .btn:hover, .single-price .price, .single-testimonial .testimonial-name span {
-  color: #5551EF;
+  color: #2A77AF;
 }
 
 ::-moz-selection {
-  background-color: #5551EF;
+  background-color: #2A77AF;
 }
 
 .c1-bg, ::selection, .hover-effect:after, .single-team:after, .hover-effect:hover, .single-team:hover, .hover-effect.active, .active.single-team, .video-btn.style--two i, .video-btn.style--two span, .btn, .btn-wrap .btn, .widget .widget-title h3:after, .header-main.sticky .menu-mark, .header-main.sticky .menu-mark:before, .header-main.sticky .menu-mark:after, .header-main ul.nav ul li a:before, .header-main ul.nav ul li a:after, .offcanvas-wrapper .widget .widget-title:before, .single-blog .blog-meta, .search-form.style--two input, .style--two.widget.widget_search input, .style--two.widget.widget_newsletter input, .single-testimonial .quote {
-  background-color: #5551EF;
+  background-color: #0E4780;
 }
 
 .c1-bo {
-  border-color: #5551EF !important;
+  border-color: #2A77AF !important;
 }
 
 .c2, a:hover, .list-check li:after, .video-btn.style--two:hover i, .widget.widget_contact ul li a:hover, .widget.widget_service .service-list li a:hover, .widget.widget_service .service-list li a:hover i,
@@ -2059,10 +2059,10 @@ BOX-SIX
   position: absolute;
   content: "";
   z-index: -1;
-  width: 9px;
-  height: 9px;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
-  right: 3px;
+  right: 1px;
   bottom: 5px;
   -webkit-transition: all .7s ease;
   -o-transition: all .7s ease;
@@ -2086,7 +2086,7 @@ BOX-SIX
 }
 
 .btn.btn-white {
-  color: #615EF1;
+  color: #2976AE;
 }
 
 .btn.btn-sm {
@@ -2191,7 +2191,7 @@ BOX-SIX
   height: 3px;
   border-radius: 50px;
   content: "";
-  background-color: #5551EF;
+  background-color: #1E619A;
 }
 
 .title-shape:after {
@@ -2223,7 +2223,7 @@ BOX-SIX
 }
 
 .title-shape.title-shape-style-two:after {
-  background-color: #5551EF;
+  background-color: #93ef51;
 }
 
 .title-shape.title-shape-sky-blue:before {
