@@ -26,8 +26,7 @@ import Flag1 from "../images/flag1.png";
 import Flag2 from "../images/flag2.png";
 import Flag3 from "../images/flag3.png";
 import Flag4 from "../images/flag4.png";
-import Flag5 from "../images/flag5.png";
-import Flag6 from "../images/flag6.png";
+
 import Button from "../components/Button";
 import "./AnimatedSignInButton.css";
 class Navbar extends Component {
@@ -209,7 +208,7 @@ class Navbar extends Component {
                         <ul className="sub-menu">
                           <li>
                             <NavLink to="#" activeStyle={this.style}>
-                              Blink-HR
+                              CHR-BI
                             </NavLink>
                             <ul className="sub-menu">
                               <li>
@@ -305,12 +304,6 @@ class Navbar extends Component {
                         </Dropdown.Item>
                         <Dropdown.Item href="#">
                           <img src={Flag4} alt="Flag" className="pulse" />
-                        </Dropdown.Item>
-                        <Dropdown.Item href="#">
-                          <img src={Flag5} alt="Flag" className="pulse" />
-                        </Dropdown.Item>
-                        <Dropdown.Item href="#">
-                          <img src={Flag6} alt="Flag" className="pulse" />
                         </Dropdown.Item>
                       </Dropdown.Menu>
                     </Dropdown>

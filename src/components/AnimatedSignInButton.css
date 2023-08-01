@@ -13,7 +13,7 @@
     transform: scale(1);
   }
 }/* Add the following animation styles */
-/* Add the following animation styles */
+
 @keyframes fadeIn {
     from {
       opacity: 0;
@@ -24,36 +24,35 @@
       transform: translateY(0);
     }
   }
-  
-  /* Apply transparency and border radius to the dropdown menu */
-  .dropdown-menu.animated {
-    animation: fadeIn 0.3s;
-    opacity: 0;
-    transition: opacity 0.2s;
-    background-color: rgba(255, 255, 255, 0.9); /* Adjust the transparency here */
-    border-radius: 8px; /* Adjust the border radius here */
+  /* Hide the dropdown background */
+.dropdown-menu.animated {
+  animation: fadeIn 0.3s;
+  opacity: 0;
+  transition: opacity 0.2s;
+  background-color: transparent; /* Set the background color to transparent */
+  border: none; /* Remove the border */
+  box-shadow: none; /* Remove any box shadow */
+}
+
+/* On hover, change the opacity to make the dropdown icons fully visible */
+.dropdown:hover .dropdown-menu.animated {
+  opacity: 1;
+  border-radius: 100%
+ ; /* Change the background color on hover */
+}
+/* Add the pulse effect to the flag icons inside the dropdown */
+.dropdown-menu img.pulse {
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
   }
-  
-  /* On hover, change the opacity to make the dropdown fully visible */
-  .dropdown:hover .dropdown-menu.animated {
-    opacity: 1;
+  50% {
+    transform: scale(1.1);
   }
-  
-  /* Add the pulse effect to the flag icons inside the dropdown */
-  .dropdown-menu img.pulse {
-    animation: pulse 2s infinite;
+  100% {
+    transform: scale(1);
   }
-  
-  @keyframes pulse {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.1);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
-  
-  
+}
