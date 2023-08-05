@@ -69,65 +69,57 @@ function Banner({ data }) {
             <Col lg={5}>
               {/* Banner Img */}
               <div className="banner-img d-none d-xl-block">
-                <img
-                  class=""
-                  src={publicUrl + data.images.Main_Img.url}
-                  alt={data.images.Main_Img.alt}
-                  className="main-img"
-                />
-                {/* <img
-                  class="w-50 p-3"
-                  src={"./bubble-gum-web-design.gif"}
-                  alt="Bubble Gum Web Design"
-                /> */}
-                {/* <animated.img
-                  style={{ transform: props.xy.interpolate(trans1) }}
-                  src={publicUrl + data.images.Setting_Img.url}
-                  alt={data.images.Setting_Img.alt}
-                  className="setting-img"
-                /> */}
-
-                {/* <animated.img
-                  style={{ transform: props.xy.interpolate(trans2) }}
-                  src={publicUrl + data.images.Sheild_Img.url}
-                  alt={data.images.Sheild_Img.alt}
-                  className="sheild-img"
-                /> */}
-                {/* 
-                <animated.img
-                  style={{ transform: props.xy.interpolate(trans1) }}
-                  src={publicUrl + data.images.Lock_Img.url}
-                  alt={data.images.Lock_Img.alt}
-                  className="lock-img"
-                /> */}
-
-                {/* <animated.img
-                  style={{ transform: props.xy.interpolate(trans2) }}
-                  src={publicUrl + data.images.Card_Img.url}
-                  alt={data.images.Card_Img.alt}
-                  className="card-img"
-                /> */}
-
-                {/* <animated.img
-                  style={{ transform: props.xy.interpolate(trans2) }}
-                  src={publicUrl + data.images.Box_Img.url}
-                  alt={data.images.Box_Img.alt}
-                  className="box-img"
-                />
-
                 <animated.img
                   style={{ transform: props.xy.interpolate(trans1) }}
                   src={publicUrl + data.images.Check_Img.url}
                   alt={data.images.Check_Img.alt}
                   className="check-img"
                 />
+                <img
+                  class=""
+                  src={publicUrl + data.images.Main_Img.url}
+                  alt={data.images.Main_Img.alt}
+                  className="main-img"
+                />
+
+                <animated.img
+                  style={{ transform: props.xy.interpolate(trans2) }}
+                  src={publicUrl + data.images.Card_Img.url}
+                  alt={data.images.Card_Img.alt}
+                  className="card-img"
+                />
+                <animated.img
+                  style={{ transform: props.xy.interpolate(trans1) }}
+                  src={publicUrl + data.images.Setting_Img.url}
+                  alt={data.images.Setting_Img.alt}
+                  className="setting-img"
+                />
+                <animated.img
+                  style={{ transform: props.xy.interpolate(trans1) }}
+                  src={publicUrl + data.images.Lock_Img.url}
+                  alt={data.images.Lock_Img.alt}
+                  className="lock-img"
+                />
+                <animated.img
+                  style={{ transform: props.xy.interpolate(trans2) }}
+                  src={publicUrl + data.images.Sheild_Img.url}
+                  alt={data.images.Sheild_Img.alt}
+                  className="sheild-img"
+                />
+
+                {/* <animated.img
+                  style={{ transform: props.xy.interpolate(trans2) }}
+                  src={publicUrl + data.images.Box_Img.url}
+                  alt={data.images.Box_Img.alt}
+                  className="box-img"
+                /> */}
 
                 <animated.img
                   style={{ transform: props.xy.interpolate(trans1) }}
                   src={publicUrl + data.images.Setting2.url}
                   alt={data.images.Setting2.alt}
                   className="setting2-img"
-                /> */}
+                />
               </div>
               {/* End Banner Img */}
 

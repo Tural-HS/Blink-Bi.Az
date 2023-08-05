@@ -76,8 +76,8 @@ class Navbar extends Component {
   };
 
   handleLanguageChange = (language) => {
-    const { t } = this.props;
     const { i18n } = this.props; // Access i18n from props
+    console.log("Changing language to:", language);
     i18n.changeLanguage(language);
   };
 
@@ -174,7 +174,9 @@ class Navbar extends Component {
                         <NavLink to="#">Home</NavLink>
                         <ul className="sub-menu">
                           <li>
-                            <NavLink to="/">{t("navbar.home")}</NavLink>
+                            <NavLink to="/">
+                              {t("navbar.home", { defaultValue: "Home" })}
+                            </NavLink>
                           </li>
                           <li>
                             <NavLink to="/home-v2" activeStyle={this.style}>
@@ -216,11 +218,6 @@ class Navbar extends Component {
                               CHR-BI
                             </NavLink>
                             <ul className="sub-menu">
-                              <li>
-                                <NavLink to="/blog" activeStyle={this.style}>
-                                  About Blink-HR
-                                </NavLink>
-                              </li>
                               <li>
                                 <NavLink
                                   to="/single-blog"
