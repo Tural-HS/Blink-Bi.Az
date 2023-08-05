@@ -2,25 +2,31 @@
 
 /* Add the pulse animation to the button */
 @keyframes pulse {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.2);
-    }
-    100% {
-      transform: scale(1);
-    }
+  0% {
+    transform: scale(1);
   }
-  
-  /* Add custom color to the button and use !important */
-  .btn-login {
-    background-color: #0E4780 !important; /* Change this color to your desired color */
-    color: #fff;
+  50% {
+    transform: scale(1.2);
   }
-  
-  /* Apply the pulse animation when the button is disabled */
-  .btn-login:disabled {
-    animation: pulse 2s infinite;
+  100% {
+    transform: scale(1);
   }
-  
+}
+
+/* Add custom color to the button and use !important */
+.btn-login {
+  background-color: #0E4780 !important; /* Change this color to your desired color */
+  color: #fff;
+}
+
+/* Apply the pulse animation when the button is disabled */
+.btn-login:disabled {
+  animation: pulse 2s infinite;
+}
+
+/* Style for the "Required" text */
+.required-text {
+  font-size: 12px;
+  margin-left: 5px;
+  color: red; /* Change this color to your desired color */
+}

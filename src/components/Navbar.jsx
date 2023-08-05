@@ -36,6 +36,7 @@ class Navbar extends Component {
   state = {
     stickyClass: "",
     mobileNav: false,
+    isScrolled: false,
   };
   myRef = React.createRef();
 
@@ -48,19 +49,20 @@ class Navbar extends Component {
     this._isMounted = false;
     // window.removeEventListener('scroll', this.handleScroll.bind(this));
   }
-
   handleScroll() {
     let lastScrollY = window.scrollY;
 
     if (lastScrollY >= 70 && this._isMounted) {
-      this.setState((state, props) => ({
+      this.setState({
         stickyClass: "sticky fadeInDown animated fixed-top",
-      }));
+        isScrolled: true,
+      });
     } else {
       if (this._isMounted)
-        this.setState((state, props) => ({
+        this.setState({
           stickyClass: "",
-        }));
+          isScrolled: false,
+        });
     }
   }
 
@@ -82,6 +84,8 @@ class Navbar extends Component {
   };
 
   render() {
+    const { isScrolled } = this.state;
+
     const { location, headerTop, t } = this.props; // Use t (translate) function from props
 
     const currentUrl = location.pathname;
@@ -153,10 +157,10 @@ class Navbar extends Component {
               <Col
                 lg={10}
                 xs={7}
-                className="d-flex align-items-center justify-content-end position-static"
+                className="d-flex align-items-center justify-content-center position-static"
               >
                 {/* Nav Wrapper */}
-                <div className="nav-wrapper">
+                <div className="nav-wrapper" style={{ marginLeft: "90px" }}>
                   {/* Menu Button */}
                   <div id="menu-button" onClick={(e) => this.funRef(e)}>
                     <span></span>
@@ -169,10 +173,10 @@ class Navbar extends Component {
                     ref={this.myRef}
                   >
                     {/* Nav */}
-                    <ul className="nav justify-content-end">
-                      <li>
-                        <NavLink to="#">Home</NavLink>
-                        <ul className="sub-menu">
+                    <ul className="nav justify-content-center ml-auto">
+                      {/* <li> */}
+                      {/* <NavLink to="#">Home</NavLink> */}
+                      {/* <ul className="sub-menu">
                           <li>
                             <NavLink to="/">
                               {t("navbar.home", { defaultValue: "Home" })}
@@ -188,8 +192,8 @@ class Navbar extends Component {
                               Home Three
                             </NavLink>
                           </li>
-                        </ul>
-                      </li>
+                        </ul> */}
+                      {/* </li> */}
                       <li>
                         <NavLink to="/about">About Us</NavLink>
                         {/* <ul className="sub-menu">
@@ -261,7 +265,9 @@ class Navbar extends Component {
                         {!isSignInPage && (
                           <NavLink
                             to="/signIn"
-                            className="btn animated-sign-in-button"
+                            className={`btn animated-sign-in-button ${
+                              isScrolled ? "active" : ""
+                            }`}
                           >
                             Login
                           </NavLink>
@@ -273,7 +279,7 @@ class Navbar extends Component {
                 </div>
                 {/* End Nav Wrapper */}
 
-                <div className="d-flex align-items-center">
+                <div className="d-flex align-items-center ml-auto">
                   {/* Search Toggle */}
                   {/* <div className="search-toggle">
                     <button
@@ -286,7 +292,7 @@ class Navbar extends Component {
                   {/* End Search Toggle */}
 
                   {/* Language */}
-                  <div className="flag-dropdown ml-3 justify-content-end">
+                  <div className="flag-dropdown ml-3">
                     <Dropdown>
                       <Dropdown.Toggle className="dropdown-btn d-flex align-items-center">
                         <FaGlobe />
