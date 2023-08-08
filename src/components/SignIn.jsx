@@ -19,10 +19,16 @@ const SignIn = () => {
   });
 
   const onSubmit = async (values, { setSubmitting }) => {
-    // API call or other operations on form submission
-    // ...
-
-    history.push("/");
+    const signIn = async () => {
+      try {
+        const resp = await api.signIn(values.username, values.password);
+        console.log(resp);
+        history.push("/");
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    signIn();
   };
 
   const formik = useFormik({
