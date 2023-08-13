@@ -5,15 +5,11 @@ import { FaPlay } from "react-icons/fa";
 import Loading from "../components/Loading";
 import { Container, Row, Col } from "react-bootstrap";
 import Footer from "../components/Footer";
-import ModalVideo from "react-modal-video";
-import Accordion from "react-bootstrap/Accordion";
-import Counter from "../components/Counter";
-import Price from "../components/Price";
 import Navbar from "../components/Navbar";
 
 function SingleService() {
   const context = useContext(DataContext);
-  const { serviceDetails, counter, price, footer } = context.allData;
+  const { serviceDetails, footer } = context.allData;
   const { handleSearch, handleOffcanvas } = context;
 
   const [isOpen, setOpen] = useState(false);
@@ -29,41 +25,22 @@ function SingleService() {
         <Container>
           <Row className="align-items-center mb-5">
             <Col lg={6}>
-              {/* Video Wrapper */}
-              <div className="video-wrap">
-                <ModalVideo
-                  channel="youtube"
-                  autoplay
-                  isOpen={isOpen}
-                  videoId="ni5hRK1ehzk"
-                  onClose={() => setOpen(false)}
-                />
-                <button
-                  className="video-btn style--two"
-                  onClick={() => setOpen(true)}
-                >
-                  <span>
-                    <FaPlay />
-                  </span>
-                </button>
+              <div className="solution-img d-none d-xl-block">
+                <div className="parent-container">
+                  <img
+                    className="h-100"
+                    src={require("../images/media/fast-rel.png")}
+                    alt="Image description"
+                  />
+                </div>
               </div>
-              {/* End Video Wrapper */}
             </Col>
             <Col lg={6}>
               <div className="content pl-lg-3 pl-0">
-                {/* Section Title */}
                 <div className="section-title style--two text-left mb-4">
                   <h2>{serviceDetails.title}</h2>
                   <p>{serviceDetails.desc}</p>
                 </div>
-                {/* End Section Title */}
-
-                {/* <div className="btn-wrap">
-                  <span></span>
-                  <a href={serviceDetails.btn.url} className="btn">
-                    {serviceDetails.btn.text}
-                  </a>
-                </div> */}
               </div>
             </Col>
           </Row>

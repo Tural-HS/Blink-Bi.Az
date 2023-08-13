@@ -1,0 +1,104 @@
+.image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150vh;
+  height: 70vh;
+}
+
+.image-container img {
+  max-width: 100%;
+}
+
+.screenshot-overlay {
+  position: absolute;
+  padding-top: 3rem;
+  margin-right: 4rem;
+  width: 45rem;
+  height: 29rem;
+  z-index: -1;
+}
+
+.image-container img:first-child {
+  padding-top: 4rem;
+  max-width: 100%;
+  margin-right: 4rem;
+  height: 50rem;
+  width: 80rem;
+  display: block;
+}
+
+.overlay-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.overlay-button.left {
+  left: 10px;
+}
+
+.overlay-button.right {
+  right: 10px;
+  margin-right: 4rem;
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    height: 50vh;
+  }
+  
+  .screenshot-overlay {
+    width: 30rem;
+    height: 20rem;
+  }
+  
+  .image-container img:first-child {
+    padding-top: 2rem;
+    height: 30rem;
+    width: 50rem;
+  }
+  
+  .overlay-button {
+    font-size: 18px;
+  }
+}
+@media (max-width: 480px) {
+  .image-container {
+    height: 30vh;
+    width: 70vh;
+
+    
+  }
+  
+  .screenshot-overlay {
+    width: 14rem;
+    height: 10.5rem;
+    padding-top: 4%;
+ margin:0;
+  }
+  
+  .image-container img:first-child {
+    padding-top: 2%;
+    height: auto;
+    width: 90%;
+margin: 0;
+  
+  }
+  
+  .overlay-button {
+    font-size: 12px;
+  }
+  .overlay-button.left {
+  left: 10px;
+  margin-right: 4rem;
+}
+
+.overlay-button.right {
+  margin-right: 10px;
+ 
+}
+}

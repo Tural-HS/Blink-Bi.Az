@@ -10,6 +10,7 @@ import Testimonial from "../components/Testimonial";
 import HomeBlog from "../components/HomeBlog";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import Laptop from "../components/Laptop";
 
 function Home() {
   const context = useContext(DataContext);
@@ -30,7 +31,8 @@ function Home() {
     <>
       <Navbar handler={{ handleSearch, handleOffcanvas }} />
       <Banner data={hero1} />
-      <Feature data={feature} />
+      {/* <Feature data={feature} /> */}
+      <Laptop />
       {/* <Solution data={solution} /> */}
       <Service data={service} />
       {/* <Price data={price} />

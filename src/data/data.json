@@ -4,7 +4,7 @@
         "title": "SMART SOLUTIONS FOR INTELLIGENT BUSINESSES",
         "desc": "  Manage Human Resources in an Intelligent way",
         "button": {
-            "btn_text": "Get it now",
+            "btn_text": "Learn More",
             "btn_url": "#"
         },
         "playButton": {
@@ -353,7 +353,7 @@
                 },
                 "button": {
                     "url": "#",
-                    "text": "get it now"
+                    "text": "Learn More"
                 }
             },
             {
@@ -375,7 +375,7 @@
                 },
                 "button": {
                     "url": "#",
-                    "text": "get it now"
+                    "text": "Learn More"
                 }
             },
             {
@@ -609,14 +609,14 @@
         "widgetAddress": {
             "title": "Address",
             "mail": {
-                "text": "Your@gmail.com",
-                "link": "your@gmail.com"
+                "text": "info@blink-bi.az",
+                "link": "info@blink-bi.az"
             },
             "phone": {
-                "text": "(202) 255 5421",
-                "link": "2022555421"
+                "text": "(+994 51) 270 9333",
+                "link": "(+994 51) 270 9333"
             },
-            "location": "27 Division St, New York, NY 1002 United States of America"
+            "location": "AZ1000 Azerbaijan, Baku"
         },
         "widgetServices": {
             "title": "Services",
