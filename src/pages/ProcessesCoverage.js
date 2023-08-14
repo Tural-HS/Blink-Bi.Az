@@ -30,23 +30,11 @@ function HrBusinessProcessesCoverage() {
           <Row className="align-items-center mb-5">
             <Col lg={6}>
               {/* Video Wrapper */}
-              <div className="video-wrap">
-                <ModalVideo
-                  channel="youtube"
-                  autoplay
-                  isOpen={isOpen}
-                  videoId="ni5hRK1ehzk"
-                  onClose={() => setOpen(false)}
-                />
-                <button
-                  className="video-btn style--two"
-                  onClick={() => setOpen(true)}
-                >
-                  <span>
-                    <FaPlay />
-                  </span>
-                </button>
-              </div>
+              <img
+                className="h-150 w-100"
+                src={require("../images/media/process-cov.gif")}
+                alt="Image description"
+              />
               {/* End Video Wrapper */}
             </Col>
             <Col lg={6}>
@@ -144,7 +132,7 @@ function HrBusinessProcessesCoverage() {
                     )}
                   </ul>
                 </div>
-                <div class="col-md-2 content  mb-4">
+                {/* <div class="col-md-2 content  mb-4">
                   <h4 class="mb-4">{processesDetails.serviceList4.title}</h4>
                   <ul className="service-list">
                     {processesDetails.serviceList4.listItems.map(
@@ -153,7 +141,7 @@ function HrBusinessProcessesCoverage() {
                       }
                     )}
                   </ul>
-                </div>
+                </div> */}
                 <div class="col-md-2 content  mb-4">
                   <h4 class="mb-4">{processesDetails.serviceList4.title}</h4>
                   <ul className="service-list">

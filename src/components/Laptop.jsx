@@ -15,7 +15,7 @@ const Laptop = () => {
         setCurrentScreenIndex(
           (currentScreenIndex + 1) % screenshotImages.length
         );
-      }, 2000); // Change slide every 5 seconds
+      }, 2000); // Change slide every 2 seconds
 
       return () => {
         clearInterval(interval);
@@ -40,24 +40,13 @@ const Laptop = () => {
       <div className="row">
         <div className="col-md-6">
           <div className="image-container">
-            <img src={mainLaptopImage} alt="Laptop" />
+            <img src={mainLaptopImage} alt="Laptop" className="img-fluid" />
+
             <img
-              className="screenshot-overlay"
+              className="screenshot-overlay img-fluid"
               src={screenshotImages[currentScreenIndex]}
               alt="Screenshot"
             />
-            <button
-              className="overlay-button left"
-              onClick={() => moveSlide(-1)}
-            >
-              &lt;
-            </button>
-            <button
-              className="overlay-button right"
-              onClick={() => moveSlide(1)}
-            >
-              &gt;
-            </button>
           </div>
         </div>
       </div>

@@ -28,7 +28,7 @@ function SingleService() {
               <div className="solution-img d-none d-xl-block">
                 <div className="parent-container">
                   <img
-                    className="h-100"
+                    className="h-100 w-75"
                     src={require("../images/media/fast-rel.png")}
                     alt="Image description"
                   />

@@ -30,23 +30,11 @@ function AllInOne() {
           <Row className="align-items-center mb-5">
             <Col lg={6}>
               {/* Video Wrapper */}
-              <div className="video-wrap">
-                <ModalVideo
-                  channel="youtube"
-                  autoplay
-                  isOpen={isOpen}
-                  videoId="ni5hRK1ehzk"
-                  onClose={() => setOpen(false)}
-                />
-                <button
-                  className="video-btn style--two"
-                  onClick={() => setOpen(true)}
-                >
-                  <span>
-                    <FaPlay />
-                  </span>
-                </button>
-              </div>
+              <img
+                className="h-100 w-100"
+                src={require("../images/media/all-in-one.gif")}
+                alt="Image description"
+              />
               {/* End Video Wrapper */}
             </Col>
             <Col lg={6}>

@@ -27,7 +27,9 @@ import Laws from "./pages/LawsRegulations";
 import Support from "./pages/Support";
 import SignIn from "./pages/SignIn";
 
+import { useTranslation } from "react-i18next";
 function App() {
+
   const context = useContext(DataContext);
   const { search, offcanvas, handleSearch, handleOffcanvas } = context;
   const offcanvasData = context.allData.offcanvas;
