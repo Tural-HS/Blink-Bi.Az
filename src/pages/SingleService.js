@@ -7,6 +7,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
+import MySVG from "../images/media/fast-secure.svg";
+
 function SingleService() {
   const context = useContext(DataContext);
   const { serviceDetails, footer } = context.allData;
@@ -27,11 +29,7 @@ function SingleService() {
             <Col lg={6}>
               <div className="solution-img d-none d-xl-block">
                 <div className="parent-container">
-                  <img
-                    className="h-100 w-75"
-                    src={require("../images/media/fast-rel.png")}
-                    alt="Image description"
-                  />
+                  <img src={MySVG} alt="SVG Image" />
                 </div>
               </div>
             </Col>

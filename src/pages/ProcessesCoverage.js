@@ -11,6 +11,8 @@ import Counter from "../components/Counter";
 import Price from "../components/Price";
 import Navbar from "../components/Navbar";
 
+import MySVG from "../images/media/process-cov.svg";
+
 function HrBusinessProcessesCoverage() {
   const context = useContext(DataContext);
   const { processesDetails, counter, price, footer } = context.allData;
@@ -30,11 +32,7 @@ function HrBusinessProcessesCoverage() {
           <Row className="align-items-center mb-5">
             <Col lg={6}>
               {/* Video Wrapper */}
-              <img
-                className="h-150 w-100"
-                src={require("../images/media/process-cov.gif")}
-                alt="Image description"
-              />
+              <img src={MySVG} alt="SVG Image" />
               {/* End Video Wrapper */}
             </Col>
             <Col lg={6}>

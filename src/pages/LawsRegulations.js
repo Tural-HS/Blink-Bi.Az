@@ -11,6 +11,8 @@ import Counter from "../components/Counter";
 import Price from "../components/Price";
 import Navbar from "../components/Navbar";
 
+import MySVG from "../images/media/law.svg";
+
 function Laws() {
   const context = useContext(DataContext);
   const { lawsDetails, counter, price, footer } = context.allData;
@@ -30,11 +32,7 @@ function Laws() {
           <Row className="align-items-center mb-5">
             <Col lg={6}>
               {/* Video Wrapper */}
-              <img
-                className="h-100 w-100" // Genişlik ve yükseklik 100% olarak ayarlandı
-                src={require("../images/media/law.png")}
-                alt="Image description"
-              />
+              <img src={MySVG} alt="SVG Image" />
 
               {/* End Video Wrapper */}
             </Col>

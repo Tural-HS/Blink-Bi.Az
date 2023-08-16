@@ -11,6 +11,8 @@ import Counter from "../components/Counter";
 import Price from "../components/Price";
 import Navbar from "../components/Navbar";
 
+import MySVG from "../images/media/clear-data.svg";
+
 function ClearData() {
   const context = useContext(DataContext);
   const { clearDataDetails, counter, price, footer } = context.allData;
@@ -30,11 +32,7 @@ function ClearData() {
           <Row className="align-items-center mb-5">
             <Col lg={6}>
               {/* Video Wrapper */}
-              <img
-                className="h-100 w-100"
-                src={require("../images/media/clear-data.png")}
-                alt="Image description"
-              />
+              <img src={MySVG} alt="SVG Image" />
               {/* End Video Wrapper */}
             </Col>
             <Col lg={6}>

@@ -52,9 +52,7 @@ function Service({ data, classText, styleTwo, styleThree }) {
                     />
                   </div>
                   <div className="service-content">
-                    <Link to="/single-service">
-                      <h3>{item.title}</h3>
-                    </Link>
+                    <h3>{item.title}</h3>
                     <p>{item.desc}</p>
                     <Link to={item.link} className="btn-link">
                       {item.button.text} <FaArrowRight />

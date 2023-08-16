@@ -11,6 +11,7 @@ import Counter from "../components/Counter";
 import Price from "../components/Price";
 import Navbar from "../components/Navbar";
 
+import MySVG from "../images/media/support.svg";
 function Support() {
   const context = useContext(DataContext);
   const { supportDetails, counter, price, footer } = context.allData;
@@ -30,11 +31,7 @@ function Support() {
           <Row className="align-items-center mb-5">
             <Col lg={6}>
               {/* Video Wrapper */}
-              <img
-                className="h-100"
-                src={require("../images/media/support.png")}
-                alt="Image description"
-              />
+              <img src={MySVG} alt="SVG Image" />
             </Col>
             <Col lg={6}>
               <div className="content pl-lg-3 pl-0">
