@@ -57,12 +57,14 @@ class Navbar extends Component {
         stickyClass: "sticky fadeInDown animated fixed-top",
         isScrolled: true,
       });
+      document.querySelector(".header").classList.add("scrolled");
     } else {
       if (this._isMounted)
         this.setState({
           stickyClass: "",
           isScrolled: false,
         });
+      document.querySelector(".header").classList.remove("scrolled");
     }
   }
 
