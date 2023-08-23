@@ -5,6 +5,11 @@ import Loading from "./Loading";
 import { useSpring, animated } from "react-spring";
 import { Container, Row, Col } from "react-bootstrap";
 
+import Lottie from "lottie-react";
+import "./AnimatedSignInButton.css";
+
+import animationData from "./main3.json";
+
 const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2];
 const trans1 = (x, y) => `translate3d(${(x * -1) / 85}px,${(y * -1) / 85}px,0)`;
 const trans2 = (x, y) => `translate3d(${(x * -1) / 45}px,${(y * -1) / 45}px,0)`;
@@ -68,66 +73,16 @@ function Banner({ data }) {
 
             <Col lg={5}>
               {/* Banner Img */}
-              <div className="banner-img d-none d-xl-block">
-                <animated.img
-                  style={{ transform: props.xy.interpolate(trans1) }}
-                  src={publicUrl + data.images.Check_Img.url}
-                  alt={data.images.Check_Img.alt}
-                  className="check-img"
-                />
-                <img
-                  class=""
-                  src={publicUrl + data.images.Main_Img.url}
-                  alt={data.images.Main_Img.alt}
-                  className="main-img"
-                />
-
-                <animated.img
-                  style={{ transform: props.xy.interpolate(trans2) }}
-                  src={publicUrl + data.images.Card_Img.url}
-                  alt={data.images.Card_Img.alt}
-                  className="card-img"
-                />
-                <animated.img
-                  style={{ transform: props.xy.interpolate(trans1) }}
-                  src={publicUrl + data.images.Setting_Img.url}
-                  alt={data.images.Setting_Img.alt}
-                  className="setting-img"
-                />
-                <animated.img
-                  style={{ transform: props.xy.interpolate(trans1) }}
-                  src={publicUrl + data.images.Lock_Img.url}
-                  alt={data.images.Lock_Img.alt}
-                  className="lock-img"
-                />
-                <animated.img
-                  style={{ transform: props.xy.interpolate(trans2) }}
-                  src={publicUrl + data.images.Sheild_Img.url}
-                  alt={data.images.Sheild_Img.alt}
-                  className="sheild-img"
-                />
-
-                {/* <animated.img
-                  style={{ transform: props.xy.interpolate(trans2) }}
-                  src={publicUrl + data.images.Box_Img.url}
-                  alt={data.images.Box_Img.alt}
-                  className="box-img"
-                /> */}
-
-                <animated.img
-                  style={{ transform: props.xy.interpolate(trans1) }}
-                  src={publicUrl + data.images.Setting2.url}
-                  alt={data.images.Setting2.alt}
-                  className="setting2-img"
-                />
+              <div class="banner-img d-none d-xl-block h-100 w-100">
+                <div class="custom-margin-left-30">
+                  <Lottie class="custom-image" animationData={animationData} />
+                </div>
               </div>
-              {/* End Banner Img */}
-
               {/* Banner Img Responsive */}
               <div className="banner-img-responsive d-block d-xl-none">
-                <img
-                  src={publicUrl + data.images.resImg.url}
-                  alt={data.images.resImg.alt}
+                <Lottie
+                  class="custom-image-mobile"
+                  animationData={animationData}
                 />
               </div>
               {/* End Banner Img Responsive */}

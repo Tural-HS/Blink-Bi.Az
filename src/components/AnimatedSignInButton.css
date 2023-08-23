@@ -61,3 +61,16 @@
   background-color: white;
   color: black;
 }
+
+/*Main image*/
+
+.custom-margin-left-30 {
+
+}
+
+.custom-image{
+margin-bottom: 200px;
+margin-left:-17rem;
+width: 50rem;
+height:30rem;
+}
