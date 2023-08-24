@@ -16,7 +16,8 @@ import MySVG from "../images/media/process-cov.svg";
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
-import Popover from "@mui/material/Popover";
+import InputAdornment from "@mui/material/InputAdornment";
+import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
 
 function HrBusinessProcessesCoverage() {
   const [anchorEl1, setAnchorEl1] = React.useState(null);
@@ -73,7 +74,58 @@ function HrBusinessProcessesCoverage() {
     setAnchorEl6(null);
     setAnchorEl7(null);
     setAnchorEl8(null);
+    setIsMenuOpen(false);
+    setIsMenuOpen2(false);
+    setIsMenuOpen3(false);
+    setIsMenuOpen4(false);
+    setIsMenuOpen5(false);
+    setIsMenuOpen6(false);
+    setIsMenuOpen7(false);
+    setIsMenuOpen8(false);
   };
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen2, setIsMenuOpen2] = useState(false);
+  const [isMenuOpen3, setIsMenuOpen3] = useState(false);
+  const [isMenuOpen4, setIsMenuOpen4] = useState(false);
+  const [isMenuOpen5, setIsMenuOpen5] = useState(false);
+  const [isMenuOpen6, setIsMenuOpen6] = useState(false);
+  const [isMenuOpen7, setIsMenuOpen7] = useState(false);
+  const [isMenuOpen8, setIsMenuOpen8] = useState(false);
+  const handleIconClick1 = (event) => {
+    setAnchorEl1(event.currentTarget);
+    setIsMenuOpen(!isMenuOpen);
+  };
+  const handleIconClick2 = (event) => {
+    setAnchorEl2(event.currentTarget);
+    setIsMenuOpen2(!isMenuOpen2);
+  };
+  const handleIconClick3 = (event) => {
+    setAnchorEl3(event.currentTarget);
+    setIsMenuOpen3(!isMenuOpen3);
+  };
+  const handleIconClick4 = (event) => {
+    setAnchorEl4(event.currentTarget);
+    setIsMenuOpen4(!isMenuOpen4);
+  };
+  const handleIconClick5 = (event) => {
+    setAnchorEl5(event.currentTarget);
+    setIsMenuOpen5(!isMenuOpen5);
+  };
+  const handleIconClick6 = (event) => {
+    setAnchorEl6(event.currentTarget);
+    setIsMenuOpen6(!isMenuOpen6);
+  };
+  const handleIconClick7 = (event) => {
+    setAnchorEl7(event.currentTarget);
+    setIsMenuOpen7(!isMenuOpen7);
+  };
+  const handleIconClick8 = (event) => {
+    setAnchorEl8(event.currentTarget);
+    setIsMenuOpen8(!isMenuOpen8);
+  };
+
+  const [isRotated, setIsRotated] = useState(false);
+
   const context = useContext(DataContext);
   const { processesDetails, counter, price, footer } = context.allData;
   const { handleSearch, handleOffcanvas } = context;
@@ -164,20 +216,30 @@ function HrBusinessProcessesCoverage() {
                     aria-controls={open1 ? "basic-menu-1" : undefined}
                     aria-haspopup="true"
                     color="primary"
-                    aria-expanded={open1 ? "true" : undefined}
-                    onClick={handleClick1}
+                    aria-expanded={isMenuOpen ? "true" : undefined}
+                    onClick={handleIconClick1}
                     sx={{
                       width: "80rem",
 
                       justifyContent: "center",
                     }}
+                    endIcon={
+                      <KeyboardDoubleArrowDownIcon
+                        style={{
+                          transform: isMenuOpen
+                            ? "rotate(180deg)"
+                            : "rotate(0deg)",
+                          transition: "transform 0.3s ease-in-out",
+                        }}
+                      />
+                    }
                   >
                     {processesDetails.serviceList.title}
                   </Button>
                   <Menu
                     id="basic-menu-1"
                     anchorEl={anchorEl1}
-                    open={open1}
+                    open={isMenuOpen}
                     onClose={handleClose}
                     MenuListProps={{
                       "aria-labelledby": "basic-button-1",
@@ -214,19 +276,29 @@ function HrBusinessProcessesCoverage() {
                     aria-haspopup="true"
                     color="primary"
                     aria-expanded={open2 ? "true" : undefined}
-                    onClick={handleClick2}
+                    onClick={handleIconClick2}
                     sx={{
                       width: "80rem",
 
                       justifyContent: "center",
                     }}
+                    endIcon={
+                      <KeyboardDoubleArrowDownIcon
+                        style={{
+                          transform: isMenuOpen2
+                            ? "rotate(180deg)"
+                            : "rotate(0deg)",
+                          transition: "transform 0.3s ease-in-out",
+                        }}
+                      />
+                    }
                   >
                     {processesDetails.serviceList2.title}
                   </Button>
                   <Menu
                     id="basic-menu"
                     anchorEl={anchorEl2}
-                    open={open2}
+                    open={isMenuOpen2}
                     onClose={handleClose}
                     MenuListProps={{
                       "aria-labelledby": "basic-button",
@@ -264,19 +336,29 @@ function HrBusinessProcessesCoverage() {
                     aria-haspopup="true"
                     color="primary"
                     aria-expanded={open3 ? "true" : undefined}
-                    onClick={handleClick3}
+                    onClick={handleIconClick3}
                     sx={{
                       width: "80rem",
 
                       justifyContent: "center",
                     }}
+                    endIcon={
+                      <KeyboardDoubleArrowDownIcon
+                        style={{
+                          transform: isMenuOpen3
+                            ? "rotate(180deg)"
+                            : "rotate(0deg)",
+                          transition: "transform 0.3s ease-in-out",
+                        }}
+                      />
+                    }
                   >
                     {processesDetails.serviceList3.title}
                   </Button>
                   <Menu
                     id="basic-menu"
                     anchorEl={anchorEl3}
-                    open={open3}
+                    open={isMenuOpen3}
                     onClose={handleClose}
                     MenuListProps={{
                       "aria-labelledby": "basic-button",
@@ -324,19 +406,29 @@ function HrBusinessProcessesCoverage() {
                     aria-haspopup="true"
                     color="primary"
                     aria-expanded={open4 ? "true" : undefined}
-                    onClick={handleClick4}
+                    onClick={handleIconClick4}
                     sx={{
                       width: "80rem",
 
                       justifyContent: "center",
                     }}
+                    endIcon={
+                      <KeyboardDoubleArrowDownIcon
+                        style={{
+                          transform: isMenuOpen4
+                            ? "rotate(180deg)"
+                            : "rotate(0deg)",
+                          transition: "transform 0.3s ease-in-out",
+                        }}
+                      />
+                    }
                   >
                     {processesDetails.serviceList4.title}
                   </Button>
                   <Menu
                     id="basic-menu"
                     anchorEl={anchorEl4}
-                    open={open4}
+                    open={isMenuOpen4}
                     onClose={handleClose}
                     MenuListProps={{
                       "aria-labelledby": "basic-button",
@@ -376,19 +468,29 @@ function HrBusinessProcessesCoverage() {
                     aria-haspopup="true"
                     color="primary"
                     aria-expanded={open5 ? "true" : undefined}
-                    onClick={handleClick5}
+                    onClick={handleIconClick5}
                     sx={{
                       width: "80rem",
 
                       justifyContent: "center",
                     }}
+                    endIcon={
+                      <KeyboardDoubleArrowDownIcon
+                        style={{
+                          transform: isMenuOpen5
+                            ? "rotate(180deg)"
+                            : "rotate(0deg)",
+                          transition: "transform 0.3s ease-in-out",
+                        }}
+                      />
+                    }
                   >
                     {processesDetails.serviceList5.title}
                   </Button>
                   <Menu
                     id="basic-menu"
                     anchorEl={anchorEl5}
-                    open={open5}
+                    open={isMenuOpen5}
                     onClose={handleClose}
                     MenuListProps={{
                       "aria-labelledby": "basic-button",
@@ -426,19 +528,29 @@ function HrBusinessProcessesCoverage() {
                     aria-haspopup="true"
                     color="primary"
                     aria-expanded={open6 ? "true" : undefined}
-                    onClick={handleClick6}
+                    onClick={handleIconClick6}
                     sx={{
                       width: "80rem",
 
                       justifyContent: "center",
                     }}
+                    endIcon={
+                      <KeyboardDoubleArrowDownIcon
+                        style={{
+                          transform: isMenuOpen6
+                            ? "rotate(180deg)"
+                            : "rotate(0deg)",
+                          transition: "transform 0.3s ease-in-out",
+                        }}
+                      />
+                    }
                   >
                     {processesDetails.serviceList6.title}
                   </Button>
                   <Menu
                     id="basic-menu"
                     anchorEl={anchorEl6}
-                    open={open6}
+                    open={isMenuOpen6}
                     onClose={handleClose}
                     MenuListProps={{
                       "aria-labelledby": "basic-button",
@@ -476,19 +588,29 @@ function HrBusinessProcessesCoverage() {
                     aria-haspopup="true"
                     color="primary"
                     aria-expanded={open7 ? "true" : undefined}
-                    onClick={handleClick7}
+                    onClick={handleIconClick7}
                     sx={{
                       width: "80rem",
 
                       justifyContent: "center",
                     }}
+                    endIcon={
+                      <KeyboardDoubleArrowDownIcon
+                        style={{
+                          transform: isMenuOpen7
+                            ? "rotate(180deg)"
+                            : "rotate(0deg)",
+                          transition: "transform 0.3s ease-in-out",
+                        }}
+                      />
+                    }
                   >
                     {processesDetails.serviceList7.title}
                   </Button>
                   <Menu
                     id="basic-menu"
                     anchorEl={anchorEl7}
-                    open={open7}
+                    open={isMenuOpen7}
                     onClose={handleClose}
                     MenuListProps={{
                       "aria-labelledby": "basic-button",
@@ -526,19 +648,29 @@ function HrBusinessProcessesCoverage() {
                     aria-haspopup="true"
                     color="primary"
                     aria-expanded={open8 ? "true" : undefined}
-                    onClick={handleClick8}
+                    onClick={handleIconClick8}
                     sx={{
                       width: "80rem",
 
                       justifyContent: "center",
                     }}
+                    endIcon={
+                      <KeyboardDoubleArrowDownIcon
+                        style={{
+                          transform: isMenuOpen8
+                            ? "rotate(180deg)"
+                            : "rotate(0deg)",
+                          transition: "transform 0.3s ease-in-out",
+                        }}
+                      />
+                    }
                   >
                     {processesDetails.serviceList8.title}
                   </Button>
                   <Menu
                     id="basic-menu"
                     anchorEl={anchorEl8}
-                    open={open8}
+                    open={isMenuOpen8}
                     onClose={handleClose}
                     MenuListProps={{
                       "aria-labelledby": "basic-button",
