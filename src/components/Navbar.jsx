@@ -306,18 +306,38 @@ class Navbar extends Component {
                         <Dropdown.Item
                           onClick={() => this.handleLanguageChange("en")}
                         >
-                          <img src={Flag1} alt="Flag" className="pulse" />
+                          <img
+                            src={Flag1}
+                            alt="Flag"
+                            className="pulse"
+                            style={{ width: "25px", height: "25px" }}
+                          />
                         </Dropdown.Item>
                         <Dropdown.Item
                           onClick={() => this.handleLanguageChange("tr")}
                         >
-                          <img src={Flag2} alt="Flag" className="pulse" />
+                          <img
+                            src={Flag2}
+                            alt="Flag"
+                            className="pulse"
+                            style={{ width: "25px", height: "25px" }}
+                          />
                         </Dropdown.Item>
                         <Dropdown.Item href="#">
-                          <img src={Flag3} alt="Flag" className="pulse" />
+                          <img
+                            src={Flag3}
+                            alt="Flag"
+                            className="pulse"
+                            style={{ width: "25x", height: "25px" }}
+                          />
                         </Dropdown.Item>
                         <Dropdown.Item href="#">
-                          <img src={Flag4} alt="Flag" className="pulse" />
+                          <img
+                            src={Flag4}
+                            alt="Flag"
+                            className="pulse"
+                            style={{ width: "25px", height: "25px" }}
+                          />
                         </Dropdown.Item>
                       </Dropdown.Menu>
                     </Dropdown>

@@ -616,7 +616,7 @@
                 "text": "(+994 51) 270 9333",
                 "link": "(+994 51) 270 9333"
             },
-            "location": "AZ1000 Azerbaijan, Baku"
+            "location": "Huseyn Javid ave. 25, Bilisim Vadisi Technology Development Zone, Baku, AZ1073"
         },
         "widgetServices": {
             "title": "Services",
@@ -1140,7 +1140,8 @@
 
     "lawsDetails": {
         "title": "In compliance with the laws&regulations",
-        "desc": "All business processes and calculations are designed to be proceed in compliance with Labour Code of the Ministry of Labour and Social Protection of Population and taxation laws of State Tax Service under the Ministry of the Economy. In case of updates to laws and regulations our team releases immediate software updates and announces about them through web-site and personal contact channels. ",
+        "desc": "All business processes and calculations are designed to be proceed in compliance with Labour Code of the Ministry of Labour and Social Protection of Population and taxation laws of State Tax Service under the Ministry of the Economy. In case of updates to laws and regulations our team releases immediate software updates and announces about them through web-site and personal contact channels.   ",
+        "desc2":"More than that, based on data collected during daily business processes our product automatically creates necessary report named Unified Declaration to be presented to Ministry of Labor and Population Protection of the Republic of Azerbaijan every month. ",
         "btn": {
             "url": "#",
             "text": "Get in now"
@@ -1181,7 +1182,8 @@
 
     "supportDetails": {
         "title": "Fast and professional Support",
-        "desc": " Blink-BI support team continuously monitors application logs and resource utilization logs to help resolve possible difficulties before our customers face unwanted consequences. The team operates within the boundaries of strict SLAs. Opened tickets are responded in an operative manner in accordance with risks (impacts and frequency)",
+        "desc": " Blink-BI support team continuously monitors application logs and resource utilization logs to help resolve possible difficulties before our customers face unwanted consequences. The team operates within the boundaries of strict SLAs. Opened tickets are responded in an operative manner in accordance with risks (impacts and frequency) through internal live chat within product.",
+        "desc2" :"According to support plan chosen by customer our professional team is capable of providing 5/8 or 7/24 support.",
         "btn": {
             "url": "#",
             "text": "Get in now"

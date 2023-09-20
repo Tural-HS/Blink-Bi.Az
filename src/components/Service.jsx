@@ -17,17 +17,7 @@ function Service({ data, classText, styleTwo, styleThree }) {
         <Row>
           <Col>
             {/* Section Title */}
-            <Title
-              title={data.title}
-              subtitle={data.desc}
-              classText={`${
-                styleTwo
-                  ? "title-shape title-shape-sky-blue text-center"
-                  : styleThree
-                  ? "title-shape title-shape-c2 title-shape-style-three text-center"
-                  : "title-shape text-center"
-              }`}
-            />
+
             {/* End Section Title */}
           </Col>
         </Row>

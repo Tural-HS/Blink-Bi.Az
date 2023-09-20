@@ -64,13 +64,13 @@
 
 /*Main image*/
 
-.custom-margin-left-30 {
 
-}
 
 .custom-image{
 margin-bottom: 200px;
-margin-left:-17rem;
+margin-left:-10rem;
+margin-top: 3rem;
 width: 50rem;
 height:30rem;
 }
+

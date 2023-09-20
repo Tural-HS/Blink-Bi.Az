@@ -1,83 +1,10 @@
-.image-container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 140vh;
 
+
+.laptop-svg {
+  width: 200%; 
+  height: auto; 
+  margin-right:40%;
+  transform: translateX(-50%); 
+  margin-top: 5rem;
 }
 
-.screenshot-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 59.2%;
-  height: 55%;
-  max-width: 100%;
-  max-height: 100%;
-  z-index: -1;
-}
-
-.image-container img:first-child {
-  max-width: 100%;
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-.overlay-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 24px;
-  cursor: pointer;
-}
-
-@media (max-width: 1200px) {
-  .image-container {
-    height: 50vh;
-    width: 100vh;
-  }
-}
-
-@media (max-width: 992px) {
-  .image-container {
-    height: 45vh;
-    width: 100vh;
-  }
-}
-
-@media (max-width: 768px) {
-  .image-container {
-    height: 40vh;
-    width: 100vh;
-  }
-
-  .overlay-button {
-    font-size: 18px;
-  }
-
-  .screenshot-overlay {
-    width: 80%;
-    height: 40%;
-  }
-}
-
-@media (max-width: 576px) {
-  .image-container {
-    height: 30vh;
-    width: 100%;
-  }
-
-  .overlay-button {
-    font-size: 12px;
-  }
-
-  .screenshot-overlay {
-    width: 60%;
-    height: 69%;
-  }
-}

@@ -66,12 +66,12 @@ function Footer({ data, styleTwo, styleThree }) {
                 </ul>
 
                 <div className="social-links style--two mt-4">
-                  <a href={socials.facebook_url}>
+                  {/* <a href={socials.facebook_url}>
                     <FaFacebookF />
                   </a>
                   <a href={socials.twitter_url}>
                     <FaTwitter />
-                  </a>
+                  </a> */}
                   <a href={socials.linkedin_url}>
                     <FaLinkedinIn />
                   </a>
@@ -81,7 +81,7 @@ function Footer({ data, styleTwo, styleThree }) {
                 </div>
               </div>
             </Col>
-            <Col lg={2} md={6}>
+            {/* <Col lg={2} md={6}>
               <div className="widget widget_nav_menu">
                 <h3 className="widget-title">{widgetServices.title}</h3>
                 <div className="menu-dvpn-container">
@@ -96,8 +96,8 @@ function Footer({ data, styleTwo, styleThree }) {
                   </ul>
                 </div>
               </div>
-            </Col>
-            <Col lg={3} md={6}>
+            </Col> */}
+            {/* <Col lg={3} md={6}>
               <div className="widget widget_nav_menu">
                 <h3 className="widget-title">{widgetSolutions.title}</h3>
                 <div className="menu-dvpn-container">
@@ -112,8 +112,8 @@ function Footer({ data, styleTwo, styleThree }) {
                   </ul>
                 </div>
               </div>
-            </Col>
-            <Col lg={3} md={6}>
+            </Col> */}
+            {/* <Col lg={3} md={6}>
               <div className="widget widget_recent_entries">
                 <h3 className="widget-title">{widgetRecentPost.title}</h3>
                 <ul>
@@ -132,7 +132,7 @@ function Footer({ data, styleTwo, styleThree }) {
                   })}
                 </ul>
               </div>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </div>

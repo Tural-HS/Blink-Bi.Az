@@ -1,57 +1,59 @@
-import React, { useState, useEffect } from "react";
-import mainLaptopImage from "../images/media/main-laptop.png";
-import dashboardScreenImage1 from "../images/media/dashboard_screen.png";
-import dashboardScreenImage2 from "../images/media/mezunyetMatris.png";
+import React, { useState, useEffect, useRef } from "react";
+import { useSpring, animated } from "react-spring";
+import MySVG from "../images/media/laptop.svg";
 import "./Laptop.css";
 
 const Laptop = () => {
-  const [currentScreenIndex, setCurrentScreenIndex] = useState(0);
-  const screenshotImages = [dashboardScreenImage1, dashboardScreenImage2];
-  const [autoplayEnabled, setAutoplayEnabled] = useState(true);
+  const containerRef = useRef(null);
+  const [isHalfVisible, setHalfVisible] = useState(false);
 
-  useEffect(() => {
-    if (autoplayEnabled) {
-      const interval = setInterval(() => {
-        setCurrentScreenIndex(
-          (currentScreenIndex + 1) % screenshotImages.length
-        );
-      }, 2000); // Change slide every 2 seconds
-
-      return () => {
-        clearInterval(interval);
-      };
-    }
-  }, [currentScreenIndex, autoplayEnabled]);
-
-  const moveSlide = (direction) => {
-    if (!autoplayEnabled) {
-      let newIndex = currentScreenIndex + direction;
-      if (newIndex < 0) {
-        newIndex = screenshotImages.length - 1;
-      } else if (newIndex >= screenshotImages.length) {
-        newIndex = 0;
+  const handleScroll = () => {
+    if (containerRef.current) {
+      const { top, bottom } = containerRef.current.getBoundingClientRect();
+      if (top < window.innerHeight / 2 && bottom > window.innerHeight / 2) {
+        setHalfVisible(true);
+      } else {
+        setHalfVisible(false);
       }
-      setCurrentScreenIndex(newIndex);
     }
   };
 
-  return (
-    <div className="container">
-      <div className="row">
-        <div className="col-md-6">
-          <div className="image-container">
-            <img src={mainLaptopImage} alt="Laptop" className="img-fluid" />
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
-            <img
-              className="screenshot-overlay img-fluid"
-              src={screenshotImages[currentScreenIndex]}
-              alt="Screenshot"
-            />
+  const props = useSpring({
+    opacity: isHalfVisible ? 1 : 0,
+    transform: `translateX(${isHalfVisible ? 0 : -window.innerWidth / 4}px)`,
+    config: { duration: 1000 },
+  });
+
+  return (
+    <div className="container" ref={containerRef}>
+      <div className="row">
+        <div className="col-md-10">
+          <div className="image-container">
+            <animated.div style={props}>
+              <img src={MySVG} alt="SVG Image" className="laptop-svg" />
+            </animated.div>
+          </div>
+        </div>
+        <div className="col-md-2">
+          <div className="section-title">
+            <h2
+              style={{
+                marginTop: "5rem",
+                width: "500px",
+                transform: "translateX(-70%)",
+              }}
+            >
+              Manage HR in fully automated way with CHR-BI
+            </h2>
           </div>
         </div>
       </div>
     </div>
   );
 };
-
 export default Laptop;

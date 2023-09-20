@@ -42,6 +42,7 @@ function Laws() {
                 <div className="section-title style--two text-left mb-4">
                   <h2>{lawsDetails.title}</h2>
                   <p>{lawsDetails.desc}</p>
+                  <p>{lawsDetails.desc2}</p>
                 </div>
                 {/* End Section Title */}
 

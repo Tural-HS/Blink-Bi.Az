@@ -44,9 +44,11 @@ function Banner({ data }) {
           <Row>
             <Col lg={7}>
               {/* Banner Content */}
-              <div className="banner-content">
+              <div className="banner-content ">
                 <h4>{data.subtitle}</h4>
-                <h1>{data.title}</h1>
+                <h1 style={{ fontSize: "60px", marginTop: "8rem" }}>
+                  {data.title}
+                </h1>
                 <p>{data.desc}</p>
 
                 <div className="banner-btn-group">
@@ -74,7 +76,7 @@ function Banner({ data }) {
             <Col lg={5}>
               {/* Banner Img */}
               <div class="banner-img d-none d-xl-block h-100 w-100">
-                <div class="custom-margin-left-30">
+                <div class="custom-margin-left-30 ">
                   <Lottie class="custom-image" animationData={animationData} />
                 </div>
               </div>

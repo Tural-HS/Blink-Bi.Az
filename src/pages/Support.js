@@ -39,6 +39,7 @@ function Support() {
                 <div className="section-title style--two text-left mb-4">
                   <h2>{supportDetails.title}</h2>
                   <p>{supportDetails.desc}</p>
+                  <p>{supportDetails.desc2}</p>
                 </div>
                 {/* End Section Title */}
 
