@@ -253,7 +253,7 @@
                 },
                 "link":"/single-service",
                 "title": "Fast-Secure-Reliable",
-                "desc": "Security providing you safety on the internet trice worldwide access in 47+ countries.",
+                "desc": "Our microservices-driven system, powered by Apache Kafka, excels in speed, security, and reliability.",
                 "button": {
                     "url": "#",
                     "text": "Learn More"
@@ -897,7 +897,8 @@
     },
     "serviceDetails": {
         "title": "Fast - Secure - Reliable",
-        "desc": "Short text about used technologies and diagram like in min.io (EE)",
+        "desc": "Our microservices-driven system, powered by Apache Kafka, excels in speed, security, and reliability.",
+        "desc2":"By adopting a microservices architecture and harnessing the power of Apache Kafka, our system has been optimized for exceptional speed, security, and reliability. Microservices enable us to break down complex applications into smaller, manageable components, allowing for rapid development and scalability while ensuring fault isolation. Kafka acts as the central nervous system, efficiently handling data streaming and messaging between these microservices, resulting in a robust and highly available system that can handle real-time data processing and communication with confidence and ease.",
         "btn": {
             "url": "#",
             "text": "Get in now"

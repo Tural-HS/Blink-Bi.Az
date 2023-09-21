@@ -38,7 +38,8 @@ function SingleService() {
               <div className="content pl-lg-3 pl-0">
                 <div className="section-title style--two text-left mb-4">
                   <h2>{serviceDetails.title}</h2>
-                  <p>{serviceDetails.desc}</p>
+                  {/* <p>{serviceDetails.desc}</p> */}
+                  <p>{serviceDetails.desc2}</p>
                 </div>
               </div>
             </Col>

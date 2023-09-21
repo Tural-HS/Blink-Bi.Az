@@ -3,6 +3,7 @@ import Loading from "./Loading";
 import Title from "./Title";
 import { useSpring, animated } from "react-spring";
 import { Container, Row, Col } from "react-bootstrap";
+import MySVG from "../images/media/Blink.svg";
 
 const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2];
 const trans1 = (x, y) => `translate3d(${(x * -1) / 85}px,${(y * -1) / 85}px,0)`;
@@ -32,33 +33,11 @@ function Solution({ data, classText, styleTwo }) {
         <Container>
           <Row>
             <Col lg={6}>
-              <div className="solution-img d-none d-xl-block">
-                <img
-                  src={publicUrl + data.images.mainImg.url}
-                  alt={publicUrl + data.images.mainImg.alt}
-                />
-
-                <animated.img
-                  style={{ transform: props.xy.interpolate(trans1) }}
-                  src={publicUrl + data.images.man.url}
-                  alt={publicUrl + data.images.man.alt}
-                  className="s_man"
-                />
-
-                <animated.img
-                  style={{ transform: props.xy.interpolate(trans1) }}
-                  src={publicUrl + data.images.woman.url}
-                  alt={publicUrl + data.images.woman.alt}
-                  className="s_woman"
-                />
-              </div>
-              <div className="solution-img-responsive d-xl-none">
-                <img
-                  src={publicUrl + data.images.fullImg.url}
-                  alt={publicUrl + data.images.fullImg.alt}
-                />
-              </div>
-
+              <img
+                src={MySVG}
+                alt="SVG Image"
+                style={{ marginBottom: "2rem" }}
+              />
               {data.itemsLeft.map((item, index) => {
                 return (
                   <div
