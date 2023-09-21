@@ -223,6 +223,7 @@ class Navbar extends Component {
                             <NavLink to="#" activeStyle={this.style}>
                               CHR-BI
                             </NavLink>
+
                             <ul className="sub-menu">
                               <li>
                                 <NavLink
@@ -232,21 +233,45 @@ class Navbar extends Component {
                                   Demo
                                 </NavLink>
                               </li>
-                              <li>
-                                <NavLink
-                                  to="/single-blog"
-                                  activeStyle={this.style}
-                                >
-                                  Updates
-                                </NavLink>
-                              </li>
                             </ul>
+                          </li>
+                          <li style={{ backgroundColor: "#E5E7EB" }}>
+                            <NavLink
+                              to="#"
+                              activeStyle={this.style}
+                              className="text-muted"
+                            >
+                              KPI-BI (Upcoming)
+                            </NavLink>
+                          </li>
+                          <li
+                            style={{
+                              backgroundColor: "#E5E7EB",
+                            }}
+                          >
+                            <NavLink
+                              to="#"
+                              activeStyle={this.style}
+                              className="text-muted"
+                            >
+                              RM-BI (Upcoming)
+                            </NavLink>
+                          </li>
+                          <li style={{ backgroundColor: "#E5E7EB" }}>
+                            <NavLink
+                              to="#"
+                              activeStyle={this.style}
+                              className="text-muted"
+                            >
+                              BBY-AI (Upcoming)
+                            </NavLink>
                           </li>
                         </ul>
                       </li>
+
                       <li>
                         <NavLink to="#">News</NavLink>
-                        <ul className="sub-menu">
+                        {/* <ul className="sub-menu">
                           <li>
                             <NavLink to="/blog" activeStyle={this.style}>
                               Blog
@@ -257,7 +282,7 @@ class Navbar extends Component {
                               Blog Details
                             </NavLink>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
                       <li>
                         <NavLink to="/contact">Contact Us</NavLink>
@@ -302,9 +327,10 @@ class Navbar extends Component {
                       </Dropdown.Toggle>
 
                       {/* Apply the "animated" class to the Dropdown.Menu component */}
-                      <Dropdown.Menu className="animated">
+                      <Dropdown.Menu className="animated ">
                         <Dropdown.Item
                           onClick={() => this.handleLanguageChange("en")}
+                          style={{}}
                         >
                           <img
                             src={Flag1}
@@ -346,14 +372,7 @@ class Navbar extends Component {
                   {/* End Language */}
 
                   {/* Offcanvas Triggar */}
-                  <div
-                    className="offcanvas-trigger ml-3 mr-2 mr-sm-0"
-                    onClick={this.props.handler.handleOffcanvas}
-                  >
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
+
                   {/* End Offcanvas Triggar */}
                 </div>
               </Col>

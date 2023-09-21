@@ -613,8 +613,8 @@
                 "link": "info@blink-bi.az"
             },
             "phone": {
-                "text": "(+994 51) 270 9333",
-                "link": "(+994 51) 270 9333"
+                "text": "(+994 51) 270 93 33",
+                "link": "(+994 51) 270 93 33"
             },
             "location": "Huseyn Javid ave. 25, Bilisim Vadisi Technology Development Zone, Baku, AZ1073"
         },
@@ -702,8 +702,8 @@
         "copyrightText": {
             "firstText": "Copyright © 2021",
             "lastText": "All Rights Reserved.",
-            "linkText": "Dvpn.",
-            "link": "https://themelooks.net/demo/dvpn/react/preview"
+            "linkText": "Blink-Bi",
+            "link": "#"
         }
     },
     "offcanvas": {
@@ -1417,24 +1417,21 @@
         "desc": "It is a long e stablished facts that reader will be distracted",
         "phone": [
             {
-                "text": "(202) 255 5421",
-                "link": "2022555421"
-            },
-            {
-                "text": "(202) 255 5421",
-                "link": "2022555421"
+                "text": "(+994 51) 270 93 33",
+                "link": "(+994 51) 270 93 33"
             }
+          
         ],
         "email": [
             {
-                "text": "info.dvpn@dvpn.com",
-                "link": "info.dvpn@dvpn.com"
+                "text": "info@blink-bi.az",
+                "link": "info@blink-bi.az"
             },
             {
-                "text": "support@dvpn.com",
-                "link": "support@dvpn.com"
+                "text": "info@blink-bi.az",
+                "link": "info@blink-bi.az"
             }
         ],
-        "location": "27 Division St, New York, NY 1002 United States of America"
+        "location": "Huseyn Javid ave. 25, Bilisim Vadisi Technology Development Zone, Baku, AZ1073"
     }
 }

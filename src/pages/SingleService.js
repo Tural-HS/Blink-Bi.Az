@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 import MySVG from "../images/media/fast-secure.svg";
+import MySVG2 from "../images/media/shart.svg";
 
 function SingleService() {
   const context = useContext(DataContext);
@@ -42,7 +43,16 @@ function SingleService() {
               </div>
             </Col>
           </Row>
-          <Row></Row>
+          <Row>
+            {" "}
+            <div className="chart">
+              <img
+                src={MySVG2}
+                alt="SVG Image"
+                style={{ width: "1200px", height: "800px" }}
+              />
+            </div>
+          </Row>
         </Container>
       </section>
 

@@ -30,37 +30,32 @@
   animation: fadeIn 0.3s;
   opacity: 0;
   transition: opacity 0.2s;
-  background-color: transparent; /* Set the background color to transparent */
-  border: none; /* Remove the border */
-  box-shadow: none; /* Remove any box shadow */
+  background-color: transparent; 
+  border: none; 
+  box-shadow: none; 
+  
+
 }
 
-/* On hover, change the opacity to make the dropdown icons fully visible */
+
 .dropdown:hover .dropdown-menu.animated {
   opacity: 1;
-  border-radius: 100%
- ; /* Change the background color on hover */
-}
-/* Add the pulse effect to the flag icons inside the dropdown */
-.dropdown-menu img.pulse {
-  animation: pulse 5s infinite;
+  border-radius: 100%;
+  
 }
 
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
+.flag-dropdown .dropdown-item:hover {
+  background-color: transparent; 
+  border-radius: 20%; 
+  width: 1px;
 }
+
 .animated-sign-in-button.active {
   background-color: white;
   color: black;
+
 }
+
 
 /*Main image*/
 
