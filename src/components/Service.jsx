@@ -43,14 +43,14 @@ function Service({ data, classText, styleTwo, styleThree }) {
                   </div>
                   <div
                     className="service-content "
-                    style={{ minHeight: "200px" }}
+                    style={{ minHeight: "220px" }}
                   >
                     <h3>{item.title}</h3>
                     <p>{item.desc}</p>
-                    <Link to={item.link} className="btn-link">
-                      {item.button.text} <FaArrowRight />
-                    </Link>
                   </div>
+                  <Link to={item.link} className="btn-link">
+                    {item.button.text} <FaArrowRight />
+                  </Link>
                 </div>
               </div>
             );

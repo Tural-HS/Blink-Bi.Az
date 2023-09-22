@@ -293,7 +293,7 @@
                 },
                 "link":"/all-in-one",
                 "title": "All in one platform",
-                "desc": "Security providing you safety on the internet trice worldwide access in 47+ countries.",
+                "desc": "Our software seamlessly integrates diverse platforms and functions.",
                 "button": {
                     "url": "#",
                     "text": "Learn More"
@@ -306,7 +306,7 @@
                 },
                 "link":"/laws-regulations",
                 "title": "In compliance with the laws & regulations",
-                "desc": "Security providing you safety on the internet trice worldwide access in 47+ countries.",
+                "desc": "Our software prioritizes compliance with laws and regulations across all business processes.",
                 "button": {
                     "url": "#",
                     "text": "Learn More"
@@ -319,7 +319,7 @@
                 },
                 "link":"/support",
                 "title": "Fast and Professional support",
-                "desc": "Security providing you safety on the internet trice worldwide access in 47+ countries.",
+                "desc": "Swift and expert support – we've got you covered",
                 "button": {
                     "url": "#",
                     "text": "Learn More"
@@ -972,33 +972,36 @@
           "listItems": [
     "• Completely flexible",
     "• No naming dependencies",
-    "• No solid structure dependencies"
+    "• No solid structure dependencies",
+    "• Entire organizational structure change management"
+    
+
 ]
 
         },
         "serviceList2": {
-            "title": "Recruitment",
+            "title": "Recruitment BP (integrated with EMAS system)",
             "listItems": [
-                "• Employee input to the system",
-                "• Creation and management of positions and staffs",
-                "• Potential employee lists (LinkedIn & Applicant's DB)",
-                "• Documents signing (application form & order)"
+                "• Registration of new employees manually or getting available information by FIN & MYI (Ministry of Internal Affairs & State Migration Services APIs) "
+             
             ]
             
 
         },
         "serviceList3": {
-            "title": "Vocation Management",
+            "title": "Vacation BP",
             "listItems": [
-                "• Vocation Application",
-                "• Step-by-Step Vocation Approval Matrix"
+                "• Creation of vacation request",
+                "• Step-by-step vacation approval matrix",
+                "• HR review and interference in case of necessity to entire BP"
+                
             ]
             
             
 
         },
         "serviceList4": {
-            "title": "Business Trip Management",
+            "title": "Business Trip BP",
             "listItems": [
                 "• Business Trip fee calculation",
                 "• Business Trip inventory management"
@@ -1009,14 +1012,11 @@
 
         },
         "serviceList5": {
-            "title": "Salary Calculation",
+            "title": "Salary and Tax Calculations BP",
             "listItems": [
-                "• Social Statuses",
-                "• Vocations",
-                "• Business Trips",
-                "• Overtimes",
-                "• Staff tables",
-                "• Attendances"
+                "• Automatic Salary Calculation",
+                "• Automatic Tax Calculation and Report Creation"
+               
             ]
 
         },
