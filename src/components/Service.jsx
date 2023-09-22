@@ -25,7 +25,7 @@ function Service({ data, classText, styleTwo, styleThree }) {
           {data.items.map((item, index) => {
             let active = index === 1 ? "active" : "";
             return (
-              <div key={index} className="col-lg-4 col-md-6">
+              <div key={index} className="col-lg-4 col-md-6 ">
                 <div
                   className={`single-service hover-effect ${
                     styleTwo
@@ -35,13 +35,16 @@ function Service({ data, classText, styleTwo, styleThree }) {
                       : ""
                   }`}
                 >
-                  <div className="service-icon">
+                  <div className="service-icon ">
                     <img
                       src={publicUrl + item.img.url}
                       alt={publicUrl + item.img.alt}
                     />
                   </div>
-                  <div className="service-content">
+                  <div
+                    className="service-content "
+                    style={{ minHeight: "200px" }}
+                  >
                     <h3>{item.title}</h3>
                     <p>{item.desc}</p>
                     <Link to={item.link} className="btn-link">
