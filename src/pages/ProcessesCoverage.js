@@ -452,11 +452,7 @@ function HrBusinessProcessesCoverage() {
                         {processesDetails.serviceList7.title}
                       </Typography>
                     </AccordionSummary>
-                    <AccordionDetails
-                      sx={{
-                        fontWeight: "400px",
-                      }}
-                    >
+                    <AccordionDetails>
                       {processesDetails.serviceList7.listItems.map(
                         (item, index) => {
                           return <Typography key={index}>{item}</Typography>;
@@ -466,11 +462,7 @@ function HrBusinessProcessesCoverage() {
                   </Accordion>
                 </div>
                 <div className="col-6 col-md-12 mb-4">
-                  <Accordion
-                    sx={{
-                      width: "30rem",
-                    }}
-                  >
+                  <Accordion>
                     <AccordionSummary
                       expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
                       aria-controls="panel1a-content"
