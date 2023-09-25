@@ -218,7 +218,7 @@ function HrBusinessProcessesCoverage() {
             {/* Service List */}
             <Col lg={6}>
               <div className="col justify-content-center">
-                <div className="col-6 col-md-12 mb-4">
+                <div className="col-12 col-md-12 mb-4">
                   <Accordion>
                     <AccordionSummary
                       expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
@@ -250,7 +250,7 @@ function HrBusinessProcessesCoverage() {
                     </AccordionDetails>
                   </Accordion>
                 </div>
-                <div className="col-6 col-md-12 mb-4">
+                <div className="col-12 col-md-12 mb-4">
                   <Accordion>
                     <AccordionSummary
                       expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
@@ -280,7 +280,7 @@ function HrBusinessProcessesCoverage() {
                     </AccordionDetails>
                   </Accordion>
                 </div>
-                <div className="col-6 col-md-12 mb-4">
+                <div className="col-12 col-md-12 mb-4">
                   <Accordion>
                     <AccordionSummary
                       expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
@@ -313,7 +313,7 @@ function HrBusinessProcessesCoverage() {
                   </Accordion>
                 </div>
 
-                <div className="col-6 col-md-12 mb-4">
+                <div className="col-12 col-md-12 mb-4">
                   <Accordion>
                     <AccordionSummary
                       expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
@@ -349,7 +349,7 @@ function HrBusinessProcessesCoverage() {
             </Col>
             <Col lg={6}>
               <div class="col ">
-                <div className="col-6 col-md-12 mb-4">
+                <div className="col-12 col-md-12 mb-4">
                   <Accordion>
                     <AccordionSummary
                       expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
@@ -381,7 +381,7 @@ function HrBusinessProcessesCoverage() {
                     </AccordionDetails>
                   </Accordion>
                 </div>
-                <div className="col-6 col-md-12 mb-4">
+                <div className="col-12 col-md-12 mb-4">
                   <Accordion>
                     <AccordionSummary
                       expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
@@ -409,7 +409,7 @@ function HrBusinessProcessesCoverage() {
                     </AccordionDetails>
                   </Accordion>
                 </div>
-                <div className="col-6 col-md-12 mb-4">
+                <div className="col-12 col-md-12 mb-4">
                   <Accordion>
                     <AccordionSummary
                       expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
