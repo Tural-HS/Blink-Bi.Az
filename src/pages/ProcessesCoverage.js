@@ -6,7 +6,7 @@ import Loading from "../components/Loading";
 import { Container, Row, Col } from "react-bootstrap";
 import Footer from "../components/Footer";
 import ModalVideo from "react-modal-video";
-import Accordion from "react-bootstrap/Accordion";
+
 import Counter from "../components/Counter";
 import Price from "../components/Price";
 import Navbar from "../components/Navbar";
@@ -18,6 +18,12 @@ import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import InputAdornment from "@mui/material/InputAdornment";
 import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
+
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import Typography from "@mui/material/Typography";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 function HrBusinessProcessesCoverage() {
   const [anchorEl1, setAnchorEl1] = React.useState(null);
@@ -171,7 +177,8 @@ function HrBusinessProcessesCoverage() {
                 <h2>{processesDetails.howItWorks.title}</h2>
                 <p>{processesDetails.howItWorks.desc}</p>
               </div>
-              {/* <Accordion className="mb-4" defaultActiveKey="0">
+            </Col>
+            {/* <Accordion className="mb-4" defaultActiveKey="0">
                 <div>
                   <Accordion.Toggle variant="link" eventKey="0">
                     <h3>{processesDetails.accordion.one.title}</h3>
@@ -208,503 +215,303 @@ function HrBusinessProcessesCoverage() {
                   </Accordion.Collapse>
                 </div>
               </Accordion> */}
-              {/* Service List */}
-              <div class="row justify-content-center">
-                <div class=" content  mb-4">
-                  <Button
-                    id="basic-button-1"
-                    aria-controls={open1 ? "basic-menu-1" : undefined}
-                    aria-haspopup="true"
-                    color="primary"
-                    aria-expanded={isMenuOpen ? "true" : undefined}
-                    onClick={handleIconClick1}
+            {/* Service List */}
+            <Col lg={6}>
+              <div className="col justify-content-center">
+                <div className="col-6 col-md-3 mb-4">
+                  <Accordion
                     sx={{
-                      width: "80rem",
+                      width: "30rem",
+                    }}
+                  >
+                    <AccordionSummary
+                      expandIcon={<ExpandMoreIcon />}
+                      aria-controls="panel1a-content"
+                      id="panel1a-header"
+                      sx={{
+                        display: "flex",
 
-                      justifyContent: "center",
-                    }}
-                    endIcon={
-                      <KeyboardDoubleArrowDownIcon
-                        style={{
-                          transform: isMenuOpen
-                            ? "rotate(180deg)"
-                            : "rotate(0deg)",
-                          transition: "transform 0.3s ease-in-out",
-                        }}
-                      />
-                    }
-                  >
-                    {processesDetails.serviceList.title}
-                  </Button>
-                  <Menu
-                    id="basic-menu-1"
-                    anchorEl={anchorEl1}
-                    open={isMenuOpen}
-                    onClose={handleClose}
-                    MenuListProps={{
-                      "aria-labelledby": "basic-button-1",
-                    }}
-                    PaperProps={{
-                      sx: {
-                        width: "100%",
-                        maxWidth: "80rem",
-                        backgroundColor: "#f8f8f8",
-                      },
-                    }}
-                  >
-                    {processesDetails.serviceList.listItems.map(
-                      (item, index) => {
-                        return (
-                          <MenuItem
-                            sx={{
-                              display: "flex",
-                              justifyContent: "center",
-                            }}
-                            key={index}
-                          >
-                            {item}
-                          </MenuItem>
-                        );
-                      }
-                    )}
-                  </Menu>
+                        backgroundColor: "#648FC5",
+                        border: "2px",
+
+                        color: "white",
+                      }}
+                    >
+                      <Typography>
+                        {processesDetails.serviceList2.title}
+                      </Typography>
+                    </AccordionSummary>
+                    <AccordionDetails
+                      sx={{
+                        fontWeight: "400px",
+                      }}
+                    >
+                      {processesDetails.serviceList.listItems.map(
+                        (item, index) => {
+                          return <Typography key={index}>{item}</Typography>;
+                        }
+                      )}
+                    </AccordionDetails>
+                  </Accordion>
                 </div>
-                <div class=" content  mb-4">
-                  <Button
-                    id="basic-button-2"
-                    aria-controls={open2 ? "basic-menu-2" : undefined}
-                    aria-haspopup="true"
-                    color="primary"
-                    aria-expanded={open2 ? "true" : undefined}
-                    onClick={handleIconClick2}
+                <div className="col-6 col-md-3 mb-4">
+                  <Accordion
                     sx={{
-                      width: "80rem",
+                      width: "30rem",
+                    }}
+                  >
+                    <AccordionSummary
+                      expandIcon={<ExpandMoreIcon />}
+                      aria-controls="panel1a-content"
+                      id="panel1a-header"
+                      sx={{
+                        backgroundColor: "#648FC5",
+                        border: "2px",
 
-                      justifyContent: "center",
-                    }}
-                    endIcon={
-                      <KeyboardDoubleArrowDownIcon
-                        style={{
-                          transform: isMenuOpen2
-                            ? "rotate(180deg)"
-                            : "rotate(0deg)",
-                          transition: "transform 0.3s ease-in-out",
-                        }}
-                      />
-                    }
-                  >
-                    {processesDetails.serviceList2.title}
-                  </Button>
-                  <Menu
-                    id="basic-menu"
-                    anchorEl={anchorEl2}
-                    open={isMenuOpen2}
-                    onClose={handleClose}
-                    MenuListProps={{
-                      "aria-labelledby": "basic-button",
-                    }}
-                    PaperProps={{
-                      sx: {
-                        width: "100%",
-                        maxWidth: "80rem",
-                        backgroundColor: "#f8f8f8",
-                      },
-                    }}
-                  >
-                    {" "}
-                    {processesDetails.serviceList2.listItems.map(
-                      (item, index) => {
-                        return (
-                          <MenuItem
-                            sx={{
-                              display: "flex",
-                              justifyContent: "center",
-                            }}
-                            key={index}
-                          >
-                            {item}
-                          </MenuItem>
-                        );
-                      }
-                    )}
-                  </Menu>
+                        color: "white",
+                      }}
+                    >
+                      <Typography>
+                        {processesDetails.serviceList.title}
+                      </Typography>
+                    </AccordionSummary>
+                    <AccordionDetails
+                      sx={{
+                        fontWeight: "400px",
+                      }}
+                    >
+                      {processesDetails.serviceList2.listItems.map(
+                        (item, index) => {
+                          return <Typography key={index}>{item}</Typography>;
+                        }
+                      )}
+                    </AccordionDetails>
+                  </Accordion>
                 </div>
-                <div class=" content  mb-4">
-                  <Button
-                    id="basic-button-3"
-                    aria-controls={open3 ? "basic-menu-3" : undefined}
-                    aria-haspopup="true"
-                    color="primary"
-                    aria-expanded={open3 ? "true" : undefined}
-                    onClick={handleIconClick3}
+                <div className="col-6 col-md-3 mb-4">
+                  <Accordion
                     sx={{
-                      width: "80rem",
+                      width: "30rem",
+                    }}
+                  >
+                    <AccordionSummary
+                      expandIcon={<ExpandMoreIcon />}
+                      aria-controls="panel1a-content"
+                      id="panel1a-header"
+                      sx={{
+                        display: "flex",
 
-                      justifyContent: "center",
-                    }}
-                    endIcon={
-                      <KeyboardDoubleArrowDownIcon
-                        style={{
-                          transform: isMenuOpen3
-                            ? "rotate(180deg)"
-                            : "rotate(0deg)",
-                          transition: "transform 0.3s ease-in-out",
-                        }}
-                      />
-                    }
-                  >
-                    {processesDetails.serviceList3.title}
-                  </Button>
-                  <Menu
-                    id="basic-menu"
-                    anchorEl={anchorEl3}
-                    open={isMenuOpen3}
-                    onClose={handleClose}
-                    MenuListProps={{
-                      "aria-labelledby": "basic-button",
-                    }}
-                    PaperProps={{
-                      sx: {
-                        width: "100%",
-                        maxWidth: "80rem",
-                        backgroundColor: "#f8f8f8",
-                      },
-                    }}
-                  >
-                    {" "}
-                    {processesDetails.serviceList3.listItems.map(
-                      (item, index) => {
-                        return (
-                          <MenuItem
-                            sx={{
-                              display: "flex",
-                              justifyContent: "center",
-                            }}
-                            key={index}
-                          >
-                            {item}
-                          </MenuItem>
-                        );
-                      }
-                    )}
-                  </Menu>
+                        backgroundColor: "#648FC5",
+                        border: "2px",
+
+                        color: "white",
+                      }}
+                    >
+                      <Typography>
+                        {processesDetails.serviceList3.title}
+                      </Typography>
+                    </AccordionSummary>
+                    <AccordionDetails
+                      sx={{
+                        fontWeight: "400px",
+                      }}
+                    >
+                      {processesDetails.serviceList3.listItems.map(
+                        (item, index) => {
+                          return <Typography key={index}>{item}</Typography>;
+                        }
+                      )}
+                    </AccordionDetails>
+                  </Accordion>
                 </div>
-                {/* <div class="col-md-2 content  mb-4">
-                  <h4 class="mb-4">{processesDetails.serviceList4.title}</h4>
-                  <ul className="service-list">
-                    {processesDetails.serviceList4.listItems.map(
-                      (item, index) => {
-                        return <li key={index}>{item}</li>;
-                      }
-                    )}
-                  </ul>
-                </div> */}
-                <div class=" content  mb-4">
-                  <Button
-                    id="basic-button-4"
-                    aria-controls={open4 ? "basic-menu-4" : undefined}
-                    aria-haspopup="true"
-                    color="primary"
-                    aria-expanded={open4 ? "true" : undefined}
-                    onClick={handleIconClick4}
-                    sx={{
-                      width: "80rem",
 
-                      justifyContent: "center",
-                    }}
-                    endIcon={
-                      <KeyboardDoubleArrowDownIcon
-                        style={{
-                          transform: isMenuOpen4
-                            ? "rotate(180deg)"
-                            : "rotate(0deg)",
-                          transition: "transform 0.3s ease-in-out",
-                        }}
-                      />
-                    }
-                  >
-                    {processesDetails.serviceList4.title}
-                  </Button>
-                  <Menu
-                    id="basic-menu"
-                    anchorEl={anchorEl4}
-                    open={isMenuOpen4}
-                    onClose={handleClose}
-                    MenuListProps={{
-                      "aria-labelledby": "basic-button",
-                    }}
-                    PaperProps={{
-                      sx: {
-                        width: "100%",
-                        maxWidth: "80rem",
-                        backgroundColor: "#f8f8f8",
-                      },
+                <div className="col-6 col-md-3 mb-4">
+                  <Accordion
+                    sx={{
+                      width: "30rem",
                     }}
                   >
-                    {" "}
-                    {processesDetails.serviceList4.listItems.map(
-                      (item, index) => {
-                        return (
-                          <MenuItem
-                            sx={{
-                              display: "flex",
-                              justifyContent: "center",
-                            }}
-                            key={index}
-                          >
-                            {item}
-                          </MenuItem>
-                        );
-                      }
-                    )}
-                  </Menu>
+                    <AccordionSummary
+                      expandIcon={<ExpandMoreIcon />}
+                      aria-controls="panel1a-content"
+                      id="panel1a-header"
+                      sx={{
+                        display: "flex",
+
+                        backgroundColor: "#648FC5",
+                        border: "2px",
+
+                        color: "white",
+                      }}
+                    >
+                      <Typography>
+                        {processesDetails.serviceList4.title}
+                      </Typography>
+                    </AccordionSummary>
+                    <AccordionDetails
+                      sx={{
+                        fontWeight: "400px",
+                      }}
+                    >
+                      {processesDetails.serviceList4.listItems.map(
+                        (item, index) => {
+                          return <Typography key={index}>{item}</Typography>;
+                        }
+                      )}
+                    </AccordionDetails>
+                  </Accordion>
                 </div>
               </div>
-              <div class="row  justify-content-center">
-                <div class="content  mb-4">
-                  <Button
-                    id="basic-button-5"
-                    aria-controls={open5 ? "basic-menu-5" : undefined}
-                    aria-haspopup="true"
-                    color="primary"
-                    aria-expanded={open5 ? "true" : undefined}
-                    onClick={handleIconClick5}
-                    sx={{
-                      width: "80rem",
-
-                      justifyContent: "center",
-                    }}
-                    endIcon={
-                      <KeyboardDoubleArrowDownIcon
-                        style={{
-                          transform: isMenuOpen5
-                            ? "rotate(180deg)"
-                            : "rotate(0deg)",
-                          transition: "transform 0.3s ease-in-out",
-                        }}
-                      />
-                    }
-                  >
-                    {processesDetails.serviceList5.title}
-                  </Button>
-                  <Menu
-                    id="basic-menu"
-                    anchorEl={anchorEl5}
-                    open={isMenuOpen5}
-                    onClose={handleClose}
-                    MenuListProps={{
-                      "aria-labelledby": "basic-button",
-                    }}
-                    PaperProps={{
-                      sx: {
-                        width: "100%",
-                        maxWidth: "80rem",
-                        backgroundColor: "#f8f8f8",
-                      },
-                    }}
-                  >
-                    {" "}
-                    {processesDetails.serviceList5.listItems.map(
-                      (item, index) => {
-                        return (
-                          <MenuItem
-                            sx={{
-                              display: "flex",
-                              justifyContent: "center",
-                            }}
-                            key={index}
-                          >
-                            {item}
-                          </MenuItem>
-                        );
-                      }
-                    )}
-                  </Menu>
-                </div>
-                <div class="content  mb-4">
-                  <Button
-                    id="basic-button-6"
-                    aria-controls={open6 ? "basic-menu-6" : undefined}
-                    aria-haspopup="true"
-                    color="primary"
-                    aria-expanded={open6 ? "true" : undefined}
-                    onClick={handleIconClick6}
-                    sx={{
-                      width: "80rem",
-
-                      justifyContent: "center",
-                    }}
-                    endIcon={
-                      <KeyboardDoubleArrowDownIcon
-                        style={{
-                          transform: isMenuOpen6
-                            ? "rotate(180deg)"
-                            : "rotate(0deg)",
-                          transition: "transform 0.3s ease-in-out",
-                        }}
-                      />
-                    }
-                  >
-                    {processesDetails.serviceList6.title}
-                  </Button>
-                  <Menu
-                    id="basic-menu"
-                    anchorEl={anchorEl6}
-                    open={isMenuOpen6}
-                    onClose={handleClose}
-                    MenuListProps={{
-                      "aria-labelledby": "basic-button",
-                    }}
-                    PaperProps={{
-                      sx: {
-                        width: "100%",
-                        maxWidth: "80rem",
-                        backgroundColor: "#f8f8f8",
-                      },
-                    }}
-                  >
-                    {" "}
-                    {processesDetails.serviceList6.listItems.map(
-                      (item, index) => {
-                        return (
-                          <MenuItem
-                            sx={{
-                              display: "flex",
-                              justifyContent: "center",
-                            }}
-                            key={index}
-                          >
-                            {item}
-                          </MenuItem>
-                        );
-                      }
-                    )}
-                  </Menu>
-                </div>
-                <div class=" content  mb-4">
-                  <Button
-                    id="basic-button-7"
-                    aria-controls={open7 ? "basic-menu-7" : undefined}
-                    aria-haspopup="true"
-                    color="primary"
-                    aria-expanded={open7 ? "true" : undefined}
-                    onClick={handleIconClick7}
-                    sx={{
-                      width: "80rem",
-
-                      justifyContent: "center",
-                    }}
-                    endIcon={
-                      <KeyboardDoubleArrowDownIcon
-                        style={{
-                          transform: isMenuOpen7
-                            ? "rotate(180deg)"
-                            : "rotate(0deg)",
-                          transition: "transform 0.3s ease-in-out",
-                        }}
-                      />
-                    }
-                  >
-                    {processesDetails.serviceList7.title}
-                  </Button>
-                  <Menu
-                    id="basic-menu"
-                    anchorEl={anchorEl7}
-                    open={isMenuOpen7}
-                    onClose={handleClose}
-                    MenuListProps={{
-                      "aria-labelledby": "basic-button",
-                    }}
-                    PaperProps={{
-                      sx: {
-                        width: "100%",
-                        maxWidth: "80rem",
-                        backgroundColor: "#f8f8f8",
-                      },
-                    }}
-                  >
-                    {" "}
-                    {processesDetails.serviceList7.listItems.map(
-                      (item, index) => {
-                        return (
-                          <MenuItem
-                            sx={{
-                              display: "flex",
-                              justifyContent: "center",
-                            }}
-                            key={index}
-                          >
-                            {item}
-                          </MenuItem>
-                        );
-                      }
-                    )}
-                  </Menu>
-                </div>
-                <div class="content  mb-4">
-                  <Button
-                    id="basic-button-8"
-                    aria-controls={open8 ? "basic-menu-8" : undefined}
-                    aria-haspopup="true"
-                    color="primary"
-                    aria-expanded={open8 ? "true" : undefined}
-                    onClick={handleIconClick8}
-                    sx={{
-                      width: "80rem",
-
-                      justifyContent: "center",
-                    }}
-                    endIcon={
-                      <KeyboardDoubleArrowDownIcon
-                        style={{
-                          transform: isMenuOpen8
-                            ? "rotate(180deg)"
-                            : "rotate(0deg)",
-                          transition: "transform 0.3s ease-in-out",
-                        }}
-                      />
-                    }
-                  >
-                    {processesDetails.serviceList8.title}
-                  </Button>
-                  <Menu
-                    id="basic-menu"
-                    anchorEl={anchorEl8}
-                    open={isMenuOpen8}
-                    onClose={handleClose}
-                    MenuListProps={{
-                      "aria-labelledby": "basic-button",
-                    }}
-                    PaperProps={{
-                      sx: {
-                        width: "100%",
-                        maxWidth: "80rem",
-                        backgroundColor: "#f8f8f8",
-                      },
-                    }}
-                  >
-                    {" "}
-                    {processesDetails.serviceList8.listItems.map(
-                      (item, index) => {
-                        return (
-                          <MenuItem
-                            sx={{
-                              display: "flex",
-                              justifyContent: "center",
-                            }}
-                            key={index}
-                          >
-                            {item}
-                          </MenuItem>
-                        );
-                      }
-                    )}
-                  </Menu>
-                </div>
-              </div>
-
-              {/* End Service List */}
             </Col>
+            <Col lg={6}>
+              <div class="col ">
+                <div className="col-6 col-md-3 mb-4">
+                  <Accordion
+                    sx={{
+                      width: "30rem",
+                    }}
+                  >
+                    <AccordionSummary
+                      expandIcon={<ExpandMoreIcon />}
+                      aria-controls="panel1a-content"
+                      id="panel1a-header"
+                      sx={{
+                        display: "flex",
+
+                        backgroundColor: "#648FC5",
+                        border: "2px",
+
+                        color: "white",
+                      }}
+                    >
+                      <Typography>
+                        {processesDetails.serviceList5.title}
+                      </Typography>
+                    </AccordionSummary>
+                    <AccordionDetails
+                      sx={{
+                        fontWeight: "400px",
+                      }}
+                    >
+                      {processesDetails.serviceList5.listItems.map(
+                        (item, index) => {
+                          return <Typography key={index}>{item}</Typography>;
+                        }
+                      )}
+                    </AccordionDetails>
+                  </Accordion>
+                </div>
+                <div className="col-6 col-md-3 mb-4">
+                  <Accordion
+                    sx={{
+                      width: "30rem",
+                    }}
+                  >
+                    <AccordionSummary
+                      expandIcon={<ExpandMoreIcon />}
+                      aria-controls="panel1a-content"
+                      id="panel1a-header"
+                      sx={{
+                        display: "flex",
+
+                        backgroundColor: "#648FC5",
+                        border: "2px",
+
+                        color: "white",
+                      }}
+                    >
+                      <Typography>
+                        {processesDetails.serviceList6.title}
+                      </Typography>
+                    </AccordionSummary>
+                    <AccordionDetails
+                      sx={{
+                        fontWeight: "400px",
+                      }}
+                    >
+                      {processesDetails.serviceList6.listItems.map(
+                        (item, index) => {
+                          return <Typography key={index}>{item}</Typography>;
+                        }
+                      )}
+                    </AccordionDetails>
+                  </Accordion>
+                </div>
+                <div className="col-6 col-md-3 mb-4">
+                  <Accordion
+                    sx={{
+                      width: "30rem",
+                    }}
+                  >
+                    <AccordionSummary
+                      expandIcon={<ExpandMoreIcon />}
+                      aria-controls="panel1a-content"
+                      id="panel1a-header"
+                      sx={{
+                        display: "flex",
+
+                        backgroundColor: "#648FC5",
+                        border: "2px",
+
+                        color: "white",
+                      }}
+                    >
+                      <Typography>
+                        {processesDetails.serviceList7.title}
+                      </Typography>
+                    </AccordionSummary>
+                    <AccordionDetails
+                      sx={{
+                        fontWeight: "400px",
+                      }}
+                    >
+                      {processesDetails.serviceList7.listItems.map(
+                        (item, index) => {
+                          return <Typography key={index}>{item}</Typography>;
+                        }
+                      )}
+                    </AccordionDetails>
+                  </Accordion>
+                </div>
+                <div className="col-6 col-md-3 mb-4">
+                  <Accordion
+                    sx={{
+                      width: "30rem",
+                    }}
+                  >
+                    <AccordionSummary
+                      expandIcon={<ExpandMoreIcon />}
+                      aria-controls="panel1a-content"
+                      id="panel1a-header"
+                      sx={{
+                        display: "flex",
+
+                        backgroundColor: "#648FC5",
+                        border: "2px",
+
+                        color: "white",
+                      }}
+                    >
+                      <Typography>
+                        {processesDetails.serviceList8.title}
+                      </Typography>
+                    </AccordionSummary>
+                    <AccordionDetails
+                      sx={{
+                        fontWeight: "400px",
+                      }}
+                    >
+                      {processesDetails.serviceList8.listItems.map(
+                        (item, index) => {
+                          return <Typography key={index}>{item}</Typography>;
+                        }
+                      )}
+                    </AccordionDetails>
+                  </Accordion>
+                </div>
+              </div>
+            </Col>
+            {/* End Service List */}
           </Row>
         </Container>
       </section>
