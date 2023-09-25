@@ -440,7 +440,8 @@ function HrBusinessProcessesCoverage() {
                 <div className="col-6 col-md-3 mb-4">
                   <Accordion
                     sx={{
-                      width: "30rem",
+                      width: "490%",
+                      maxWidth: "30rem",
                     }}
                   >
                     <AccordionSummary
