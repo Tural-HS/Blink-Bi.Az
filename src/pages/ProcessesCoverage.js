@@ -441,7 +441,7 @@ function HrBusinessProcessesCoverage() {
                   <Accordion
                     sx={{
                       width: "490%",
-                      maxWidth: "30rem",
+                      minWidth: "10rem",
                     }}
                   >
                     <AccordionSummary
