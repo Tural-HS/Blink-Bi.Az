@@ -939,14 +939,14 @@
 
 
     "processesDetails": {
-        "title": "Coverage Of All Bussines Processes",
+        "title": "Coverage Of All Busines Processes",
     "desc": "Our product was created with donorship of a professional HR team that has been employed in governmental as well as private sectors. Blink-HR covers all business processes starting from recruitment to dismission.",
         "btn": {
             "url": "#",
             "text": "Get in now"
         },
         "howItWorks": {
-            "title": "Business Processes:",
+            "title": "Business Processes",
             "desc": ""
         },
         "accordion": {

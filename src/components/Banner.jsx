@@ -46,7 +46,7 @@ function Banner({ data }) {
               {/* Banner Content */}
               <div className="banner-content ">
                 <h4>{data.subtitle}</h4>
-                <h1 style={{ fontSize: "60px", marginTop: "8rem" }}>
+                <h1 style={{ fontSize: "57px", marginTop: "8rem" }}>
                   {data.title}
                 </h1>
                 <p>{data.desc}</p>
