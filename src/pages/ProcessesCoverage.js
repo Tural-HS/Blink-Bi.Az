@@ -218,7 +218,7 @@ function HrBusinessProcessesCoverage() {
             {/* Service List */}
             <Col lg={6}>
               <div className="col justify-content-center">
-                <div className="col-6 col-md-3 mb-4">
+                <div className="col-6 col-md-12 mb-4">
                   <Accordion
                     sx={{
                       width: "30rem",
@@ -254,7 +254,7 @@ function HrBusinessProcessesCoverage() {
                     </AccordionDetails>
                   </Accordion>
                 </div>
-                <div className="col-6 col-md-3 mb-4">
+                <div className="col-6 col-md-12 mb-4">
                   <Accordion
                     sx={{
                       width: "30rem",
@@ -288,7 +288,7 @@ function HrBusinessProcessesCoverage() {
                     </AccordionDetails>
                   </Accordion>
                 </div>
-                <div className="col-6 col-md-3 mb-4">
+                <div className="col-6 col-md-12 mb-4">
                   <Accordion
                     sx={{
                       width: "30rem",
@@ -325,7 +325,7 @@ function HrBusinessProcessesCoverage() {
                   </Accordion>
                 </div>
 
-                <div className="col-6 col-md-3 mb-4">
+                <div className="col-6 col-md-12 mb-4">
                   <Accordion
                     sx={{
                       width: "30rem",
@@ -365,7 +365,7 @@ function HrBusinessProcessesCoverage() {
             </Col>
             <Col lg={6}>
               <div class="col ">
-                <div className="col-6 col-md-3 mb-4">
+                <div className="col-6 col-md-12 mb-4">
                   <Accordion
                     sx={{
                       width: "30rem",
@@ -401,7 +401,7 @@ function HrBusinessProcessesCoverage() {
                     </AccordionDetails>
                   </Accordion>
                 </div>
-                <div className="col-6 col-md-3 mb-4">
+                <div className="col-6 col-md-12 mb-4">
                   <Accordion
                     sx={{
                       width: "30rem",
@@ -424,11 +424,7 @@ function HrBusinessProcessesCoverage() {
                         {processesDetails.serviceList6.title}
                       </Typography>
                     </AccordionSummary>
-                    <AccordionDetails
-                      sx={{
-                        fontWeight: "400px",
-                      }}
-                    >
+                    <AccordionDetails>
                       {processesDetails.serviceList6.listItems.map(
                         (item, index) => {
                           return <Typography key={index}>{item}</Typography>;
@@ -437,13 +433,8 @@ function HrBusinessProcessesCoverage() {
                     </AccordionDetails>
                   </Accordion>
                 </div>
-                <div className="col-6 col-md-3 mb-4">
-                  <Accordion
-                    sx={{
-                      width: "490%",
-                      minWidth: "10rem",
-                    }}
-                  >
+                <div className="col-6 col-md-12 mb-4">
+                  <Accordion>
                     <AccordionSummary
                       expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
                       aria-controls="panel1a-content"
@@ -474,7 +465,7 @@ function HrBusinessProcessesCoverage() {
                     </AccordionDetails>
                   </Accordion>
                 </div>
-                <div className="col-6 col-md-3 mb-4">
+                <div className="col-6 col-md-12 mb-4">
                   <Accordion
                     sx={{
                       width: "30rem",
