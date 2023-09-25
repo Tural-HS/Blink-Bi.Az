@@ -24,7 +24,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-
+import Box from "@mui/icons-material/ExpandMore";
 function HrBusinessProcessesCoverage() {
   const [anchorEl1, setAnchorEl1] = React.useState(null);
   const [anchorEl2, setAnchorEl2] = React.useState(null);
@@ -222,8 +222,6 @@ function HrBusinessProcessesCoverage() {
                   <Accordion
                     sx={{
                       width: "30rem",
-                      margin: "0 auto",
-                      maxWidth: "30rem",
                     }}
                   >
                     <AccordionSummary
@@ -290,6 +288,36 @@ function HrBusinessProcessesCoverage() {
                     </AccordionDetails>
                   </Accordion>
                 </div>
+
+                <Container maxWidth="md">
+                  <Box display="flex" justifyContent="center">
+                    <Accordion sx={{ width: "100%" }}>
+                      <AccordionSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                        sx={{
+                          backgroundColor: "#648FC5",
+                          color: "white",
+                          width: "100%",
+                        }}
+                      >
+                        <Typography>
+                          {processesDetails.serviceList2.title}
+                        </Typography>
+                      </AccordionSummary>
+                      <AccordionDetails>
+                        <Box>
+                          {processesDetails.serviceList.listItems.map(
+                            (item, index) => (
+                              <Typography key={index}>{item}</Typography>
+                            )
+                          )}
+                        </Box>
+                      </AccordionDetails>
+                    </Accordion>
+                  </Box>
+                </Container>
                 <div className="col-6 col-md-3 mb-4">
                   <Accordion
                     sx={{
