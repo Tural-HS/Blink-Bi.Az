@@ -227,14 +227,14 @@ function HrBusinessProcessesCoverage() {
                       sx={{
                         display: "flex",
 
-                        backgroundColor: "#648FC5",
+                        backgroundColor: "#054388",
                         border: "2px",
 
                         color: "white",
                       }}
                     >
                       <Typography>
-                        {processesDetails.serviceList2.title}
+                        {processesDetails.serviceList.title}
                       </Typography>
                     </AccordionSummary>
                     <AccordionDetails
@@ -257,14 +257,14 @@ function HrBusinessProcessesCoverage() {
                       aria-controls="panel1a-content"
                       id="panel1a-header"
                       sx={{
-                        backgroundColor: "#648FC5",
+                        backgroundColor: "#054388",
                         border: "2px",
 
                         color: "white",
                       }}
                     >
                       <Typography>
-                        {processesDetails.serviceList.title}
+                        {processesDetails.serviceList2.title}
                       </Typography>
                     </AccordionSummary>
                     <AccordionDetails
@@ -277,6 +277,40 @@ function HrBusinessProcessesCoverage() {
                           return <Typography key={index}>{item}</Typography>;
                         }
                       )}
+                      <Accordion>
+                        <AccordionSummary
+                          expandIcon={
+                            <ExpandMoreIcon sx={{ color: "white" }} />
+                          }
+                          aria-controls="panel1a-content"
+                          id="panel1a-header"
+                          sx={{
+                            display: "flex",
+
+                            backgroundColor: "#648FC5",
+                            border: "2px",
+
+                            color: "white",
+                          }}
+                        >
+                          <Typography>
+                            {processesDetails.serviceListEnd.title}
+                          </Typography>
+                        </AccordionSummary>
+                        <AccordionDetails
+                          sx={{
+                            fontWeight: "400px",
+                          }}
+                        >
+                          {processesDetails.serviceListEnd.listItems.map(
+                            (item, index) => {
+                              return (
+                                <Typography key={index}>{item}</Typography>
+                              );
+                            }
+                          )}
+                        </AccordionDetails>
+                      </Accordion>
                     </AccordionDetails>
                   </Accordion>
                 </div>
@@ -289,7 +323,7 @@ function HrBusinessProcessesCoverage() {
                       sx={{
                         display: "flex",
 
-                        backgroundColor: "#648FC5",
+                        backgroundColor: "#054388",
                         border: "2px",
 
                         color: "white",
@@ -304,11 +338,40 @@ function HrBusinessProcessesCoverage() {
                         fontWeight: "400px",
                       }}
                     >
-                      {processesDetails.serviceList3.listItems.map(
-                        (item, index) => {
-                          return <Typography key={index}>{item}</Typography>;
-                        }
-                      )}
+                      <Accordion>
+                        <AccordionSummary
+                          expandIcon={
+                            <ExpandMoreIcon sx={{ color: "white" }} />
+                          }
+                          aria-controls="panel1a-content"
+                          id="panel1a-header"
+                          sx={{
+                            display: "flex",
+
+                            backgroundColor: "#648FC5",
+                            border: "2px",
+
+                            color: "white",
+                          }}
+                        >
+                          <Typography>
+                            {processesDetails.serviceListVac.title}
+                          </Typography>
+                        </AccordionSummary>
+                        <AccordionDetails
+                          sx={{
+                            fontWeight: "400px",
+                          }}
+                        >
+                          {processesDetails.serviceListVac.listItems.map(
+                            (item, index) => {
+                              return (
+                                <Typography key={index}>{item}</Typography>
+                              );
+                            }
+                          )}
+                        </AccordionDetails>
+                      </Accordion>
                     </AccordionDetails>
                   </Accordion>
                 </div>
@@ -322,7 +385,7 @@ function HrBusinessProcessesCoverage() {
                       sx={{
                         display: "flex",
 
-                        backgroundColor: "#648FC5",
+                        backgroundColor: "#054388",
                         border: "2px",
 
                         color: "white",
@@ -345,6 +408,38 @@ function HrBusinessProcessesCoverage() {
                     </AccordionDetails>
                   </Accordion>
                 </div>
+                <div className="col-12 col-md-12 mb-4">
+                  <Accordion>
+                    <AccordionSummary
+                      expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
+                      aria-controls="panel1a-content"
+                      id="panel1a-header"
+                      sx={{
+                        display: "flex",
+
+                        backgroundColor: "#054388",
+                        border: "2px",
+
+                        color: "white",
+                      }}
+                    >
+                      <Typography>
+                        {processesDetails.serviceList9.title}
+                      </Typography>
+                    </AccordionSummary>
+                    <AccordionDetails
+                      sx={{
+                        fontWeight: "400px",
+                      }}
+                    >
+                      {processesDetails.serviceList9.listItems.map(
+                        (item, index) => {
+                          return <Typography key={index}>{item}</Typography>;
+                        }
+                      )}
+                    </AccordionDetails>
+                  </Accordion>
+                </div>
               </div>
             </Col>
             <Col lg={6}>
@@ -358,7 +453,7 @@ function HrBusinessProcessesCoverage() {
                       sx={{
                         display: "flex",
 
-                        backgroundColor: "#648FC5",
+                        backgroundColor: "#054388",
                         border: "2px",
 
                         color: "white",
@@ -390,7 +485,7 @@ function HrBusinessProcessesCoverage() {
                       sx={{
                         display: "flex",
 
-                        backgroundColor: "#648FC5",
+                        backgroundColor: "#054388",
                         border: "2px",
 
                         color: "white",
@@ -418,7 +513,7 @@ function HrBusinessProcessesCoverage() {
                       sx={{
                         display: "flex",
 
-                        backgroundColor: "#648FC5",
+                        backgroundColor: "#054388",
                         border: "2px",
 
                         color: "white",
@@ -446,7 +541,7 @@ function HrBusinessProcessesCoverage() {
                       sx={{
                         display: "flex",
 
-                        backgroundColor: "#648FC5",
+                        backgroundColor: "#054388",
                         border: "2px",
 
                         color: "white",

@@ -970,26 +970,38 @@
         "serviceList": {
             "title": "Building Organizational Structure",
           "listItems": [
-    "• Completely flexible",
-    "• No naming dependencies",
-    "• No solid structure dependencies",
-    "• Entire organizational structure change management"
-    
-
+            "• Completely flexible",
+            "• No naming dependencies",
+            "• No solid structure dependencies",
+            "• Entire organizational structure change management"
+            
 ]
 
         },
         "serviceList2": {
             "title": "Recruitment BP (integrated with EMAS system)",
             "listItems": [
-                "• Registration of new employees manually or getting available information by FIN & MYI (Ministry of Internal Affairs & State Migration Services APIs) "
+        
+               
+                "• Registration of new employees manually or getting available information by FIN & MYI (Ministry of Internal Affairs & State Migration Services APIs)"
              
+            
             ]
             
 
         },
         "serviceList3": {
             "title": "Vacation BP",
+            "listItems": [
+            
+                
+            ]
+            
+            
+
+        },
+        "serviceListVac": {
+            "title": "End-to-end vacation business process management",
             "listItems": [
                 "• Creation of vacation request",
                 "• Step-by-step vacation approval matrix",
@@ -1000,6 +1012,7 @@
             
 
         },
+        
         "serviceList4": {
             "title": "Business Trip BP",
             "listItems": [
@@ -1021,39 +1034,55 @@
 
         },
         "serviceList6": {
-            "title": "KPI Management",
+            "title": "EDMS (Integrated with SIMA)",
             "listItems": [
-                "• KPI setting flow management",
-                "• Quarter, semi-annual, annual KPI evaluations",
-                "• KPI Databases"
+                "• Embedded default documents (ex: labor contract)",
+                "• Creation of enterprise document patterns",
+                "• Document signing BP",
+               "• Signing documents with SIMA digital signature application"
             ]
             
 
         },
         "serviceList7": {
-            "title": "Document Management",
+            "title": "Internal Communications ",
             "listItems": [
-                "• Template creation and usage",
-                "• Application forms",
-                "• Orders",
-                "• Step-by-step document approval matrixes",
-                "• Internal Communications"
+                "• Internal chat system",
+                "• Task management",
+                "•Meeting setting (online integrated with Microsoft Teams / offline events)"
+            
             ]
             
             
 
         },
         "serviceList8": {
-            "title": "Internal Communications",
+            "title": "Automatic Salary Payments (Integrated with Bank)",
             "listItems": [
-                "• Business Calendar",
-                "• Task Management",
-                "• Internal Chat"
+                "• After automatic salary calculation and approval of HR and Accounting employees in charge automatic salary transfers to salary card accounts. (Integrated with Bank)"
+                
             ]
             
+        },
+        "serviceList9": {
+            "title": "System Approvals",
+            "listItems": [
+                "All BP management steps are managed by system approves based on approval matrixes set through our system"
+                
+            ]
             
-            
-
+        },
+        "serviceListEnd":{
+            "title":"End-to-end recruitment business process management",
+            "listItems":[
+                "• Creation of position",
+                "• Automatic creation of application form by new employee for vacant position",
+                "• System approves of new recruitment by management",
+                "• Automatic creation of final order document",
+                "Creation of labor contract in accordance with laws and regulations",
+                "Integration with The Ministry of Labor and Social Protection (EMAS system)"
+             
+            ]
         }
     },
 
