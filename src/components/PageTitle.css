@@ -1,45 +1,50 @@
 .page-title-wrap {
-    position: relative;
-  }
+  position: relative;
+}
+
+.wave-animation {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30%; /* Yüzde cinsinden yükseklik */
+  opacity: 0.9;
+  background: url('../images/media/wave.png') repeat-x;
+  background-size: 200% 100%; /* Arka plan boyutu */
+  animation: wave-animation 50s infinite linear;
+}
+
+.wave-animation2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25%; 
+  opacity: 0.9;
   
-  .wave-animation {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 80px;
-    opacity: 0.9;
-    background: url('../images/media/wave.png') repeat-x;
-    animation: wave-animation 80s infinite linear;
-  }
   
-  .wave-animation2 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 80px;
-    background: url('../images/media/wave.png') repeat-x;
-    animation: wave-animation 70s infinite linear;
+  background: url('../images/media/wave.png') repeat-x;
+  background-size: 200% 100%; /* Arka plan boyutu */
+  animation: wave-animation 30s infinite linear;
+}
+
+.wave-animation3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%; /* Yüzde cinsinden yükseklik */
+  background: url('../images/media/wave.png') repeat-x;
+  background-size: 200% 100%; /* Arka plan boyutu */
+  animation: wave-animation 40s infinite linear;
+  opacity: 0.7;
+}
+
+@keyframes wave-animation {
+  0% {
+    background-position: 0 0; /* 0% yatay ve dikey pozisyon */
   }
-  
-  .wave-animation3 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 80px;
-    background: url('../images/media/wave.png') repeat-x;
-    animation: wave-animation 100s infinite linear;
-    opacity: 0.7;
+  100% {
+    background-position: 200% 0; /* Yatayda 200%, dikeyde 0% pozisyon */
   }
-  
-  @keyframes wave-animation {
-    0% {
-      background-position-x: 0;
-    }
-    100% {
-      background-position-x: 1000%; /* Değişiklik burada: 100% yerine 200% */
-    }
-  }
-  
+}
