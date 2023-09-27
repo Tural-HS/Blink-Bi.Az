@@ -993,16 +993,6 @@
         "serviceList3": {
             "title": "Vacation BP",
             "listItems": [
-            
-                
-            ]
-            
-            
-
-        },
-        "serviceListVac": {
-            "title": "End-to-end vacation business process management",
-            "listItems": [
                 "• Creation of vacation request",
                 "• Step-by-step vacation approval matrix",
                 "• HR review and interference in case of necessity to entire BP"
@@ -1012,6 +1002,7 @@
             
 
         },
+     
         
         "serviceList4": {
             "title": "Business Trip BP",
@@ -1214,6 +1205,13 @@
         "title": "Fast and professional Support",
         "desc": " Blink-BI support team continuously monitors application logs and resource utilization logs to help resolve possible difficulties before our customers face unwanted consequences. The team operates within the boundaries of strict SLAs. Opened tickets are responded in an operative manner in accordance with risks (impacts and frequency) through internal live chat within product.",
         "desc2" :"According to support plan chosen by customer our professional team is capable of providing 5/8 or 7/24 support.",
+        "desc3" :"Blink- BI has its own platform dedicated only for customer support purposes. Our support professionals can contact with you through internal chat which is embedded to our product",
+        "desc4" :"With approval of our customers we are able to get main necessary information in order to monitor general performance of our software.",
+        "desc5" :["• CPU",
+        "• RAM",
+        "• OS login / logout logs",
+        "• App login / logout logs"
+    ],
         "btn": {
             "url": "#",
             "text": "Get in now"

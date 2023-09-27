@@ -29,26 +29,27 @@ function Support() {
       <section className="service-details pt-120 pb-120">
         <Container>
           <Row className="align-items-center mb-5">
-            <Col lg={6}>
+            <Col lg={7}>
               {/* Video Wrapper */}
               <img src={MySVG} alt="SVG Image" />
             </Col>
-            <Col lg={6}>
+            <Col lg={5}>
               <div className="content pl-lg-3 pl-0">
                 {/* Section Title */}
                 <div className="section-title style--two text-left mb-4">
                   <h2>{supportDetails.title}</h2>
                   <p>{supportDetails.desc}</p>
                   <p>{supportDetails.desc2}</p>
+                  <p>{supportDetails.desc3}</p>
+                  <p>{supportDetails.desc4}</p>
+                  {supportDetails.desc5.map((item, index) => {
+                    return (
+                      <p style={{}} key={index}>
+                        {item}
+                      </p>
+                    );
+                  })}
                 </div>
-                {/* End Section Title */}
-
-                {/* <div className="btn-wrap">
-                  <span></span>
-                  <a href={serviceDetails.btn.url} className="btn">
-                    {serviceDetails.btn.text}
-                  </a>
-                </div> */}
               </div>
             </Col>
           </Row>

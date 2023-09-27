@@ -197,24 +197,19 @@ class Navbar extends Component {
                         </ul> */}
                       {/* </li> */}
                       <li>
-                        <NavLink to="/about">About Us</NavLink>
-                        {/* <ul className="sub-menu">
+                        <NavLink to="#">Corporative</NavLink>
+                        <ul className="sub-menu">
                           <li>
                             <NavLink to="/about" activeStyle={this.style}>
-                              About
+                              About Us
                             </NavLink>
                           </li>
                           <li>
                             <NavLink to="/coming-soon" activeStyle={this.style}>
-                              Coming Soon
+                              Certifications
                             </NavLink>
                           </li>
-                          <li>
-                            <NavLink to="/error" activeStyle={this.style}>
-                              404
-                            </NavLink>
-                          </li>
-                        </ul> */}
+                        </ul>
                       </li>
                       <li>
                         <NavLink to="#">Services & Products</NavLink>

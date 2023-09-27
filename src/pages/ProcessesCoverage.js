@@ -338,40 +338,11 @@ function HrBusinessProcessesCoverage() {
                         fontWeight: "400px",
                       }}
                     >
-                      <Accordion>
-                        <AccordionSummary
-                          expandIcon={
-                            <ExpandMoreIcon sx={{ color: "white" }} />
-                          }
-                          aria-controls="panel1a-content"
-                          id="panel1a-header"
-                          sx={{
-                            display: "flex",
-
-                            backgroundColor: "#648FC5",
-                            border: "2px",
-
-                            color: "white",
-                          }}
-                        >
-                          <Typography>
-                            {processesDetails.serviceListVac.title}
-                          </Typography>
-                        </AccordionSummary>
-                        <AccordionDetails
-                          sx={{
-                            fontWeight: "400px",
-                          }}
-                        >
-                          {processesDetails.serviceListVac.listItems.map(
-                            (item, index) => {
-                              return (
-                                <Typography key={index}>{item}</Typography>
-                              );
-                            }
-                          )}
-                        </AccordionDetails>
-                      </Accordion>
+                      {processesDetails.serviceList3.listItems.map(
+                        (item, index) => {
+                          return <Typography key={index}>{item}</Typography>;
+                        }
+                      )}
                     </AccordionDetails>
                   </Accordion>
                 </div>
