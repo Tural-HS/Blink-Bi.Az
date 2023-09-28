@@ -13,6 +13,9 @@ import Navbar from "../components/Navbar";
 
 import MySVG from "../images/media/clear-data.svg";
 
+import Lottie from "lottie-react";
+import animationData from "./ClearData.json";
+
 function ClearData() {
   const context = useContext(DataContext);
   const { clearDataDetails, counter, price, footer } = context.allData;
@@ -30,13 +33,20 @@ function ClearData() {
       <section className="service-details pt-120 pb-120">
         <Container>
           <Row className="align-items-center mb-5">
-            <Col lg={6}>
+            <Col lg={7}>
               {/* Video Wrapper */}
-              <img src={MySVG} alt="SVG Image" />
+              <Lottie
+                style={{ width: "120%", height: "120%" }}
+                class="custom-image"
+                animationData={animationData}
+              />
               {/* End Video Wrapper */}
             </Col>
-            <Col lg={6}>
-              <div className="content pl-lg-3 pl-0">
+            <Col lg={5}>
+              <div
+                className="content pl-lg-3 pl-0"
+                style={{ paddingBottom: "20%" }}
+              >
                 {/* Section Title */}
                 <div className="section-title style--two text-left mb-4">
                   <h2>{clearDataDetails.title}</h2>

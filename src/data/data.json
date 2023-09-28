@@ -248,7 +248,7 @@
         "items": [
             {
                 "img": {
-                    "url": "images/icons/page-speed.png",
+                    "url": "images/icons/fast.svg",
                      "alt": "Service Icon"
                 },
                 "link":"/single-service",
@@ -261,7 +261,7 @@
             },
             {
                 "img": {
-                    "url": "images/icons/statistics (1).png",
+                    "url": "images/icons/coverage.svg",
                     "alt": "Service Icon"
                 },
                 "link":"/processes-coverage",
@@ -274,7 +274,7 @@
             },
             {
                 "img": {
-                    "url": "images/icons/marketing.png",
+                    "url": "images/icons/clear.svg",
                     "alt": "Service Icon"
                 },
                 "link":"/clear-data",
@@ -288,7 +288,7 @@
             },
             {
                 "img": {
-                    "url": "images/icons/customer-review.png",
+                    "url": "images/icons/all.svg",
                     "alt": "Service Icon"
                 },
                 "link":"/all-in-one",
@@ -301,7 +301,7 @@
             },
             {
                 "img": {
-                    "url": "images/icons/blogging.png",
+                    "url": "images/icons/law.svg",
                     "alt": "Service Icon"
                 },
                 "link":"/laws-regulations",
@@ -314,7 +314,7 @@
             },
             {
                 "img": {
-                    "url": "images/icons/review.png",
+                    "url": "images/icons/support.svg",
                     "alt": "Service Icon"
                 },
                 "link":"/support",

@@ -7,8 +7,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
-import MySVG from "../images/media/fast-secure.svg";
 import MySVG2 from "../images/media/shart.svg";
+
+import Lottie from "lottie-react";
+import animationData from "./FastSecure.json";
 
 function SingleService() {
   const context = useContext(DataContext);
@@ -27,16 +29,19 @@ function SingleService() {
       <section className="service-details pt-120 pb-120">
         <Container>
           <Row className="align-items-center mb-5">
-            <Col lg={6}>
+            <Col lg={7}>
               <div className="solution-img d-none d-xl-block">
                 <div className="parent-container">
-                  <img src={MySVG} alt="SVG Image" />
+                  <Lottie class="custom-image" animationData={animationData} />
                 </div>
               </div>
             </Col>
-            <Col lg={6}>
-              <div className="content pl-lg-3 pl-0">
-                <div className="section-title style--two text-left mb-4">
+            <Col lg={5}>
+              <div
+                className="content pl-lg-3 "
+                style={{ paddingBottom: "20%" }}
+              >
+                <div className="section-title style--two text-left ">
                   <h2>{serviceDetails.title}</h2>
                   {/* <p>{serviceDetails.desc}</p> */}
                   <p>{serviceDetails.desc2}</p>

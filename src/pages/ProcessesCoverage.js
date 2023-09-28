@@ -25,6 +25,9 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
+import Lottie from "lottie-react";
+import animationData from "./Coverage.json";
+
 function HrBusinessProcessesCoverage() {
   const [anchorEl1, setAnchorEl1] = React.useState(null);
   const [anchorEl2, setAnchorEl2] = React.useState(null);
@@ -150,11 +153,14 @@ function HrBusinessProcessesCoverage() {
           <Row className="align-items-center mb-5">
             <Col lg={6}>
               {/* Video Wrapper */}
-              <img src={MySVG} alt="SVG Image" />
+              <Lottie class="custom-image" animationData={animationData} />
               {/* End Video Wrapper */}
             </Col>
             <Col lg={6}>
-              <div className="content pl-lg-3 pl-0">
+              <div
+                className="content pl-lg-3 pl-0"
+                style={{ paddingBottom: "20%" }}
+              >
                 {/* Section Title */}
                 <div className="section-title style--two text-left mb-4">
                   <h2>{processesDetails.title}</h2>

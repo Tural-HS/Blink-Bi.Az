@@ -13,6 +13,9 @@ import Navbar from "../components/Navbar";
 
 import MySVG from "../images/media/allOne.svg";
 
+import Lottie from "lottie-react";
+import animationData from "./AllOne.json";
+
 function AllInOne() {
   const context = useContext(DataContext);
   const { allInOneDetails, counter, price, footer } = context.allData;
@@ -32,13 +35,16 @@ function AllInOne() {
           <Row className="align-items-center mb-5">
             <Col lg={6}>
               {/* Video Wrapper */}
-              <img src={MySVG} alt="SVG Image" />
+              <Lottie class="custom-image" animationData={animationData} />
               {/* End Video Wrapper */}
             </Col>
             <Col lg={6}>
               <div className="content pl-lg-3 pl-0">
                 {/* Section Title */}
-                <div className="section-title style--two text-left mb-4">
+                <div
+                  className="section-title style--two text-left mb-4"
+                  style={{ paddingBottom: "20%" }}
+                >
                   <h2>{allInOneDetails.title}</h2>
                   <p>{allInOneDetails.desc}</p>
                 </div>

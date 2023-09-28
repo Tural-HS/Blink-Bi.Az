@@ -12,6 +12,10 @@ import Price from "../components/Price";
 import Navbar from "../components/Navbar";
 
 import MySVG from "../images/media/support.svg";
+
+import Lottie from "lottie-react";
+import animationData from "./Support.json";
+
 function Support() {
   const context = useContext(DataContext);
   const { supportDetails, counter, price, footer } = context.allData;
@@ -31,7 +35,7 @@ function Support() {
           <Row className="align-items-center mb-5">
             <Col lg={7}>
               {/* Video Wrapper */}
-              <img src={MySVG} alt="SVG Image" />
+              <Lottie class="custom-image" animationData={animationData} />
             </Col>
             <Col lg={5}>
               <div className="content pl-lg-3 pl-0">
