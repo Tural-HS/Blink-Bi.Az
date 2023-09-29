@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useSpring, animated } from "react-spring";
-import MySVG from "../images/media/laptop.svg";
+import MySVG from "../images/media/laptop.gif";
 import "./Laptop.css";
 
 const Laptop = () => {

@@ -5,6 +5,9 @@ import { useSpring, animated } from "react-spring";
 import { Container, Row, Col } from "react-bootstrap";
 import MySVG from "../images/media/Blink.svg";
 
+import Lottie from "lottie-react";
+import animationData from "./About.json";
+
 const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2];
 const trans1 = (x, y) => `translate3d(${(x * -1) / 85}px,${(y * -1) / 85}px,0)`;
 
@@ -33,10 +36,10 @@ function Solution({ data, classText, styleTwo }) {
         <Container>
           <Row>
             <Col lg={6}>
-              <img
-                src={MySVG}
-                alt="SVG Image"
-                style={{ marginBottom: "2rem" }}
+              <Lottie
+                class="custom-image"
+                animationData={animationData}
+                style={{ width: "130%" }}
               />
               {data.itemsLeft.map((item, index) => {
                 return (
