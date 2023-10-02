@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { DataContext } from "../context";
 import PageTitle from "../components/PageTitle";
 import { FaPlay } from "react-icons/fa";
@@ -19,6 +19,9 @@ function SingleService() {
 
   const [isOpen, setOpen] = useState(false);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   if (!serviceDetails) {
     return <Loading />;
   }

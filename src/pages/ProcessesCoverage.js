@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { DataContext } from "../context";
 import PageTitle from "../components/PageTitle";
 import { FaPlay } from "react-icons/fa";
@@ -29,6 +29,9 @@ import Lottie from "lottie-react";
 import animationData from "./Coverage.json";
 
 function HrBusinessProcessesCoverage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [anchorEl1, setAnchorEl1] = React.useState(null);
   const [anchorEl2, setAnchorEl2] = React.useState(null);
   const [anchorEl3, setAnchorEl3] = React.useState(null);

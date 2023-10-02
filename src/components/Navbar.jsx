@@ -28,6 +28,14 @@ import Flag2 from "../images/flag2.png";
 import Flag3 from "../images/flag3.png";
 import Flag4 from "../images/flag4.png";
 
+import KPI from "../images/media/KPI.svg";
+
+import CHR from "../images/media/CHR.png";
+
+import BBY from "../images/media/BBY.png";
+
+import RM from "../images/media/RM.png";
+
 import Button from "../components/Button";
 import "./AnimatedSignInButton.css";
 class Navbar extends Component {
@@ -214,10 +222,29 @@ class Navbar extends Component {
                       <li>
                         <NavLink to="#">Services & Products</NavLink>
                         <ul className="sub-menu">
-                          <li>
-                            <NavLink to="#" activeStyle={this.style}>
+                          <li
+                            style={{
+                              display: "flex",
+                              alignItems: "center",
+                            }}
+                          >
+                            <NavLink
+                              to="#"
+                              activeStyle={this.style}
+                              style={{ marginRight: "5px" }}
+                            >
                               CHR-BI
                             </NavLink>
+                            <img
+                              src={CHR}
+                              alt="SVG Image"
+                              style={{
+                                width: "50px",
+                                height: "50px",
+                                marginLeft: "20%",
+                                paddingBottom: "5px",
+                              }}
+                            />
 
                             <ul className="sub-menu">
                               <li>
@@ -230,36 +257,80 @@ class Navbar extends Component {
                               </li>
                             </ul>
                           </li>
-                          <li style={{ backgroundColor: "#E5E7EB" }}>
-                            <NavLink
-                              to="#"
-                              activeStyle={this.style}
-                              className="text-muted"
-                            >
-                              KPI-BI (Upcoming)
-                            </NavLink>
-                          </li>
                           <li
                             style={{
                               backgroundColor: "#E5E7EB",
+                              display: "flex",
+                              alignItems: "center",
                             }}
                           >
                             <NavLink
                               to="#"
                               activeStyle={this.style}
                               className="text-muted"
+                              style={{ marginRight: "5px" }}
                             >
-                              RM-BI (Upcoming)
+                              KPI-BI (Upcoming)
                             </NavLink>
+                            <img
+                              src={KPI}
+                              alt="SVG Image"
+                              style={{
+                                width: "60px",
+                                height: "60px",
+                                marginRight: "10px",
+                              }}
+                            />
                           </li>
-                          <li style={{ backgroundColor: "#E5E7EB" }}>
+                          <li
+                            style={{
+                              backgroundColor: "#E5E7EB",
+                              display: "flex",
+                              alignItems: "center",
+                            }}
+                          >
                             <NavLink
                               to="#"
                               activeStyle={this.style}
                               className="text-muted"
+                              style={{ marginRight: "5px" }}
+                            >
+                              RM-BI (Upcoming)
+                            </NavLink>
+                            <img
+                              src={RM}
+                              alt="SVG Image"
+                              style={{
+                                width: "50px",
+                                height: "50px",
+                                marginRight: "12px",
+                              }}
+                            />
+                          </li>
+                          <li
+                            style={{
+                              backgroundColor: "#E5E7EB",
+                              display: "flex",
+                              alignItems: "center",
+                            }}
+                          >
+                            <NavLink
+                              to="#"
+                              activeStyle={this.style}
+                              className="text-muted"
+                              style={{ marginRight: "5px" }}
                             >
                               BBY-AI (Upcoming)
                             </NavLink>
+                            <img
+                              src={BBY}
+                              alt="SVG Image"
+                              style={{
+                                width: "50px",
+                                height: "50px",
+                                marginRight: "10%",
+                              }}
+                            />
                           </li>
                         </ul>
                       </li>
