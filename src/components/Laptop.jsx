@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useSpring, animated } from "react-spring";
 import MySVG from "../images/media/laptop.gif";
-import "./Laptop.css";
+import CHR from "../images/media/CHR.png";
+import styles from "./Laptop.module.css";
 
 const Laptop = () => {
   const containerRef = useRef(null);
@@ -23,37 +24,50 @@ const Laptop = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const props = useSpring({
+  // Animation for the laptop SVG
+  const laptopProps = useSpring({
     opacity: isHalfVisible ? 1 : 0,
     transform: `translateX(${isHalfVisible ? 0 : -window.innerWidth / 4}px)`,
     config: { duration: 1000 },
   });
 
+  // Animation for the CHR.png and header
+  const chrHeaderProps = useSpring({
+    opacity: isHalfVisible ? 1 : 0,
+    transform: `translateX(${isHalfVisible ? 0 : window.innerWidth / 4}px)`,
+    config: { duration: 1000 },
+  });
+
   return (
-    <div className="container" ref={containerRef}>
-      <div className="row">
-        <div className="col-md-10">
-          <div className="image-container">
-            <animated.div style={props}>
-              <img src={MySVG} alt="SVG Image" className="laptop-svg" />
-            </animated.div>
-          </div>
+    <div className={styles.container} ref={containerRef}>
+      <div className={styles.row}>
+        <div className={styles.imageContainer}>
+          <animated.div style={laptopProps}>
+            <img src={MySVG} alt="SVG Image" className={styles.laptopSvg} />
+          </animated.div>
         </div>
-        <div className="col-md-2">
-          <div className="section-title">
-            <h2
+        <div className={styles.rightCol}>
+          <div className={styles.chrContainer}>
+            <animated.img
+              src={CHR}
+              alt="Png"
+              className={styles.CHR}
               style={{
-                marginTop: "5rem",
-                width: "500px",
-                transform: "translateX(-70%)",
+                ...chrHeaderProps,
+                width: "auto", // Adjust the width
+                height: "auto", // Adjust the height
               }}
-            >
-              Manage HR in fully automated way with CHR-BI
-            </h2>
+            />
+          </div>
+          <div className={styles.sectionTitle}>
+            <animated.h3 style={chrHeaderProps}>
+              Manage HR in a fully automated way with CHR-BI
+            </animated.h3>
           </div>
         </div>
       </div>
     </div>
   );
 };
+
 export default Laptop;
