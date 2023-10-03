@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useSpring, animated } from "react-spring";
 import MySVG from "../images/media/laptop.gif";
-import CHR from "../images/media/CHR.png";
+import CHR from "../images/media/CHR.svg";
 import styles from "./Laptop.module.css";
 
 const Laptop = () => {
@@ -50,11 +50,11 @@ const Laptop = () => {
           <div className={styles.chrContainer}>
             <animated.img
               src={CHR}
-              alt="Png"
+              alt="SVG"
               className={styles.CHR}
               style={{
                 ...chrHeaderProps,
-                width: "auto", // Adjust the width
+                width: "70%", // Adjust the width
                 height: "auto", // Adjust the height
               }}
             />

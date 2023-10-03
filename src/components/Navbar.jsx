@@ -30,11 +30,11 @@ import Flag4 from "../images/flag4.png";
 
 import KPI from "../images/media/KPI.svg";
 
-import CHR from "../images/media/CHR.png";
+import CHR from "../images/media/CHR.svg";
 
-import BBY from "../images/media/BBY.png";
+import BBY from "../images/media/BBY.svg";
 
-import RM from "../images/media/RM.png";
+import RM from "../images/media/RM.svg";
 
 import Button from "../components/Button";
 import "./AnimatedSignInButton.css";
@@ -231,7 +231,7 @@ class Navbar extends Component {
                             <NavLink
                               to="#"
                               activeStyle={this.style}
-                              style={{ marginRight: "5px" }}
+                              style={{ marginRight: "2%" }}
                             >
                               CHR-BI
                             </NavLink>
@@ -239,10 +239,10 @@ class Navbar extends Component {
                               src={CHR}
                               alt="SVG Image"
                               style={{
-                                width: "50px",
-                                height: "50px",
+                                width: "24%",
+                                height: "24%",
                                 marginLeft: "20%",
-                                paddingBottom: "5px",
+                                paddingBottom: "2%",
                               }}
                             />
 
@@ -268,7 +268,7 @@ class Navbar extends Component {
                               to="#"
                               activeStyle={this.style}
                               className="text-muted"
-                              style={{ marginRight: "5px" }}
+                              style={{ marginRight: "2%" }}
                             >
                               KPI-BI (Upcoming)
                             </NavLink>
@@ -276,9 +276,9 @@ class Navbar extends Component {
                               src={KPI}
                               alt="SVG Image"
                               style={{
-                                width: "60px",
-                                height: "60px",
-                                marginRight: "10px",
+                                width: "34%",
+                                height: "34%",
+                                marginRight: "10%",
                               }}
                             />
                           </li>
@@ -293,7 +293,7 @@ class Navbar extends Component {
                               to="#"
                               activeStyle={this.style}
                               className="text-muted"
-                              style={{ marginRight: "5px" }}
+                              style={{ marginRight: "2%" }}
                             >
                               RM-BI (Upcoming)
                             </NavLink>
@@ -301,9 +301,9 @@ class Navbar extends Component {
                               src={RM}
                               alt="SVG Image"
                               style={{
-                                width: "50px",
-                                height: "50px",
-                                marginRight: "12px",
+                                width: "26%",
+                                height: "26%",
+                                marginRight: "6%",
                               }}
                             />
                           </li>
@@ -318,7 +318,7 @@ class Navbar extends Component {
                               to="#"
                               activeStyle={this.style}
                               className="text-muted"
-                              style={{ marginRight: "5px" }}
+                              style={{ marginRight: "2%" }}
                             >
                               BBY-AI (Upcoming)
                             </NavLink>
@@ -326,8 +326,8 @@ class Navbar extends Component {
                               src={BBY}
                               alt="SVG Image"
                               style={{
-                                width: "50px",
-                                height: "50px",
+                                width: "19%",
+                                height: "19%",
                                 marginRight: "10%",
                               }}
                             />
