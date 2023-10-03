@@ -54,6 +54,7 @@
 /* Hover styles for the flag dropdown items */
 .dropdown-menu .dropdown-item:hover {
   background-color: rgba(0, 0, 0, 0.1); /* Hover background color */
+  width: 70%;
   border-radius: 5px;
 }
 
@@ -71,3 +72,17 @@
   width: 50rem;
   height: 30rem;
 }
+/* Add this CSS to keep the dropdown open on hover */
+.dropdown:hover .dropdown-menu.animated {
+  display: block;
+  animation: fadeIn 0.3s;
+  opacity: 1;
+  transition: opacity 0.2s;
+  background-color: transparent; /* Transparent background */
+  border: none; /* Remove border */
+  box-shadow: none; /* Remove box shadow */
+}
+
+/* Add this CSS to keep the dropdown open on hover */
+
+
