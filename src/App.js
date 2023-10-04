@@ -26,10 +26,11 @@ import AllInOne from "./pages/AllOne";
 import Laws from "./pages/LawsRegulations";
 import Support from "./pages/Support";
 import SignIn from "./pages/SignIn";
+import CerLicens from "./pages/CerLicens";
 
 import { useTranslation } from "react-i18next";
-function App() {
 
+function App() {
   const context = useContext(DataContext);
   const { search, offcanvas, handleSearch, handleOffcanvas } = context;
   const offcanvasData = context.allData.offcanvas;
@@ -50,6 +51,7 @@ function App() {
         <Route path="/home-v2" component={Home2} />
         <Route path="/home-v3" component={Home3} />
         <Route path="/about" component={About} />
+        <Route path="/licenses" component={CerLicens} />
         <Route path="/coming-soon" component={ComingSoon} />
         <Route path="/service" component={Services} />
         <Route path="/single-service" component={SingleService} />

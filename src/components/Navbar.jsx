@@ -213,8 +213,8 @@ class Navbar extends Component {
                             </NavLink>
                           </li>
                           <li>
-                            <NavLink to="/coming-soon" activeStyle={this.style}>
-                              Certifications
+                            <NavLink to="/licenses" activeStyle={this.style}>
+                              Certifications & Licenses
                             </NavLink>
                           </li>
                         </ul>

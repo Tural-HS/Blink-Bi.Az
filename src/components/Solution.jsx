@@ -8,6 +8,16 @@ import MySVG from "../images/media/Blink.svg";
 import Lottie from "lottie-react";
 import animationData from "./About.json";
 
+import BV from "../images/media/BV.png";
+
+const svgImage = (
+  <img
+    src={BV}
+    alt="SVG Image"
+    style={{ width: "2%", height: "auto", marginBottom: "0.5%" }}
+  />
+);
+
 const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2];
 const trans1 = (x, y) => `translate3d(${(x * -1) / 85}px,${(y * -1) / 85}px,0)`;
 
@@ -71,18 +81,27 @@ function Solution({ data, classText, styleTwo }) {
                       className="single-solution media align-items-center"
                     >
                       {/* <div className="img">
-                        <img
-                          src={publicUrl + item.img.url}
-                          alt={item.img.alt}
-                        />
+                    
                       </div> */}
                       <div className="content media-body">
                         <h3>{item.title}</h3>
                         <p>{item.desc}</p>
+                        <h5>
+                          {item.desc2}
+                          {index === 0 && (
+                            <span style={{ color: "black", fontSize: "15px" }}>
+                              <span style={{ color: "#1F75C8" }}>
+                                "Bilisim Vadisi"
+                              </span>
+                              {svgImage} Technology Development Zone.
+                            </span>
+                          )}
+                        </h5>
                       </div>
                     </div>
                   );
                 })}
+
                 <Lottie
                   class="custom-image"
                   animationData={animationData}

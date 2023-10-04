@@ -140,20 +140,19 @@
                 },
                 "title": "Notable Achievements:",
                 "desc": " We are proud to have received official recognition from the government, earning the prestigious `Startup certificate` by the Small and Medium Business (SMB) Development Agency of the Republic of Azerbaijan (KOBİA). This acknowledgement underscores our commitment to innovation and highlights the potential impact of our intelligent solutions on businesses.",
-        "desc2":"In September 2023, our innovative project was accepted as the only pure Azerbaijani resident of the “Bilisim Vadisi” Technology Development Zone."
-            },
+        "desc2":"In September 2023, our innovative project was accepted as the only pure Azerbaijani resident of the ",
+        "imgBV": {
+            "url": "../images/media/BV.png",
+            "alt": "BV svg"
+        }
+        
+    },
             {
-                "img": {
-                    "url": "images/icons/eye.png",
-                    "alt": "Eye Icon"
-                },
-                "img2": {
-                    "url": "images/icons/eye2.png",
-                    "alt": "Eye Icon"
-                },
+               
                 "title": "Our Talented Team:",
                 "desc": "Behind Blink Business Intelligence is a team of talented and driven individuals. Our engineers, all from Azerbaijan, possess a deep understanding of cutting-edge technologies and are committed to developing innovative solutions that meet the unique needs of our clients. Together, we strive to exceed expectations and drive sustainable growth for businesses across industries."
-       
+
+     
             }
         
         ],
