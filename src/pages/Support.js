@@ -33,14 +33,18 @@ function Support() {
     <>
       <Navbar handler={{ handleSearch, handleOffcanvas }} />
       <PageTitle pageName="Fast and professional Support" />
-      <section className="service-details pt-120 pb-120">
+      <section className="service-details pt-100 pb-100">
         <Container>
           <Row className="align-items-center mb-5">
-            <Col lg={7}>
+            <Col lg={6}>
               {/* Video Wrapper */}
-              <Lottie class="custom-image" animationData={animationData} />
+              <Lottie
+                style={{ width: "120%", height: "auto" }}
+                class="custom-image"
+                animationData={animationData}
+              />
             </Col>
-            <Col lg={5}>
+            <Col lg={6}>
               <div className="content pl-lg-3 pl-0">
                 {/* Section Title */}
                 <div className="section-title style--two text-left mb-4">
@@ -49,13 +53,6 @@ function Support() {
                   <p>{supportDetails.desc2}</p>
                   <p>{supportDetails.desc3}</p>
                   <p>{supportDetails.desc4}</p>
-                  {supportDetails.desc5.map((item, index) => {
-                    return (
-                      <p style={{}} key={index}>
-                        {item}
-                      </p>
-                    );
-                  })}
                 </div>
               </div>
             </Col>

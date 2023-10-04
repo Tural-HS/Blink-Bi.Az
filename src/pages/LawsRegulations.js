@@ -33,7 +33,7 @@ function Laws() {
     <>
       <Navbar handler={{ handleSearch, handleOffcanvas }} />
       <PageTitle pageName="In compliance with the laws&regulations" />
-      <section className="service-details pt-120 pb-120">
+      <section className="service-details pt-70 pb-10">
         <Container>
           <Row className="align-items-center mb-5">
             <Col lg={6}>

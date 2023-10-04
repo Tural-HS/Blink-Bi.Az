@@ -29,9 +29,9 @@ function SingleService() {
     <>
       <Navbar handler={{ handleSearch, handleOffcanvas }} />
       <PageTitle pageName="Fast-Secure-Reliable" />
-      <section className="service-details pt-120 pb-120">
+      <section className="service-details pt-80 pb-120">
         <Container>
-          <Row className="align-items-center mb-5">
+          <Row className="align-items-center ">
             <Col lg={7}>
               <div className="solution-img d-none d-xl-block">
                 <div className="parent-container">
@@ -42,7 +42,7 @@ function SingleService() {
             <Col lg={5}>
               <div
                 className="content pl-lg-3 "
-                style={{ paddingBottom: "20%" }}
+                style={{ paddingBottom: "10%" }}
               >
                 <div className="section-title style--two text-left ">
                   <h2>{serviceDetails.title}</h2>

@@ -32,7 +32,7 @@ function AllInOne() {
     <>
       <Navbar handler={{ handleSearch, handleOffcanvas }} />
       <PageTitle pageName="All In One Platform" />
-      <section className="service-details pt-120 pb-120">
+      <section className="service-details pt-70 pb-70">
         <Container>
           <Row className="align-items-center mb-5">
             <Col lg={6}>

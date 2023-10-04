@@ -28,13 +28,13 @@ import Flag2 from "../images/flag2.png";
 import Flag3 from "../images/flag3.png";
 import Flag4 from "../images/flag4.png";
 
-import KPI from "../images/media/KPI.svg";
+import KPI from "../images/media/KPI nav.svg";
 
-import CHR from "../images/media/CHR.svg";
+import CHR from "../images/media/CHR nav.svg";
 
-import BBY from "../images/media/BBY.svg";
+import BBY from "../images/media/BBY nav.svg";
 
-import RM from "../images/media/RM.svg";
+import RM from "../images/media/RM nav.svg";
 
 import Button from "../components/Button";
 import "./AnimatedSignInButton.css";
@@ -228,23 +228,19 @@ class Navbar extends Component {
                               alignItems: "center",
                             }}
                           >
-                            <NavLink
-                              to="#"
-                              activeStyle={this.style}
-                              style={{ marginRight: "2%" }}
-                            >
-                              CHR-BI
-                            </NavLink>
                             <img
                               src={CHR}
                               alt="SVG Image"
                               style={{
                                 width: "24%",
                                 height: "24%",
-                                marginLeft: "20%",
+                                marginLeft: "5%",
                                 paddingBottom: "2%",
                               }}
                             />
+                            <NavLink to="#" activeStyle={this.style}>
+                              CHR-BI
+                            </NavLink>
 
                             <ul className="sub-menu">
                               <li>
@@ -264,6 +260,15 @@ class Navbar extends Component {
                               alignItems: "center",
                             }}
                           >
+                            <img
+                              src={KPI}
+                              alt="SVG Image"
+                              style={{
+                                width: "26%",
+                                height: "26%",
+                                marginLeft: "2%",
+                              }}
+                            />
                             <NavLink
                               to="#"
                               activeStyle={this.style}
@@ -272,15 +277,6 @@ class Navbar extends Component {
                             >
                               KPI-BI (Upcoming)
                             </NavLink>
-                            <img
-                              src={KPI}
-                              alt="SVG Image"
-                              style={{
-                                width: "34%",
-                                height: "34%",
-                                marginRight: "10%",
-                              }}
-                            />
                           </li>
                           <li
                             style={{
@@ -289,6 +285,15 @@ class Navbar extends Component {
                               alignItems: "center",
                             }}
                           >
+                            <img
+                              src={RM}
+                              alt="SVG Image"
+                              style={{
+                                width: "26%",
+                                height: "26%",
+                                marginLeft: "2.3%",
+                              }}
+                            />
                             <NavLink
                               to="#"
                               activeStyle={this.style}
@@ -297,15 +302,6 @@ class Navbar extends Component {
                             >
                               RM-BI (Upcoming)
                             </NavLink>
-                            <img
-                              src={RM}
-                              alt="SVG Image"
-                              style={{
-                                width: "26%",
-                                height: "26%",
-                                marginRight: "6%",
-                              }}
-                            />
                           </li>
                           <li
                             style={{
@@ -314,6 +310,16 @@ class Navbar extends Component {
                               alignItems: "center",
                             }}
                           >
+                            {" "}
+                            <img
+                              src={BBY}
+                              alt="SVG Image"
+                              style={{
+                                width: "21%",
+                                height: "21%",
+                                marginLeft: "6%",
+                              }}
+                            />
                             <NavLink
                               to="#"
                               activeStyle={this.style}
@@ -322,15 +328,6 @@ class Navbar extends Component {
                             >
                               BBY-AI (Upcoming)
                             </NavLink>
-                            <img
-                              src={BBY}
-                              alt="SVG Image"
-                              style={{
-                                width: "19%",
-                                height: "19%",
-                                marginRight: "10%",
-                              }}
-                            />
                           </li>
                         </ul>
                       </li>

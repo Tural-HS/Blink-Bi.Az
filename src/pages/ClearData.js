@@ -33,7 +33,7 @@ function ClearData() {
     <>
       <Navbar handler={{ handleSearch, handleOffcanvas }} />
       <PageTitle pageName="Clear - Data Clear - View" />
-      <section className="service-details pt-120 pb-120">
+      <section className="service-details pt-10 pb-10">
         <Container>
           <Row className="align-items-center mb-5">
             <Col lg={7}>
@@ -46,10 +46,7 @@ function ClearData() {
               {/* End Video Wrapper */}
             </Col>
             <Col lg={5}>
-              <div
-                className="content pl-lg-3 pl-0"
-                style={{ paddingBottom: "20%" }}
-              >
+              <div className="content pl-lg-3 pl-0">
                 {/* Section Title */}
                 <div className="section-title style--two text-left mb-4">
                   <h2>{clearDataDetails.title}</h2>

@@ -35,12 +35,7 @@ function Solution({ data, classText, styleTwo }) {
         />
         <Container>
           <Row>
-            <Col lg={6}>
-              <Lottie
-                class="custom-image"
-                animationData={animationData}
-                style={{ width: "130%" }}
-              />
+            <Col lg={12}>
               {data.itemsLeft.map((item, index) => {
                 return (
                   <div
@@ -61,7 +56,7 @@ function Solution({ data, classText, styleTwo }) {
                 );
               })}
             </Col>
-            <Col lg={6}>
+            <Col lg={12}>
               <div className="solution-content">
                 <Title
                   title={data.title}
@@ -88,12 +83,20 @@ function Solution({ data, classText, styleTwo }) {
                     </div>
                   );
                 })}
+                <Lottie
+                  class="custom-image"
+                  animationData={animationData}
+                  style={{
+                    width: "130%",
+                    height: "auto",
+                  }}
+                />
                 <div class="">
-                  <ul>
+                  {/* <ul>
                     {data.listItems.map((item, index) => {
                       return <li key={index}>{item}</li>;
                     })}
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </Col>

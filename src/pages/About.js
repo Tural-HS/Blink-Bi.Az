@@ -9,6 +9,7 @@ import Counter from "../components/Counter";
 import LogoCarousel from "../components/LogoCarousel";
 import Navbar from "../components/Navbar";
 
+
 function About() {
   const context = useContext(DataContext);
   const { counter, companyLogo, solution, team, testimonial, footer } =

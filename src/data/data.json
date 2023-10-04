@@ -125,7 +125,7 @@
             "url": "images/media/solution-bg.png",
             "alt": "Solution Background Pattern"
         },
-        "title": "Blink Business Intelligence is a dynamic company dedicated to providing intelligent solutions that enhance and streamline business processes. Our mission is to empower businesses with efficient tools that optimize their operations, enabling them to stay ahead in today's fast-paced and competitive market.",
+        "title": "Blink Business Intelligence is a dynamic company that was founded in 2022 in Baku and is dedicated to providing intelligent solutions that enhance and streamline business processes. Our mission is to empower businesses with efficient tools that optimize their operations, enabling them to stay ahead in today's fast-paced and competitive market.",
         "desc": "",
         
         "items": [
@@ -138,8 +138,9 @@
                     "url": "images/icons/editor2.png",
                     "alt": "Editor Icon"
                 },
-                "title": "Our Journey:",
-                "desc": "Blink Business Intelligence was founded by a team of three individuals who shared a common vision. Two of our founders have a strong engineering background, while the third possesses invaluable sales expertise. With our combined skills and passion for innovation, we set out on a mission to revolutionize the way businesses handle their HR management processes.."
+                "title": "Notable Achievements:",
+                "desc": " We are proud to have received official recognition from the government, earning the prestigious `Startup certificate` by the Small and Medium Business (SMB) Development Agency of the Republic of Azerbaijan (KOBİA). This acknowledgement underscores our commitment to innovation and highlights the potential impact of our intelligent solutions on businesses.",
+        "desc2":"In September 2023, our innovative project was accepted as the only pure Azerbaijani resident of the “Bilisim Vadisi” Technology Development Zone."
             },
             {
                 "img": {
@@ -151,64 +152,14 @@
                     "alt": "Eye Icon"
                 },
                 "title": "Our Talented Team:",
-                "desc": "Behind Blink Business Intelligence is a team of talented and driven individuals. Our engineers, all hailing from Azerbaijan, possess a deep understanding of cutting-edge technologies and are committed to developing innovative solutions that meet the unique needs of our clients. Together, we strive to exceed expectations and drive sustainable growth for businesses across industries."
-       
-            },
-            {
-                "img": {
-                    "url": "images/icons/eye.png",
-                    "alt": "Eye Icon"
-                },
-                "img2": {
-                    "url": "images/icons/eye2.png",
-                    "alt": "Eye Icon"
-                },
-                "title": "Advantages of Choosing Blink Business Intelligence:",
-                "desc": "When you partner with Blink Business Intelligence, you gain access to a range of benefits that set us apart from the competition:."
+                "desc": "Behind Blink Business Intelligence is a team of talented and driven individuals. Our engineers, all from Azerbaijan, possess a deep understanding of cutting-edge technologies and are committed to developing innovative solutions that meet the unique needs of our clients. Together, we strive to exceed expectations and drive sustainable growth for businesses across industries."
        
             }
-       
+        
         ],
 
         "itemsLeft": [
-            {
-                "img": {
-                    "url": "images/icons/editor.png",
-                    "alt": "Editor Icon"
-                },
-                "img2": {
-                    "url": "images/icons/editor2.png",
-                    "alt": "Editor Icon"
-                },
-                "title": "Notable Achievements:",
-                "desc": "We are proud to have received official recognition from the government, earning the prestigious `Startup status`. This acknowledgment underscores our commitment to innovation and highlights the potential impact of our intelligent solutions on businesses."
-            },
-            {
-                "img": {
-                    "url": "images/icons/eye.png",
-                    "alt": "Eye Icon"
-                },
-                "img2": {
-                    "url": "images/icons/eye2.png",
-                    "alt": "Eye Icon"
-                },
-                "title": "Making a Difference:",
-                "desc": " Through our HR management product, we empower companies to manage their HR processes efficiently and intelligently. By automating time-consuming tasks and providing valuable insights, we help businesses unlock their full potential, enabling them to focus on strategic initiatives and drive growth.We welcome you to become part of our growing community of forward-thinking businesses. Discover the power of intelligent solutions and revolutionize your HR management processes with Blink Business Intelligence."
        
-            },
-            {
-                "img": {
-                    "url": "images/icons/eye.png",
-                    "alt": "Eye Icon"
-                },
-                "img2": {
-                    "url": "images/icons/eye2.png",
-                    "alt": "Eye Icon"
-                },
-                "title": "Looking Ahead:",
-                "desc": "Our vision for the future is to expand our product offerings and forge strategic partnerships to address a wider range of business challenges. By continuously pushing boundaries and embracing innovation, we aim to be the go-to provider of intelligent solutions that transform businesses.Thank you for considering Blink Business Intelligence. We are excited to embark on this journey with you and support your business's success."
-       
-            }
        
         ],
         "listItems": [
@@ -216,31 +167,7 @@
       "Data Integrity: We understand the critical importance of maintaining data integrity. Our product ensures that data received and generated through our system retains its accuracy and consistency, giving you confidence in decision-making processes.",
      "Compliance with Laws and Regulations: With ever-evolving legal requirements, ensuring compliance can be a daunting task. Our program is designed to facilitate business processes in full adherence to relevant laws and regulations, minimizing the risk of non-compliance.",
      "Fast and Professional Support: We take pride in delivering exceptional customer support. Our dedicated team is readily available to address any queries or concerns promptly, ensuring a smooth user experience and minimal disruptions to your operations."
-        ],
-            
-
-        "images": {
-            "mainImg": {
-                "url": "images/media/s_main.png",
-                "alt": "Main"
-            },
-            "man": {
-                "url": "images/media/man.png",
-                "alt": "Man"
-            },
-            "woman": {
-                "url": "images/media/woman.png",
-                "alt": "Woman"
-            },
-            "fullImg": {
-                "url": "images/media/solution-img.png",
-                "alt": "Main"
-            }
-        } ,
-        "fullImg2": {
-            "url": "images/media/solution-img2.png",
-            "alt": "Main"
-        }
+        ]
     },
     "service": {
         "title": "Valueable Service",
@@ -1120,7 +1047,7 @@
 
     "allInOneDetails": {
         "title": "All in one platform",
-        "desc": "Blink-HR consists of 3 main platforms. Core HR, KPI, Recruitment. All these platforms are interconnected and can be monitored from single unified dashboards",
+        "desc": "Our software is not just limited to core HR management processes; it offers a comprehensive suite of features that go beyond traditional HR solutions. In addition to handling essential HR business processes, our platform includes integrated features like internal chat for seamless communication, task management to streamline workflow, an electronic document management system for efficient record-keeping, and even salary banking processes for financial convenience. Moreover, our software also facilitates agenda management, making it a versatile and all-encompassing tool to enhance your organization's efficiency and productivity.",
         "btn": {
             "url": "#",
             "text": "Get in now"
