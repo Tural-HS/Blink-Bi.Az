@@ -217,6 +217,11 @@ class Navbar extends Component {
                               Certifications & Licenses
                             </NavLink>
                           </li>
+                          <li>
+                            <NavLink to="/careers" activeStyle={this.style}>
+                              Careers
+                            </NavLink>
+                          </li>
                         </ul>
                       </li>
                       <li>

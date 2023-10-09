@@ -71,7 +71,8 @@ function Solution({ data, classText, styleTwo }) {
                 <Title
                   title={data.title}
                   subtitle={data.desc}
-                  classText="style_2 title-shape"
+                  classText=""
+                  // classText="style_2 title-shape"
                 />
 
                 {data.items.map((item, index) => {

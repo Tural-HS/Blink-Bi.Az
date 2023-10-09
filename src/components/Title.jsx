@@ -3,7 +3,7 @@ import React from "react";
 function Title({ title, subtitle, classText }) {
   return (
     <div className={`section-title ${classText}`}>
-      <h3>{title}</h3>
+      <p>{title}</p>
       <p>{subtitle}</p>
     </div>
   );

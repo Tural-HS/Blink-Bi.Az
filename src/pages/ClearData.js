@@ -39,7 +39,7 @@ function ClearData() {
             <Col lg={7}>
               {/* Video Wrapper */}
               <Lottie
-                style={{ width: "120%", height: "120%" }}
+                style={{ width: "100%", height: "120%" }}
                 class="custom-image"
                 animationData={animationData}
               />
