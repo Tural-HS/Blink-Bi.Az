@@ -54,14 +54,14 @@ const Laptop = () => {
               className={styles.CHR}
               style={{
                 ...chrHeaderProps,
-                width: "70%", // Adjust the width
+                width: "40%", // Adjust the width
                 height: "auto", // Adjust the height
               }}
             />
           </div>
           <div className={styles.sectionTitle}>
             <animated.h3 style={chrHeaderProps}>
-              Manage HR in a fully automated way with CHR-BI
+              Manage HR in a fully automated and intelligent way with CHR-BI
             </animated.h3>
           </div>
         </div>

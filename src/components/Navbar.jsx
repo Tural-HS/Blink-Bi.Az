@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useRef } from "react";
 
 // Logo
 import Logo from "../images/logo.png";
@@ -11,6 +11,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./AnimatedSignInButton.css";
 
 import Dropdown from "react-bootstrap/Dropdown";
+
 import {
   FaSearch,
   FaGlobe,
@@ -38,6 +39,9 @@ import RM from "../images/media/RM nav.svg";
 
 import Button from "../components/Button";
 import "./AnimatedSignInButton.css";
+
+import { scrollToElement } from "../utils/scrollToElement";
+
 class Navbar extends Component {
   _isMounted = false;
 
@@ -101,6 +105,10 @@ class Navbar extends Component {
     const currentUrl = location.pathname;
 
     const isSignInPage = currentUrl === "/signIn";
+
+    const scrollToSectionHandler = (sectionId) => {
+      scrollToElement(sectionId, "smooth");
+    };
 
     return (
       <header className={`header ${headerTop ? "" : "fixed-top"}`}>
@@ -243,16 +251,20 @@ class Navbar extends Component {
                                 paddingBottom: "2%",
                               }}
                             />
-                            <NavLink to="#" activeStyle={this.style}>
+                            <NavLink
+                              activeStyle={this.style}
+                              onClick={scrollToSectionHandler.bind(
+                                null,
+                                "service"
+                              )}
+                              to="/"
+                            >
                               CHR-BI
                             </NavLink>
 
                             <ul className="sub-menu">
                               <li>
-                                <NavLink
-                                  to="/single-blog"
-                                  activeStyle={this.style}
-                                >
+                                <NavLink to="/signin" activeStyle={this.style}>
                                   Demo
                                 </NavLink>
                               </li>

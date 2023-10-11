@@ -3279,7 +3279,7 @@ BOX-SIX
    03.2: Banner
    ********************* */
 .banner {
-  background-image: url(images/media/bg_shape.png);
+  background-image: url(images/media/bg_shape.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

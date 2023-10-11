@@ -32,13 +32,13 @@ function Banner({ data }) {
         className="banner"
         onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}
       >
-        <ModalVideo
+        {/* <ModalVideo
           channel="youtube"
           autoplay
           isOpen={isOpen}
           videoId="L61p2uyiMSo"
           onClose={() => setOpen(false)}
-        />
+        /> */}
 
         <Container>
           <Row>
@@ -52,22 +52,22 @@ function Banner({ data }) {
                 <p>{data.desc}</p>
 
                 <div className="banner-btn-group">
-                  <div className="btn-wrap">
-                    <span></span>
-                    <a href={data.button.btn_url} className="btn btn-white">
+                  {/* <div className="btn-wrap"> */}
+                  <span></span>
+                  {/* <a href={data.button.btn_url} className="btn btn-white">
                       {data.button.btn_text}
-                    </a>
-                  </div>
+                    </a> */}
+                  {/* </div> */}
 
                   {/* <a href={ data.playButton.btn_url } className="mfp-iframe video-btn">
                                     <span><FaPlay /></span> { data.playButton.btn_text }
                                 </a> */}
-                  <button className="video-btn" onClick={() => setOpen(true)}>
+                  {/* <button className="video-btn" onClick={() => setOpen(true)}>
                     <span>
                       <FaPlay />
                     </span>{" "}
                     {data.playButton.btn_text}
-                  </button>
+                  </button> */}
                 </div>
               </div>
               {/* End Banner Content */}

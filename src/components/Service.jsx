@@ -12,7 +12,7 @@ function Service({ data, classText, styleTwo, styleThree }) {
   }
 
   return (
-    <section className={`${classText} service`}>
+    <section id="service" className={`${classText} service`}>
       <Container>
         <Row>
           <Col>

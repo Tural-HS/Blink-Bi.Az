@@ -91,10 +91,14 @@ function Solution({ data, classText, styleTwo }) {
                           {item.desc2}
                           {index === 0 && (
                             <span style={{ color: "black", fontSize: "15px" }}>
-                              <span style={{ color: "#1F75C8" }}>
-                                "Bilisim Vadisi"
-                              </span>
-                              {svgImage} Technology Development Zone.
+                              <a
+                                href="https://bilisimvadisi.com.tr/"
+                                target="_blank"
+                                style={{ color: "#1F75C8" }}
+                              >
+                                "Bilisim Vadisi" {svgImage}
+                              </a>
+                              Technology Development Zone.
                             </span>
                           )}
                         </h5>

@@ -27,6 +27,7 @@ import Laws from "./pages/LawsRegulations";
 import Support from "./pages/Support";
 import SignIn from "./pages/SignIn";
 import CerLicens from "./pages/CerLicens";
+import Careers from "./pages/Careers";
 
 import { useTranslation } from "react-i18next";
 
@@ -52,6 +53,7 @@ function App() {
         <Route path="/home-v3" component={Home3} />
         <Route path="/about" component={About} />
         <Route path="/licenses" component={CerLicens} />
+        <Route path="/careers" component={Careers} />
         <Route path="/coming-soon" component={ComingSoon} />
         <Route path="/service" component={Services} />
         <Route path="/single-service" component={SingleService} />
