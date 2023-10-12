@@ -1,10 +1,10 @@
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3556 2000" width="3556" height="2000">
 	<title>aaa</title>
 	<defs>
-		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-2144.737,-2000,1961.26,-2103.193,2850.369,2000)">
-			<stop offset="0" stop-color="#3683c3"/>
-			<stop offset=".99" stop-color="#000216"/>
-			<stop offset="1" stop-color="#000216"/>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-1063.419,-2000,2374.559,-1262.576,1882.989,2000)">
+			<stop offset="0" stop-color="#000110"/>
+			<stop offset=".995" stop-color="#2887bf"/>
+			<stop offset="1" stop-color="#2887bf"/>
 		</linearGradient>
 	</defs>
 	<style>
@@ -19,5 +19,7 @@
 		<path id="Shape" class="s0" d="m1665 1088.5c164.4-135.6 407.5-112.3 543.1 52.1l990.5 1200.8c135.6 164.4 112.2 407.6-52.1 543.1-164.4 135.6-407.5 112.3-543.1-52.1l-990.5-1200.9c-135.6-164.3-112.2-407.5 52.1-543z"/>
 		<path id="Shape" class="s0" d="m2119.6 321.5c71-60.2 177.3-51.4 237.5 19.5l806.5 951.1c60.2 70.9 51.5 177.3-19.5 237.5-71 60.1-177.3 51.4-237.5-19.6l-806.5-951c-60.2-71-51.5-177.3 19.5-237.5z"/>
 		<path id="Shape" class="s0" d="m3072.6 599.5c71-60.2 177.3-51.4 237.5 19.5l806.5 951.1c60.2 70.9 51.5 177.3-19.5 237.5-71 60.1-177.3 51.4-237.5-19.6l-806.5-951c-60.2-71-51.5-177.3 19.5-237.5z"/>
+	</g>
+	<g id="Image">
 	</g>
 </svg>

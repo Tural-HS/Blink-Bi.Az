@@ -1,4 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
+import { useHistory } from "react-router-dom";
 import { DataContext } from "../context";
 import PageTitle from "../components/PageTitle";
 import Loading from "../components/Loading";
@@ -20,59 +21,72 @@ const dialogStyle = {
 const mockJobData = [
   {
     title: "Frontend Developer",
-    content:
-      "Join our team as a Frontend Developer and work on exciting projects!",
+    time: "12.10.2013 - 31.12.2023",
+    employmentType: "Project based (6 month)",
     salary: "$70,000 - $90,000 per year",
+
     jobType: "Full-Time",
+
+    flipped: false, // Added flipped property
+    // Added requirements property
   },
   {
     title: "UI/UX Designer",
-    content:
-      "Looking for a creative UI/UX Designer to design user-friendly interfaces.",
+    time: "12.10.2013 - 31.12.2023",
+    employmentType: "Project based (6 month)",
     salary: "$60,000 - $80,000 per year",
     jobType: "Part-Time",
   },
   {
     title: "UI/UX Designer",
-    content:
-      "Looking for a creative UI/UX Designer to design user-friendly interfaces.",
+    time: "12.10.2013 - 31.12.2023",
+
+    employmentType: "Project based (6 month)",
     salary: "$60,000 - $80,000 per year",
     jobType: "Part-Time",
   },
   {
     title: "System Admin",
-    content:
-      "Looking for a creative UI/UX Designer to design user-friendly interfaces.",
+    time: "12.10.2013 - 31.12.2023",
+    employmentType: "Project based (6 month)",
     salary: "$60,000 - $80,000 per year",
     jobType: "Part-Time",
   },
   {
     title: "BackEnd Devolper",
-    content:
-      "Looking for a creative UI/UX Designer to design user-friendly interfaces.",
+    time: "12.10.2013 - 31.12.2023",
+    employmentType: "Full employment",
     salary: "$60,000 - $80,000 per year",
     jobType: "Part-Time",
+    requirements:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sollicitudin ultricies risus nec finibus. Donec luctus consequat nisl, blandit molestie diam commodo id. Pellentesque dignissim varius elementum. In aliquam ultrices hendrerit. Etiam vel lobortis tellus, id facilisis quam. Pellentesque in tincidunt mi, in eleifend risus. In laoreet eros a enim finibus, vel vestibulum leo mollis. Praesent placerat tempor mollis. In vitae augue nisi. Maecenas ultrices volutpat dapibu ",
   },
   {
     title: "Help Desk",
-    content:
-      "Looking for a creative UI/UX Designer to design user-friendly interfaces.",
+    time: "12.10.2013 - 31.12.2023",
+    employmentType: "Project based (6 month)",
     salary: "$60,000 - $80,000 per year",
     jobType: "Part-Time",
+    requirements:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sollicitudin ultricies risus nec finibus. Donec luctus consequat nisl, blandit molestie diam commodo id. Pellentesque dignissim varius elementum. In aliquam ultrices hendrerit. Etiam vel lobortis tellus, id facilisis quam. Pellentesque in tincidunt mi, in eleifend risus. In laoreet eros a enim finibus, vel vestibulum leo mollis. Praesent placerat tempor mollis. In vitae augue nisi. Maecenas ultrices volutpat dapibu ",
   },
 ];
-
 function Careers() {
+  const history = useHistory();
   const context = useContext(DataContext);
   const [open, setOpen] = useState(false);
 
-  const cardData = mockJobData.map((job, index) => ({
-    title: job.title,
-    content: job.content,
-    salary: job.salary,
-    jobType: job.jobType,
-  }));
+  const [flippedCardIndex, setFlippedCardIndex] = useState(null);
+  const [cardData, setCardData] = useState(mockJobData);
 
+  const toggleCardFlip = (index) => {
+    setCardData((prevCardData) =>
+      prevCardData.map((card, i) =>
+        i === index ? { ...card, flipped: !card.flipped } : card
+      )
+    );
+    setFlippedCardIndex(index);
+  };
   const { allInOneDetails, footer } = context.allData;
   const { handleSearch, handleOffcanvas } = context;
 
@@ -82,6 +96,17 @@ function Careers() {
 
   const fade = useSpring({
     transform: open ? "scale(1)" : "scale(0)",
+  });
+
+  const handleButtonHistory = () => {
+    history.push("/create");
+  };
+
+  const cardFlipProps = useSpring({
+    transform: `rotateY(${
+      flippedCardIndex !== null && cardData[flippedCardIndex].flipped ? 180 : 0
+    }deg)`,
+    config: { mass: 5, tension: 500, friction: 80 },
   });
 
   const fadeClose = useSpring({
@@ -95,7 +120,7 @@ function Careers() {
   return (
     <>
       <Navbar handler={{ handleSearch, handleOffcanvas }} />
-      <PageTitle pageName="Certifications & Licenses" />
+      <PageTitle pageName="Careers" />
       <section className="service-details pt-120 pb-120">
         <Container fluid>
           <Row className="align-items-center mb-5">
@@ -108,6 +133,11 @@ function Careers() {
                     Join Us
                   </Button>
                 )}
+
+                <Button color="primary" onClick={handleButtonHistory}>
+                  {" "}
+                  Admin{" "}
+                </Button>
 
                 {open && (
                   <Row className="justify-content-center">
@@ -128,11 +158,41 @@ function Careers() {
                         <Card>
                           <Card.Body>
                             <Card.Title>{card.title}</Card.Title>
-                            <Card.Text>{card.content}</Card.Text>
-                            <Card.Text>Salary: {card.salary}</Card.Text>
-                            <Card.Text>Job Type: {card.jobType}</Card.Text>
-                            <Button variant="contained" color="primary">
-                              Learn More
+                            <Card.Text style={{ fontSize: "10px" }}>
+                              {card.time}
+                            </Card.Text>
+                            <Card.Text>
+                              {card.flipped ? card.requirements : card.content}
+                            </Card.Text>
+                            {card.flipped && index === 0 && (
+                              <>
+                                <Card.Text>
+                                  Requirements: {card.requirements}
+                                </Card.Text>
+                              </>
+                            )}
+                            {!card.flipped && (
+                              <>
+                                <Card.Text>Job Type: {card.jobType}</Card.Text>
+                                <Card.Text>Salary: {card.salary}</Card.Text>
+                                <Card.Text>
+                                  Employment Type: {card.employmentType}
+                                </Card.Text>
+                              </>
+                            )}
+                            <Button
+                              variant="contained"
+                              color="primary"
+                              onClick={() => toggleCardFlip(index)}
+                            >
+                              Apply
+                            </Button>{" "}
+                            <Button
+                              variant="contained"
+                              color="primary"
+                              onClick={() => toggleCardFlip(index)}
+                            >
+                              {card.flipped ? "Content" : "Requirements"}
                             </Button>
                           </Card.Body>
                         </Card>

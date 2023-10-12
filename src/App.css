@@ -387,7 +387,7 @@ body {
 }
 
 .c1-bg, ::selection, .hover-effect:after, .single-team:after, .hover-effect:hover, .single-team:hover, .hover-effect.active, .active.single-team, .video-btn.style--two i, .video-btn.style--two span, .btn, .btn-wrap .btn, .widget .widget-title h3:after, .header-main.sticky .menu-mark, .header-main.sticky .menu-mark:before, .header-main.sticky .menu-mark:after, .header-main ul.nav ul li a:before, .header-main ul.nav ul li a:after, .offcanvas-wrapper .widget .widget-title:before, .single-blog .blog-meta, .search-form.style--two input, .style--two.widget.widget_search input, .style--two.widget.widget_newsletter input, .single-testimonial .quote {
-  background-color: #1C5F9B
+  background-color: #153A60
 }
 
 .c1-bo {
@@ -2270,7 +2270,7 @@ BOX-SIX
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url(images/media/page-title-bg.png);
+  background-image: url(images/media/page-title-bg.svg);
 }
 
 @media only screen and (max-width: 479px) {
@@ -3676,7 +3676,7 @@ BOX-SIX
 }
 
 .banner.style--three .banner-btn-group .btn-wrap .btn {
-  background-color: #1C5F9B;
+  background-color: #153A60;
 }
 
 .banner.style--three .banner-btn-group .btn-wrap .btn:after {
@@ -3684,7 +3684,7 @@ BOX-SIX
 }
 
 .banner.style--three .banner-btn-group .btn-wrap .btn:hover {
-  color: #1C5F9B;
+  color: #153A60;
 }
 
 .banner.style--three .banner-btn-group .btn-wrap:not(:last-child) {
@@ -3692,16 +3692,16 @@ BOX-SIX
 }
 
 .banner.style--three .banner-btn-group .btn-wrap:nth-child(2) span {
-  background-color: #1C5F9B;
+  background-color: #153A60;
 }
 
 .banner.style--three .banner-btn-group .btn-wrap:nth-child(2) .btn {
   background-color: #ffffff;
-  color: #1C5F9B;
+  color: #153A60;
 }
 
 .banner.style--three .banner-btn-group .btn-wrap:nth-child(2) .btn:after {
-  background-color: #1C5F9B;
+  background-color: #153A60;
 }
 
 .banner.style--three .banner-btn-group .btn-wrap:nth-child(2) .btn:hover {
@@ -3903,15 +3903,15 @@ BOX-SIX
 }
 
 .news-letter-form-wrapper.style--three .btn-wrap span {
-  background-color: #1C5F9B;
+  background-color: #153A60;
 }
 
 .news-letter-form-wrapper.style--three .btn-wrap .btn {
-  color: #1C5F9B;
+  color: #153A60;
 }
 
 .news-letter-form-wrapper.style--three .btn-wrap .btn:after {
-  background-color: #1C5F9B;
+  background-color: #153A60;
 }
 
 .news-letter-form-wrapper.style--three .btn-wrap .btn:hover {
@@ -4337,7 +4337,7 @@ BOX-SIX
 .footer-bg-shape {
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(images/media/footer-bg.png);
+  background-image: url(images/media/footer-bg.svg);
   background-size: cover;
   position: absolute;
   height: 100%;
@@ -4956,11 +4956,11 @@ section.service {
 }
 
 .single-price.style--three .ribbon {
-  background-color: #1C5F9B;
+  background-color: #153A60;
 }
 
 .single-price.style--three .price {
-  color: #1C5F9B;
+  color: #153A60;
 }
 
 .single-price.style--three .btn-wrap span {
@@ -4968,7 +4968,7 @@ section.service {
 }
 
 .single-price.style--three .btn-wrap .btn {
-  background-color: #1C5F9B;
+  background-color: #153A60;
 }
 
 .single-price.style--three .btn-wrap .btn:after {
@@ -5065,7 +5065,7 @@ section.service {
 }
 
 .single-team.style--three.active .social-links a:hover, .single-team.style--three:hover .social-links a:hover {
-  background-color: #1C5F9B;
+  background-color: #153A60;
 }
 
 .single-team.style--three.active:before, .single-team.style--three:hover:before {

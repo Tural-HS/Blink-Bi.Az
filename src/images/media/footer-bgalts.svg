@@ -1,0 +1,18 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3556 2000" width="3556" height="2000">
+	<title>aaa</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-2144.737,-2000,1961.26,-2103.193,2850.369,2000)">
+			<stop offset="0" stop-color="#3683c3"/>
+			<stop offset=".625" stop-color="#000216"/>
+			<stop offset="1" stop-color="#000216"/>
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+	</style>
+	<g id="Background">
+		<rect width="3556" height="2000" id="Gradient Fill 1" style="fill: url(#g1)"/>
+	</g>
+	<g id="Design">
+	</g>
+</svg>
